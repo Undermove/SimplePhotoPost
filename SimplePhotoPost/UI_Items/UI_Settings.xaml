@@ -1,0 +1,49 @@
+﻿<Window x:Class="SimplePhotoPost.UI_Items.Settings"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+        Title="UI_GroupSettings" Height="502" Width="524" MinWidth="334" MinHeight="497" Closing="Window_Closing">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="40"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="70*"/>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <TextBox 
+            Name="Title" 
+            TextWrapping="Wrap"
+            Foreground="White"
+            Background="#FF4C3BB2"
+            Text="Название группы"
+            TextAlignment="Center" 
+            FontSize="25" Grid.ColumnSpan="3"/>
+        <TextBox 
+            Name="Message"
+            Grid.Row="1"
+            TextWrapping="Wrap" 
+            Text="Текст сообщения" 
+            FontSize="20"
+            ScrollViewer.VerticalScrollBarVisibility="Auto" Grid.ColumnSpan="3"/>
+        <TextBox Name="HashTags" Grid.Row="2" TextWrapping="Wrap" Text="#hashtags" ScrollViewer.VerticalScrollBarVisibility="Auto" FontSize="20" Grid.ColumnSpan="3"/>
+        <Image Grid.Row="5" Panel.ZIndex="1" MouseUp="OpenFolder" Source="{DynamicResource ImageSource2}"/>
+        <TextBlock Name="Path" Grid.Column="1" Grid.Row="5" TextWrapping="NoWrap" TextAlignment="Justify" Text="D:\Папка с фото" FontSize="25" Grid.ColumnSpan="2"/>
+        <TextBox Name="GroupId" Grid.Row="3" TextWrapping="Wrap" Text="ID Группы" Grid.ColumnSpan="3" FontSize="25"/>
+        <TextBox Name="AlbumId" Grid.Row="4" TextWrapping="Wrap" Text="ID Альбома" Grid.ColumnSpan="3" FontSize="25"/>
+        <Image Grid.Row="6"/>
+        <TextBox Name="Color" Grid.Column="1" Grid.Row="6" TextWrapping="Wrap" Text="Цвет группы" FontSize="25" Grid.ColumnSpan="2"/>
+        <TextBlock Name="CkBoxDeletePhoto" Grid.Column="1" Grid.Row="7" TextWrapping="Wrap" FontSize="25" Grid.ColumnSpan="2" Margin="5,0,0,0"><Run Text="Удалить фото из папки"/><Run Language="ru-ru" Text=" на компьютере"/><Run Text="?"/></TextBlock>
+        <TextBlock Grid.Row="8" Background="Green" TextWrapping="Wrap" Text="Сохранить и выйти" FontSize="25" TextAlignment="Center" Foreground="White" Grid.ColumnSpan="3" MouseUp="SaveAndExit"/>
+        <Rectangle Fill="Aqua" Grid.Row="5" Panel.ZIndex="0" Stroke="Black"/>
+    </Grid>
+</Window>

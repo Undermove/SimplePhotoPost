@@ -1,0 +1,61 @@
+﻿<UserControl x:Class="SimplePhotoPost.UI_GroupItem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" Margin="0,0" HorizontalAlignment="Stretch" d:DesignWidth="414.5" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="72"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="72"/>
+            <ColumnDefinition Width="72"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock 
+            Name="Title"
+            TextWrapping="Wrap" 
+            Text="Новая группа"
+            VerticalAlignment="Center"
+            HorizontalAlignment="Stretch"
+            Foreground="WhiteSmoke"
+            TextAlignment="Center"
+            Panel.ZIndex="1"
+            FontFamily="Microsoft New Tai Lue" LineStackingStrategy="BlockLineHeight" FontStretch="UltraCondensed" Height="19" Margin="12,28,20,20" Grid.Column="1"
+            MouseUp="OpenGroupSettings"/>
+        <Rectangle
+            Fill="DarkSlateBlue" Grid.Column="1"
+            ToolTip="Настройки поста" 
+            MouseUp="OpenGroupSettings"/>
+        <Rectangle 
+            Grid.Column="2" 
+            Fill="DarkSlateBlue" 
+            HorizontalAlignment="Left" 
+            Height="67" 
+            VerticalAlignment="Top" 
+            Width="72"
+            ToolTip="Отметка об отправке"/>
+        <Rectangle 
+            Grid.Column="3"
+            Fill="Red" 
+            HorizontalAlignment="Left"
+            Height="67"
+            VerticalAlignment="Top"
+            Width="72" 
+            ToolTip="Удалить данную группу"
+            MouseLeftButtonUp="Delete"/>
+        <TextBlock 
+            Text="OK"
+            Grid.Column="2" 
+            VerticalAlignment="Center"
+            HorizontalAlignment="Center"
+            Foreground="WhiteSmoke"
+            TextAlignment="Center"
+            Panel.ZIndex="1"
+            FontFamily="Microsoft New Tai Lue" LineStackingStrategy="BlockLineHeight" FontStretch="UltraCondensed" Height="12" Margin="24,28,32,27" Width="16"/>
+        <Rectangle Fill="#FF4C3BB2" ToolTip="Настройки поста" MouseUp="OpenGroupSettings" Margin="-5,0,0,0"/>
+        <Image Name="Image" HorizontalAlignment="Center" Panel.ZIndex="1" Height="40" VerticalAlignment="Center" Width="44" Grid.Column="0" Source="{DynamicResource ImageSource1}" Focusable="True" MouseUp="OpenGroupSettings"/>
+        <Image Name="Image2" HorizontalAlignment="Center" Panel.ZIndex="1" Height="30" VerticalAlignment="Center" Width="33" Grid.Column="3" Source="{DynamicResource ImageSource2}" Focusable="True"  MouseLeftButtonUp="Delete"/>
+
+
+    </Grid>
+</UserControl>
