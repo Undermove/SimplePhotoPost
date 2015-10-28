@@ -10,6 +10,7 @@ using System.Xml.Serialization;
 using SimplePhotoPost.Classes;
 using SimplePhotoPost.Models;
 using SimplePhotoPost.Views;
+using System.Threading;
 
 namespace SimplePhotoPost
 {
@@ -36,6 +37,7 @@ namespace SimplePhotoPost
         {
             ModelGroupItem modelGroupItem = new ModelGroupItem(itemId, viewSettings, listBox, listGroupItem);
             ViewGroupItem viewGroupItem = new ViewGroupItem(modelGroupItem, viewSettings);
+            modelGroupItem.viewGroupItem = viewGroupItem;
 
             listGroupItem.Add(modelGroupItem);
             listBox.Items.Insert(listBox.Items.Count-1, viewGroupItem);
@@ -76,8 +78,38 @@ namespace SimplePhotoPost
         }
 
         private void Window_Closing(object sender, CancelEventArgs e)
-        {           
-            MessageBox.Show("Serialized");
+        {
+            ListGroupItems SaveList = new ListGroupItems();
+            SaveList.listGroupItem = listGroupItem;
+
+            using (FileStream Stream = new FileStream("Serialization.xml", FileMode.Create, FileAccess.ReadWrite, FileShare.ReadWrite))
+            {
+                XmlSerializer xmlSerializer = new XmlSerializer(typeof(ListGroupItems));
+                xmlSerializer.Serialize(Stream, SaveList);
+            }
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            using (FileStream Stream = new FileStream("Serialization.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite, FileShare.ReadWrite))
+            {
+                XmlSerializer xmlSerializer = new XmlSerializer(typeof(ListGroupItems));
+                ListGroupItems SaveList = (ListGroupItems)xmlSerializer.Deserialize(Stream);
+
+                foreach (ModelGroupItem modelGroupItem in SaveList.listGroupItem)
+                {
+                    modelGroupItem.viewSettings = viewSettings;
+                    modelGroupItem.listbox = listBox;
+                    modelGroupItem.listGroupItem = listGroupItem;
+
+                    ViewGroupItem viewGroupItem = new ViewGroupItem(modelGroupItem, viewSettings);
+                    modelGroupItem.viewGroupItem = viewGroupItem;
+                    viewGroupItem.Title.Text = modelGroupItem.title;
+
+                    listGroupItem.Add(modelGroupItem);
+                    listBox.Items.Insert(listBox.Items.Count - 1, viewGroupItem);
+                }
+            }
         }
 
     }

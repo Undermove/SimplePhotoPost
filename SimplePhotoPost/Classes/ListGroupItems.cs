@@ -8,8 +8,12 @@ using SimplePhotoPost;
 
 namespace SimplePhotoPost.Classes
 {
-    class ListGroupItems
+    [Serializable]
+    public class ListGroupItems
     {
-        public List<ModelGroupItem> listGroupItem { get; set; }    
+        public List<ModelGroupItem> listGroupItem { get; set; }
+
+        public ListGroupItems()
+        { }
     }
 }

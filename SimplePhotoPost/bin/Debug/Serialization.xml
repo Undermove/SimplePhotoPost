@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<ListGroupItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <listGroupItem>
+    <ModelGroupItem>
+      <id>0</id>
+      <title>Delphi-1</title>
+      <path>D:\Фотки</path>
+      <groupId />
+      <albumId />
+      <message />
+      <hashTags />
+      <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
+      <color>
+        <A>0</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </color>
+    </ModelGroupItem>
+    <ModelGroupItem>
+      <id>1</id>
+      <title>Delphi-2</title>
+      <path>C:\Users\Undermove\Desktop\Фото паспорта</path>
+      <groupId />
+      <albumId />
+      <message />
+      <hashTags />
+      <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
+      <color>
+        <A>0</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </color>
+    </ModelGroupItem>
+    <ModelGroupItem>
+      <id>0</id>
+      <title>Нвая группа</title>
+      <path />
+      <groupId />
+      <albumId />
+      <message />
+      <hashTags />
+      <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
+      <color>
+        <A>0</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </color>
+    </ModelGroupItem>
+    <ModelGroupItem>
+      <id>1</id>
+      <title>Новая группа</title>
+      <path />
+      <groupId />
+      <albumId />
+      <message />
+      <hashTags />
+      <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
+      <color>
+        <A>0</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </color>
+    </ModelGroupItem>
+    <ModelGroupItem>
+      <id>2</id>
+      <title>ПРивет</title>
+      <path />
+      <groupId />
+      <albumId />
+      <message />
+      <hashTags />
+      <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
+      <color>
+        <A>0</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </color>
+    </ModelGroupItem>
+    <ModelGroupItem>
+      <id>4</id>
+      <title>Здарова</title>
+      <path />
+      <groupId />
+      <albumId />
+      <message />
+      <hashTags />
+      <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
+      <color>
+        <A>0</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </color>
+    </ModelGroupItem>
+    <ModelGroupItem>
+      <id>0</id>
+      <title>УРА!!!</title>
+      <path />
+      <groupId />
+      <albumId />
+      <message />
+      <hashTags />
+      <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
+      <color>
+        <A>0</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </color>
+    </ModelGroupItem>
+  </listGroupItem>
+</ListGroupItems>

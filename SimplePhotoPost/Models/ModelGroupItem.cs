@@ -8,21 +8,30 @@ using System.Threading.Tasks;
 using SimplePhotoPost.Views;
 using System.Windows.Controls;
 using SimplePhotoPost.Classes;
+using System.Xml.Serialization;
 
 namespace SimplePhotoPost.Models
 {
+    [Serializable]
     public class ModelGroupItem
     {
         /// Поля необходимые для заполнения при создании
         // ID элемента 
         public int id { get; set; }
+        [XmlIgnore]
         // Ссылка на экземпляр окна настроек
-        public ViewSettings settings { get; set; }
+        public ViewSettings viewSettings { get; set; }
+
+        [XmlIgnore]
+        public ViewGroupItem viewGroupItem {get; set; }
 
         // Поля необходимые для удаления объекта
         // Cсылка на listbox в котором находится элемент
+        [XmlIgnore]
         public ListBox listbox { get; set; }
+        
         // Ссылка на список в котором находится модель
+        [XmlIgnore]
         public List<ModelGroupItem> listGroupItem { get; set; }
 
         /// Поля необходимые для окна настроек
@@ -35,9 +44,12 @@ namespace SimplePhotoPost.Models
         public bool ckBoxDeletePhoto { get; set; }
         public Color color { get; set; }
 
+        public ModelGroupItem()
+        { }
+
         public ModelGroupItem(int id, ViewSettings viewSettings, ListBox listbox, List<ModelGroupItem> listGroupItem)
         {
-            this.settings = viewSettings;
+            this.viewSettings = viewSettings;
             this.id = id;
             this.listbox = listbox;
             this.listGroupItem = listGroupItem;

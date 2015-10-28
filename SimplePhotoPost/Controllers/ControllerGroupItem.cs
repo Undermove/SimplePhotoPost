@@ -16,15 +16,21 @@ namespace SimplePhotoPost.Controllers
         /// </summary>
         /// <param name="Model"> Модель </param>
         /// <param name="View"> Вид </param>
-        public static void SetSettingsView(ModelGroupItem model, ViewSettings view)
+        public static void SetSettingsView(ViewSettings view, ModelGroupItem model)
         {          
             // Связываем содержание объекта с отображением в настройках
+            view.modelGroupItem = model;
             view.Message.Text = model.message;
             view.HashTags.Text = model.hashTags;
             view.AlbumId.Text = model.albumId;
             view.GroupId.Text = model.groupId;
             view.Path.Text = model.path;
             view.Title1.Text = model.title;
+        }
+
+        public static void ChangeTitle(ModelGroupItem model)
+        {
+            model.viewGroupItem.Title.Text = model.title;
         }
     }
 }

@@ -15,7 +15,7 @@ namespace SimplePhotoPost.Controllers
         /// </summary>
         /// <param name="Model"> Модель GroupItem </param>
         /// <param name="View"> Вид Settings</param>
-        public static void SetSettingsView(ModelGroupItem model, ViewSettings view)
+        public static void SaveModel(ModelGroupItem model, ViewSettings view, ViewGroupItem viewGroupItem)
         {
             // Связываем содержание объекта с отображением в настройках
             //view.Message.Text = model.message;
@@ -24,6 +24,15 @@ namespace SimplePhotoPost.Controllers
             //view.GroupId.Text = model.groupId;
             //view.Path.Text = model.path;
             //view.Title.Text = model.title;
+
+            // Сохраняем свойства объекта переданные из окна натроек, при закрытии окна
+            //model.viewGroupItem = viewGroupItem;
+            model.title = view.Title1.Text;
+            model.message = view.Message.Text;
+            model.hashTags = view.HashTags.Text;
+            model.albumId = view.AlbumId.Text;
+            model.groupId = view.GroupId.Text;
+            model.path = view.Path.Text;
         }
     }
 }

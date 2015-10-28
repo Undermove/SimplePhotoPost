@@ -23,7 +23,7 @@ namespace SimplePhotoPost.Views
         {
             this.model = model;
             //model.title = "Новая группа";
-            //model.settings = settings;
+            this.model.viewSettings = settings;
             InitializeComponent();
         }
 
@@ -35,10 +35,11 @@ namespace SimplePhotoPost.Views
 
         private void OpenGroupSettings(object sender, MouseButtonEventArgs e)
         {
-            //ControllerGroupItem.SetSettingsView(model, settings);
+            this.model.viewSettings.viewGroupItem = this;
+            ControllerGroupItem.SetSettingsView(model.viewSettings, model);
 
             //// Отображаем окно
-            //this.settings.Show();
+            this.model.viewSettings.Show();
         }
     }
 }
