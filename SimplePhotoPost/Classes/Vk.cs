@@ -4,8 +4,9 @@ using System.Threading;
 using System.Web;
 using System.Windows;
 using System.Windows.Controls;
+using xNet;
 
-namespace SimplePhotoPost
+namespace SimplePhotoPost.Classes
 {
     class Vk
     {

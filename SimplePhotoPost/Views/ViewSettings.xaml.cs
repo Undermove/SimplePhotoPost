@@ -1,23 +1,28 @@
 ﻿using System.Windows;
 using System.Windows.Input;
 using System.Windows.Forms;
+using SimplePhotoPost.Classes;
+using SimplePhotoPost.Controllers;
+using SimplePhotoPost.Models;
+using SimplePhotoPost.Properties;
+using SimplePhotoPost.Views;
 
-namespace SimplePhotoPost.UI_Items
+namespace SimplePhotoPost.Views
 {
     /// <summary>
     /// Interaction logic for UI_GroupSettings.xaml
     /// </summary>
-    public partial class Settings : Window 
+    public partial class ViewSettings : Window 
     {
-        public UI_GroupItem item;
+        public ViewGroupItem item;
         private FolderBrowserDialog folderBrowserDialog1 = new FolderBrowserDialog();
         
-        public Settings()
+        public ViewSettings()
         {
             InitializeComponent();
         }
 
-        public Settings(UI_GroupItem item)
+        public ViewSettings(ViewGroupItem item)
         {
             this.item = item;
             InitializeComponent();
@@ -26,16 +31,16 @@ namespace SimplePhotoPost.UI_Items
         // Функция сохранения объекта
         private void Save()
         {
-            // Сохраняем свойства объекта переданные из окна натроек, при закрытии окна
-            this.item.title = this.Title.Text;
-            this.item.message = this.Message.Text;
-            this.item.hashTags = this.HashTags.Text;
-            this.item.albumId = this.AlbumId.Text;
-            this.item.groupId = this.GroupId.Text;
-            this.item.path = this.Path.Text;
+            //// Сохраняем свойства объекта переданные из окна натроек, при закрытии окна
+            //this.item.title = this.Title.Text;
+            //this.item.message = this.Message.Text;
+            //this.item.hashTags = this.HashTags.Text;
+            //this.item.albumId = this.AlbumId.Text;
+            //this.item.groupId = this.GroupId.Text;
+            //this.item.path = this.Path.Text;
 
-            // Связываем представление предмета в главном окне со свойством объекта
-            this.item.Title.Text = this.Title.Text;
+            //// Связываем представление предмета в главном окне со свойством объекта
+            //this.item.Title.Text = this.Title.Text;
         }
 
         private void SaveAndExit(object sender, MouseButtonEventArgs e)

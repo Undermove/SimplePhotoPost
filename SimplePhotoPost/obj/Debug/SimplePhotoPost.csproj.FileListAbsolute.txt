@@ -21,3 +21,8 @@ D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Debug\xNet.dll
 D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Debug\Newtonsoft.Json.xml
 D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\obj\Debug\UI_Items\UI_Settings.baml
 D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\obj\Debug\UI_Items\UI_Settings.g.cs
+D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\obj\Debug\Views\ViewGroupItem.baml
+D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\obj\Debug\Views\ViewSettings.baml
+D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\obj\Debug\Views\ViewGroupItem.g.cs
+D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\obj\Debug\Views\ViewSettings.g.cs
+D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\obj\Debug\Views\MainWindow.g.cs

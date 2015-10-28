@@ -1,7 +1,6 @@
-﻿<Window x:Class="SimplePhotoPost.UI_Items.Settings"
+﻿<Window x:Class="SimplePhotoPost.Views.ViewSettings"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
         Title="UI_GroupSettings" Height="502" Width="524" MinWidth="334" MinHeight="497" Closing="Window_Closing">
     <Grid>
         <Grid.ColumnDefinitions>

@@ -1,5 +1,4 @@
-﻿using SimplePhotoPost.UI_Items;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
@@ -7,8 +6,11 @@ using System.Web;
 using System.Windows;
 using System.Windows.Input;
 using Newtonsoft.Json;
+using System.Xml.Serialization;
+using SimplePhotoPost.Classes;
+using SimplePhotoPost.Models;
 
-namespace SimplePhotoPost
+namespace SimplePhotoPost.Views
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -18,11 +20,11 @@ namespace SimplePhotoPost
         // Создаем экземпляр класса вконтакте который содержит методы работы с ВК
         private Vk vk = new Vk();
         // Создаем экземпляр окна настроек 
-        public Settings ui_Settings = new Settings();
+        public ViewSettings viewSettings = new ViewSettings();
         // Стартовый ID
-        int item_id = 0;
+        int itemId = 0;
         // Создаем список групп-объектов. Он нужен для доступа к этим объектам 
-        List<UI_GroupItem> itemsList = new List<UI_GroupItem>();
+        public List<ModelGroupItem> listGroupItem = new List<ModelGroupItem>();
 
         public MainWindow()
         {
@@ -31,42 +33,25 @@ namespace SimplePhotoPost
 
         private void Click_AddGroup(object sender, MouseButtonEventArgs e)
         {
-            // Генерируем новый блок интерфейса и передаем ему ссылку на экземпляр класса окна настроек 
-            UI_GroupItem ui_groupItem = new UI_GroupItem(ui_Settings);
-            // Задаем ID для элемента списка
-            ui_groupItem.id = item_id;
-            // Передаем в него ссылку на тот listBox в котором он находится, это нужно для функции удаления
-            ui_groupItem.listbox = listBox;
-            ui_groupItem.itemsList = itemsList;
-            
-            // Вставляем в ListBox новый элемент UI_Group_Item
-            listBox.Items.Insert(0, ui_groupItem);
-            // Также добавим объект в список для доступа к нему в цикле foreach
-            itemsList.Add(ui_groupItem);
+            ModelGroupItem modelGroupItem = new ModelGroupItem(itemId, viewSettings, listBox, listGroupItem);
+            ViewGroupItem viewGroupItem = new ViewGroupItem(viewSettings);
+
+            listGroupItem.Add(modelGroupItem);
+            listBox.Items.Add(viewGroupItem);
 
             // Увеличим item_id для последующих элементов
-            item_id += 1;
+            itemId++;
         }
 
         private void Click_Authorize(object sender, MouseButtonEventArgs e)
         {
             vk = vk.Authorize("wall,photos,groups,offline,messages");
-            //Thickness brwsMargin = new Thickness(0, 0, 0, 0);
-            //var browser = new WebBrowser() { Margin = brwsMargin };
-
-            //Window window = new Window { Width = 800, Height = 600 };
-            //window.Content = browser;
-
-            //var authLink = String.Format("http://vk.com");
-            //browser.Navigate(authLink);
-
-            //window.ShowDialog();
         }
 
         private void SimplePhotoPost(object sender, MouseButtonEventArgs e)
         {
             /// Пока рановато, но уже скоро будет можно
-            foreach (UI_GroupItem item in itemsList)
+            foreach (ViewGroupItem item in itemsList)
             {
                 if (item.path != "")
                 {
@@ -90,9 +75,8 @@ namespace SimplePhotoPost
         }
 
         private void Window_Closing(object sender, CancelEventArgs e)
-        {
-            string output = JsonConvert.SerializeObject(itemsList);
-            MessageBox.Show(output);
+        {           
+            MessageBox.Show("Serialized");
         }
 
     }
