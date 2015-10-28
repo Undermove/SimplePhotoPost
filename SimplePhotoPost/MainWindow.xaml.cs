@@ -9,8 +9,9 @@ using Newtonsoft.Json;
 using System.Xml.Serialization;
 using SimplePhotoPost.Classes;
 using SimplePhotoPost.Models;
+using SimplePhotoPost.Views;
 
-namespace SimplePhotoPost.Views
+namespace SimplePhotoPost
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -34,10 +35,10 @@ namespace SimplePhotoPost.Views
         private void Click_AddGroup(object sender, MouseButtonEventArgs e)
         {
             ModelGroupItem modelGroupItem = new ModelGroupItem(itemId, viewSettings, listBox, listGroupItem);
-            ViewGroupItem viewGroupItem = new ViewGroupItem(viewSettings);
+            ViewGroupItem viewGroupItem = new ViewGroupItem(modelGroupItem, viewSettings);
 
             listGroupItem.Add(modelGroupItem);
-            listBox.Items.Add(viewGroupItem);
+            listBox.Items.Insert(listBox.Items.Count-1, viewGroupItem);
 
             // Увеличим item_id для последующих элементов
             itemId++;
@@ -51,27 +52,27 @@ namespace SimplePhotoPost.Views
         private void SimplePhotoPost(object sender, MouseButtonEventArgs e)
         {
             /// Пока рановато, но уже скоро будет можно
-            foreach (ViewGroupItem item in itemsList)
-            {
-                if (item.path != "")
-                {
-                    // Получаем список путей до каждой из фотграфий
-                    string[] photos = Directory.GetFiles(item.path);
-                    // передаем этот список в метод загрузки фоток в альбом
-                    string[] photosId = vk.photoPost(item.groupId, item.albumId, photos);
-                    // После этого формируем поле attachments
-                    string attachments = "";
-                    //...Здесь должен быть код
-                    //
-                    foreach (var photoId in photosId)
-                    {
-                        attachments = attachments + String.Format("photo-{0}_{1}", item.groupId, photoId) + ",";
-                    }
-                    attachments = attachments + String.Format("album-{0}_{1}", item.groupId, item.albumId);
-                    vk.wallPost(HttpUtility.UrlEncode(item.message + "\n" + item.hashTags), item.groupId, attachments);
-                }
-                System.Windows.MessageBox.Show("SSSS");
-            }
+            //foreach (ViewGroupItem item in itemsList)
+            //{
+            //    if (item.path != "")
+            //    {
+            //        // Получаем список путей до каждой из фотграфий
+            //        string[] photos = Directory.GetFiles(item.path);
+            //        // передаем этот список в метод загрузки фоток в альбом
+            //        string[] photosId = vk.photoPost(item.groupId, item.albumId, photos);
+            //        // После этого формируем поле attachments
+            //        string attachments = "";
+            //        //...Здесь должен быть код
+            //        //
+            //        foreach (var photoId in photosId)
+            //        {
+            //            attachments = attachments + String.Format("photo-{0}_{1}", item.groupId, photoId) + ",";
+            //        }
+            //        attachments = attachments + String.Format("album-{0}_{1}", item.groupId, item.albumId);
+            //        vk.wallPost(HttpUtility.UrlEncode(item.message + "\n" + item.hashTags), item.groupId, attachments);
+            //    }
+            //    System.Windows.MessageBox.Show("SSSS");
+            //}
         }
 
         private void Window_Closing(object sender, CancelEventArgs e)

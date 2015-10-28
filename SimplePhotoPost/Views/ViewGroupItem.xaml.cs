@@ -19,17 +19,18 @@ namespace SimplePhotoPost.Views
             InitializeComponent();
         }
 
-        public ViewGroupItem(ViewSettings settings)
+        public ViewGroupItem(ModelGroupItem model, ViewSettings settings)
         {
-            model.title = "Новая группа";
-            model.settings = settings;
+            this.model = model;
+            //model.title = "Новая группа";
+            //model.settings = settings;
             InitializeComponent();
         }
 
         private void Delete(object sender, MouseButtonEventArgs e)
         {
-            model.listbox.Items.Remove(this);
-            model.listGroupItem.Remove(this.model);
+            this.model.listbox.Items.Remove(this);
+            this.model.listGroupItem.Remove(this.model);
         }
 
         private void OpenGroupSettings(object sender, MouseButtonEventArgs e)

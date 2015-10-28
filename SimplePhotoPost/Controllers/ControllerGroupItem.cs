@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SimplePhotoPost.Models;
-using SimplePhotoPost.Views;
-using SimplePhotoPost;
+﻿using System.Windows;
+using System.Windows.Input;
+using System.Windows.Forms;
+using SimplePhotoPost.Classes;
 using SimplePhotoPost.Controllers;
+using SimplePhotoPost.Models;
 using SimplePhotoPost.Properties;
+using SimplePhotoPost.Views;
 
 namespace SimplePhotoPost.Controllers
 {
@@ -26,7 +24,7 @@ namespace SimplePhotoPost.Controllers
             view.AlbumId.Text = model.albumId;
             view.GroupId.Text = model.groupId;
             view.Path.Text = model.path;
-            view.Title.Text = model.title;
+            view.Title1.Text = model.title;
         }
     }
 }

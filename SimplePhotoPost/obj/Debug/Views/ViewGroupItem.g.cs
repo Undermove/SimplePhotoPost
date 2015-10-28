@@ -9,7 +9,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using SimplePhotoPost;
 using System;
 using System.Diagnostics;
 using System.Windows;

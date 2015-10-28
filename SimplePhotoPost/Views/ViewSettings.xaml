@@ -20,7 +20,7 @@
             <RowDefinition Height="40"/>
         </Grid.RowDefinitions>
         <TextBox 
-            Name="Title" 
+            Name="Title1" 
             TextWrapping="Wrap"
             Foreground="White"
             Background="#FF4C3BB2"
