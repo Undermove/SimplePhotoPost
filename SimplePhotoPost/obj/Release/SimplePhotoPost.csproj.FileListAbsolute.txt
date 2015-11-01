@@ -20,3 +20,4 @@ D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\obj\Release\SimplePhotoPost.P
 D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\obj\Release\SimplePhotoPost.csproj.GenerateResource.Cache
 D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\obj\Release\SimplePhotoPost.exe
 D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\obj\Release\SimplePhotoPost.pdb
+D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\obj\Release\SimplePhotoPost.csprojResolveAssemblyReference.cache

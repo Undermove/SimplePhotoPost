@@ -6,6 +6,7 @@ using SimplePhotoPost.Controllers;
 using SimplePhotoPost.Models;
 using SimplePhotoPost.Properties;
 using SimplePhotoPost.Views;
+using SimplePhotoPost;
 
 namespace SimplePhotoPost.Views
 {
@@ -27,18 +28,25 @@ namespace SimplePhotoPost.Views
         {
             ControllerSettings.SaveModel(this.modelGroupItem, this, this.viewGroupItem);
             ControllerGroupItem.ChangeTitle(this.modelGroupItem);
-            //ControllerGroupItemmodelGroupItemhis.modelGroupItem);
             Hide();
         }
         
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            ControllerSettings.SaveModel(this.modelGroupItem, this, this.viewGroupItem);
+            var result = System.Windows.MessageBox.Show("Сохранить изменения?", "Yes/No", MessageBoxButton.YesNo);
 
-            ControllerGroupItem.ChangeTitle(this.modelGroupItem);
-            //ControllerGroupItemmodelGroupItemhis.modelGroupItem);
-            e.Cancel = true;
-            Hide();
+            if (result == MessageBoxResult.Yes)
+            {
+                ControllerSettings.SaveModel(this.modelGroupItem, this, this.viewGroupItem);
+                ControllerGroupItem.ChangeTitle(this.modelGroupItem);
+                e.Cancel = true;
+                Hide();
+            }
+            else
+            {
+                e.Cancel = true;
+                Hide();
+            }
         }
 
         private void OpenFolder(object sender, MouseButtonEventArgs e)

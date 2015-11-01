@@ -3,12 +3,12 @@
   <listGroupItem>
     <ModelGroupItem>
       <id>0</id>
-      <title>Delphi-1</title>
-      <path>D:\Фотки</path>
-      <groupId />
-      <albumId />
-      <message />
-      <hashTags />
+      <title>ЧТ Delphi-1 17:40</title>
+      <path>D:\Фотки\ЧТ_Delphi1_17_40</path>
+      <groupId>32768928</groupId>
+      <albumId>223105071</albumId>
+      <message>Освоили одно из важнейших понятий в программировании - переменные. Поняли в чем все их коварство и научились пользоваться глобальными переменными. Вроде бы тема как тема, а на самом деле фундаментальная штука!</message>
+      <hashTags>#polycent #творчество #дети #курсы #автоматика #робототехника #информатика #москва #занятия #viosagmir #undermove</hashTags>
       <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
       <color>
         <A>0</A>
@@ -23,52 +23,12 @@
     </ModelGroupItem>
     <ModelGroupItem>
       <id>1</id>
-      <title>Delphi-2</title>
-      <path>C:\Users\Undermove\Desktop\Фото паспорта</path>
-      <groupId />
-      <albumId />
-      <message />
-      <hashTags />
-      <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
-      <color>
-        <A>0</A>
-        <R>0</R>
-        <G>0</G>
-        <B>0</B>
-        <ScA>0</ScA>
-        <ScR>0</ScR>
-        <ScG>0</ScG>
-        <ScB>0</ScB>
-      </color>
-    </ModelGroupItem>
-    <ModelGroupItem>
-      <id>0</id>
-      <title>Нвая группа</title>
-      <path />
-      <groupId />
-      <albumId />
-      <message />
-      <hashTags />
-      <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
-      <color>
-        <A>0</A>
-        <R>0</R>
-        <G>0</G>
-        <B>0</B>
-        <ScA>0</ScA>
-        <ScR>0</ScR>
-        <ScG>0</ScG>
-        <ScB>0</ScB>
-      </color>
-    </ModelGroupItem>
-    <ModelGroupItem>
-      <id>1</id>
-      <title>Новая группа</title>
-      <path />
-      <groupId />
-      <albumId />
-      <message />
-      <hashTags />
+      <title>ЧТ C# - 1 курс 19:40</title>
+      <path>D:\Фотки\ЧТ_CSharp_19_40</path>
+      <groupId>32768928</groupId>
+      <albumId>223105170</albumId>
+      <message>C# язык не из легких для первого языка, тем не менее все пройденные темы были освоены относительно легко и без шероховатостей. На последнем занятии разбирали области видимости переменных. Понятие сложное, а в рамках данного языка еще и очень обширное.</message>
+      <hashTags>#polycent #творчество #дети #курсы #автоматика #робототехника #информатика #москва #занятия #viosagmir #undermove</hashTags>
       <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
       <color>
         <A>0</A>
@@ -83,12 +43,32 @@
     </ModelGroupItem>
     <ModelGroupItem>
       <id>2</id>
-      <title>ПРивет</title>
-      <path />
-      <groupId />
-      <albumId />
-      <message />
-      <hashTags />
+      <title>ПТ UDK-1 17:30</title>
+      <path>D:\Фотки\ПТ_UDK_17_30</path>
+      <groupId>32768928</groupId>
+      <albumId>223105224</albumId>
+      <message>В прошедшую пятницу потренировались создавать алгоритмы в языке Kismet. Темой занятия был алгоритм простейшего пропуска. У некоторых данная задача вызвала бурю ассоциаций и чуть было не привела к неконтролируемому творческому порыву. Последний впрочем не возбраняется, особенно в рамках домашних заданий, во многом продолжающих тематику занятий.</message>
+      <hashTags>#polycent #творчество #дети #курсы #автоматика #робототехника #информатика #москва #занятия #viosagmir #undermove</hashTags>
+      <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
+      <color>
+        <A>0</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </color>
+    </ModelGroupItem>
+    <ModelGroupItem>
+      <id>3</id>
+      <title>ПТ UDK-1 19:00</title>
+      <path>D:\Фотки\ПТ_UDK_19_00</path>
+      <groupId>32768928</groupId>
+      <albumId>223105267</albumId>
+      <message>На последнем занятии проходили алгоритм телепортации объектов. Дело непростое, особенно для физических объектов. Сделать клон игрушки Portal не получится, но тем не менее, уже можно сделать что-то похожее.</message>
+      <hashTags>#polycent #творчество #дети #курсы #автоматика #робототехника #информатика #москва #занятия #viosagmir #undermove</hashTags>
       <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
       <color>
         <A>0</A>
@@ -103,12 +83,12 @@
     </ModelGroupItem>
     <ModelGroupItem>
       <id>4</id>
-      <title>Здарова</title>
-      <path />
-      <groupId />
-      <albumId />
-      <message />
-      <hashTags />
+      <title>СБ Delphi-1 10:00</title>
+      <path>D:\Фотки\СБ_Delphi1_10_00</path>
+      <groupId>32768928</groupId>
+      <albumId>223105309</albumId>
+      <message>С помощью самодельной программы измеряли массу машины и определяли, где же инженер ошибся в рассчетах. Все прошло успешно, ошибка была найдена, а последствия устранены))</message>
+      <hashTags>#polycent #творчество #дети #курсы #автоматика #робототехника #информатика #москва #занятия #viosagmir #undermove</hashTags>
       <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
       <color>
         <A>0</A>
@@ -122,13 +102,13 @@
       </color>
     </ModelGroupItem>
     <ModelGroupItem>
-      <id>0</id>
-      <title>УРА!!!</title>
-      <path />
-      <groupId />
-      <albumId />
-      <message />
-      <hashTags />
+      <id>5</id>
+      <title>СБ Delphi-2 11:20</title>
+      <path>D:\Фотки\СБ_Delphi2_11_20</path>
+      <groupId>32768928</groupId>
+      <albumId>223105342</albumId>
+      <message>Финальный урок по игре SCREEN_CEEPER, которая является клоном известной многим игрушки ping-pong. Проект определенно тяжелый и требует особо аккуратного логического подхода. Особенно по части создания "грубого" искусственного интеелекта.</message>
+      <hashTags>#polycent #творчество #дети #курсы #автоматика #робототехника #информатика #москва #занятия #viosagmir #undermove</hashTags>
       <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
       <color>
         <A>0</A>

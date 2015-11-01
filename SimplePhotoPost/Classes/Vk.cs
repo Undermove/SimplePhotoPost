@@ -13,6 +13,7 @@ namespace SimplePhotoPost.Classes
         public string accessToken;
         public string expiresIn;
         public string userId;
+        public bool isAuthorized = false;
 
         private const int appID = 5101865;
 
@@ -39,8 +40,13 @@ namespace SimplePhotoPost.Classes
                         var accessToken = parameters.Get("access_token");
                         var expiresIn = parameters.Get("expires_in");
                         var userId = parameters.Get("user_id");
-                        vk = new Vk(accessToken, expiresIn, userId);
+                        var isAuthorized = true;
+                        vk = new Vk(accessToken, expiresIn, userId, isAuthorized);
                         window.Close();
+                    }
+                    else if (e.Uri.GetLeftPart(UriPartial.Query) == "https://oauth.vk.com/")
+                    {
+                        throw new Exception("Ошибка: Проверьте подключен ли Интеренет и пройдена ли авторизация.");
                     }
                 };
                 window.ShowDialog();
@@ -52,11 +58,12 @@ namespace SimplePhotoPost.Classes
         }
  
 
-        public Vk(string accessToken, string expiresIn, string userId)
+        public Vk(string accessToken, string expiresIn, string userId, bool isAuthorized)
         {
             this.accessToken = accessToken;
             this.expiresIn = expiresIn;
             this.userId = userId;
+            this.isAuthorized = isAuthorized;
         }
         public Vk()
         {

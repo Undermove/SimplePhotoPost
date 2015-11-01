@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Windows.Controls;
+using System.Windows;
 using System.Windows.Input;
 using System.Windows.Media;
 using SimplePhotoPost.Models;
@@ -23,23 +24,29 @@ namespace SimplePhotoPost.Views
         {
             this.model = model;
             //model.title = "Новая группа";
-            this.model.viewSettings = settings;
             InitializeComponent();
         }
 
         private void Delete(object sender, MouseButtonEventArgs e)
         {
-            this.model.listbox.Items.Remove(this);
-            this.model.listGroupItem.Remove(this.model);
+            string message = string.Format("Удалить {0}?", this.model.title);
+            var result = MessageBox.Show(message, "Yes/No", MessageBoxButton.YesNo);
+          
+            if (result == MessageBoxResult.Yes)
+            {
+                this.model.listbox.Items.Remove(this);
+                this.model.listGroupItem.Remove(this.model);
+            }
         }
 
         private void OpenGroupSettings(object sender, MouseButtonEventArgs e)
         {
-            this.model.viewSettings.viewGroupItem = this;
-            ControllerGroupItem.SetSettingsView(model.viewSettings, model);
+            var Settings = new ViewSettings();
+            Settings.viewGroupItem = this;
+            ControllerGroupItem.SetSettingsView(Settings, model);
 
             //// Отображаем окно
-            this.model.viewSettings.Show();
+            Settings.ShowDialog();
         }
     }
 }

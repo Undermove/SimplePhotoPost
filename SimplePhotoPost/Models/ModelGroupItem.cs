@@ -18,9 +18,6 @@ namespace SimplePhotoPost.Models
         /// Поля необходимые для заполнения при создании
         // ID элемента 
         public int id { get; set; }
-        [XmlIgnore]
-        // Ссылка на экземпляр окна настроек
-        public ViewSettings viewSettings { get; set; }
 
         [XmlIgnore]
         public ViewGroupItem viewGroupItem {get; set; }
@@ -49,7 +46,6 @@ namespace SimplePhotoPost.Models
 
         public ModelGroupItem(int id, ViewSettings viewSettings, ListBox listbox, List<ModelGroupItem> listGroupItem)
         {
-            this.viewSettings = viewSettings;
             this.id = id;
             this.listbox = listbox;
             this.listGroupItem = listGroupItem;

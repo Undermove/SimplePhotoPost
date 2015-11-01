@@ -48,33 +48,55 @@ namespace SimplePhotoPost
 
         private void Click_Authorize(object sender, MouseButtonEventArgs e)
         {
-            vk = vk.Authorize("wall,photos,groups,offline,messages");
+            try
+            {
+                vk = vk.Authorize("wall,photos,groups,offline,messages");
+            }
+            catch (Exception exc)
+            {
+                MessageBox.Show(exc.ToString());
+            }
         }
 
         private void SimplePhotoPost(object sender, MouseButtonEventArgs e)
         {
-            /// Пока рановато, но уже скоро будет можно
-            //foreach (ViewGroupItem item in itemsList)
-            //{
-            //    if (item.path != "")
-            //    {
-            //        // Получаем список путей до каждой из фотграфий
-            //        string[] photos = Directory.GetFiles(item.path);
-            //        // передаем этот список в метод загрузки фоток в альбом
-            //        string[] photosId = vk.photoPost(item.groupId, item.albumId, photos);
-            //        // После этого формируем поле attachments
-            //        string attachments = "";
-            //        //...Здесь должен быть код
-            //        //
-            //        foreach (var photoId in photosId)
-            //        {
-            //            attachments = attachments + String.Format("photo-{0}_{1}", item.groupId, photoId) + ",";
-            //        }
-            //        attachments = attachments + String.Format("album-{0}_{1}", item.groupId, item.albumId);
-            //        vk.wallPost(HttpUtility.UrlEncode(item.message + "\n" + item.hashTags), item.groupId, attachments);
-            //    }
-            //    System.Windows.MessageBox.Show("SSSS");
-            //}
+            try
+            {
+                if (vk.isAuthorized)
+                {
+                    /// Пока рановато, но уже скоро будет можно
+                    foreach (ModelGroupItem item in listGroupItem)
+                    {
+                        if (item.path != "")
+                        {
+                            // Получаем список путей до каждой из фотграфий
+                            string[] photos = Directory.GetFiles(item.path);
+                            // передаем этот список в метод загрузки фоток в альбом
+                            string[] photosId = vk.photoPost(item.groupId, item.albumId, photos);
+                            // После этого формируем поле attachments
+                            string attachments = "";
+                            //...Здесь должен быть код
+                            //
+                            foreach (var photoId in photosId)
+                            {
+                                attachments = attachments + String.Format("photo-{0}_{1}", item.groupId, photoId) + ",";
+                            }
+                            attachments = attachments + String.Format("album-{0}_{1}", item.groupId, item.albumId);
+                            vk.wallPost(HttpUtility.UrlEncode(item.message + "\n" + item.hashTags), item.groupId, attachments);
+                        }
+                        //System.Windows.MessageBox.Show("SSSS");
+                    }
+                    MessageBox.Show("Posted");
+                }
+                else
+                {
+                    MessageBox.Show("Авторизация не пройдена. Авторизуйтесь, чтобы продолжить.");
+                }
+            }
+            catch (Exception exc)
+            {
+                MessageBox.Show(exc.ToString());
+            }
         }
 
         private void Window_Closing(object sender, CancelEventArgs e)
@@ -87,6 +109,7 @@ namespace SimplePhotoPost
                 XmlSerializer xmlSerializer = new XmlSerializer(typeof(ListGroupItems));
                 xmlSerializer.Serialize(Stream, SaveList);
             }
+            System.Diagnostics.Process.GetCurrentProcess().Kill(); // насильно завершаем процесс, если он не завершился самостоятельно
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
@@ -98,7 +121,6 @@ namespace SimplePhotoPost
 
                 foreach (ModelGroupItem modelGroupItem in SaveList.listGroupItem)
                 {
-                    modelGroupItem.viewSettings = viewSettings;
                     modelGroupItem.listbox = listBox;
                     modelGroupItem.listGroupItem = listGroupItem;
 

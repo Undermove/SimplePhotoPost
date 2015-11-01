@@ -65,6 +65,9 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
+    <Reference Include="WaterMarkControl">
+      <HintPath>..\..\WaterMarkControl\WaterMarkControl\bin\Release\WaterMarkControl.dll</HintPath>
+    </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="xNet">
       <HintPath>..\..\..\Downloads\xNet.dll</HintPath>
@@ -75,6 +78,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Classes\ExceptionsSPP.cs" />
     <Compile Include="Classes\ListGroupItems.cs" />
     <Compile Include="Controllers\ControllerGroupItem.cs" />
     <Compile Include="Controllers\ControllerSettings.cs" />
@@ -140,7 +144,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

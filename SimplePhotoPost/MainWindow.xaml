@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:Properties="clr-namespace:SimplePhotoPost.Properties" 
         x:Class="SimplePhotoPost.MainWindow"
-        Title="SimplePhotoPost" Height="567.5" Width="829" MinWidth="300" MinHeight="300" Closing="Window_Closing" Loaded="Window_Loaded">
+        Title="SimplePhotoPost" Height="700" Width="829" MinWidth="300" MinHeight="300" Closing="Window_Closing" Loaded="Window_Loaded">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="77"/>

@@ -3,6 +3,12 @@
   <listGroupItem>
     <ModelGroupItem>
       <id>0</id>
+      <title>ЧТ Delphi-1 17:40</title>
+      <path>D:\Фотки</path>
+      <groupId>ID группы</groupId>
+      <albumId>ID альбома</albumId>
+      <message>Текст сообщения</message>
+      <hashTags>#хэштэги</hashTags>
       <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
       <color>
         <A>0</A>
@@ -17,6 +23,92 @@
     </ModelGroupItem>
     <ModelGroupItem>
       <id>1</id>
+      <title>ЧТ C# - 1 курс 19:40</title>
+      <path>D:\Фотки</path>
+      <groupId>ID группы</groupId>
+      <albumId>ID альбома</albumId>
+      <message>Текст сообщения</message>
+      <hashTags>#хэштэги</hashTags>
+      <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
+      <color>
+        <A>0</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </color>
+    </ModelGroupItem>
+    <ModelGroupItem>
+      <id>2</id>
+      <title>ПТ UDK-1 17:30</title>
+      <path>D:\Фотки</path>
+      <groupId>ID группы</groupId>
+      <albumId>ID альбома</albumId>
+      <message>Текст сообщения</message>
+      <hashTags>#хэштэги</hashTags>
+      <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
+      <color>
+        <A>0</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </color>
+    </ModelGroupItem>
+    <ModelGroupItem>
+      <id>3</id>
+      <title>ПТ UDK-1 19:00</title>
+      <path>D:\Фотки</path>
+      <groupId>ID группы </groupId>
+      <albumId>ID альбома</albumId>
+      <message>Текст сообщения</message>
+      <hashTags>#хэштэги</hashTags>
+      <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
+      <color>
+        <A>0</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </color>
+    </ModelGroupItem>
+    <ModelGroupItem>
+      <id>4</id>
+      <title>СБ Delphi-1 10:00</title>
+      <path>D:\Фотки</path>
+      <groupId>ID группы</groupId>
+      <albumId>ID альбома</albumId>
+      <message>Текст сообщения</message>
+      <hashTags>#хэштэги</hashTags>
+      <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
+      <color>
+        <A>0</A>
+        <R>0</R>
+        <G>0</G>
+        <B>0</B>
+        <ScA>0</ScA>
+        <ScR>0</ScR>
+        <ScG>0</ScG>
+        <ScB>0</ScB>
+      </color>
+    </ModelGroupItem>
+    <ModelGroupItem>
+      <id>5</id>
+      <title>СБ Delphi-2 11:20</title>
+      <path>D:\Фотки</path>
+      <groupId>ID группы</groupId>
+      <albumId>ID альбома</albumId>
+      <message>Текст сообщения</message>
+      <hashTags>#хэштэги</hashTags>
       <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
       <color>
         <A>0</A>

@@ -21,3 +21,5 @@ D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\obj\Debug\Views\ViewGroupItem
 D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\obj\Debug\Views\ViewSettings.g.cs
 D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\obj\Debug\MainWindow.g.cs
 D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\obj\Debug\MainWindow.baml
+D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Debug\WaterMarkControl.dll
+D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Debug\WaterMarkControl.pdb
