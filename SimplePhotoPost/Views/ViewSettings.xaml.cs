@@ -21,6 +21,7 @@ namespace SimplePhotoPost.Views
         public ViewGroupItem viewGroupItem;
         public ModelGroupItem modelGroupItem;
         private FolderBrowserDialog folderBrowserDialog = new FolderBrowserDialog();
+        MessageBoxResult result = MessageBoxResult.No;
                       
         public ViewSettings()
         {
@@ -32,17 +33,20 @@ namespace SimplePhotoPost.Views
         {
             ControllerSettings.SaveModel(this.modelGroupItem, this, this.viewGroupItem);
             ControllerGroupItem.ChangeGroupItem(this.modelGroupItem);
+            result = MessageBoxResult.Yes;
             this.Close();
         }
         
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            var result = System.Windows.MessageBox.Show("Сохранить изменения?", "Yes/No", MessageBoxButton.YesNo);
-
-            if (result == MessageBoxResult.Yes)
+            if (result == MessageBoxResult.No)
             {
-                ControllerSettings.SaveModel(this.modelGroupItem, this, this.viewGroupItem);
-                ControllerGroupItem.ChangeGroupItem(this.modelGroupItem);
+                result = System.Windows.MessageBox.Show("Сохранить изменения?", "Yes/No", MessageBoxButton.YesNo);
+                if (result == MessageBoxResult.Yes)
+                {
+                    ControllerSettings.SaveModel(this.modelGroupItem, this, this.viewGroupItem);
+                    ControllerGroupItem.ChangeGroupItem(this.modelGroupItem);
+                }
             }
         }
 

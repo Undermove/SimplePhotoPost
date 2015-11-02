@@ -25,12 +25,12 @@
             MouseUp="OpenGroupSettings"/>
         <Rectangle
             Name="GroupRect"
-            Fill="DarkSlateBlue" Grid.Column="1"
+            Fill="DarkSlateBlue"
             ToolTip="Настройки поста" 
-            MouseUp="OpenGroupSettings"/>
+            MouseUp="OpenGroupSettings" Grid.ColumnSpan="4" Margin="-5,0,0,0"/>
         <Rectangle 
             Grid.Column="2" 
-            Fill="#FF4C3BB2" 
+            Fill="#44000000" 
             HorizontalAlignment="Left" 
             Height="67" 
             VerticalAlignment="Top" 
@@ -38,7 +38,7 @@
             ToolTip="Отметка об отправке"/>
         <Rectangle 
             Grid.Column="3"
-            Fill="Red" 
+            Fill="#77000000" 
             HorizontalAlignment="Left"
             Height="67"
             VerticalAlignment="Top"
@@ -54,7 +54,7 @@
             TextAlignment="Center"
             Panel.ZIndex="1"
             FontFamily="Microsoft New Tai Lue" LineStackingStrategy="BlockLineHeight" FontStretch="UltraCondensed" Height="12" Margin="24,28,32,27" Width="16"/>
-        <Rectangle Fill="#FF4C3BB2" ToolTip="Настройки поста" MouseUp="OpenGroupSettings" Margin="-5,0,0,0"/>
+        <Rectangle Fill="#44000000" ToolTip="Настройки поста" MouseUp="OpenGroupSettings" Margin="-5,0,0,0"/>
         <Image Name="Image" HorizontalAlignment="Center" Panel.ZIndex="1" Height="40" VerticalAlignment="Center" Width="44" Grid.Column="0" Source="{DynamicResource ImageSource1}" Focusable="True" MouseUp="OpenGroupSettings"/>
         <Image Name="Image2" HorizontalAlignment="Center" Panel.ZIndex="1" Height="30" VerticalAlignment="Center" Width="33" Grid.Column="3" Source="{DynamicResource ImageSource2}" Focusable="True"  MouseLeftButtonUp="Delete"/>
 
