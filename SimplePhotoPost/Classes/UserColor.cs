@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SimplePhotoPost.Models
+namespace SimplePhotoPost.Classes
 {
-    class ModelSettings
+    class UserColor
     {
     }
 }

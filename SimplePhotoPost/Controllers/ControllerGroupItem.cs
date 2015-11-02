@@ -6,6 +6,7 @@ using SimplePhotoPost.Controllers;
 using SimplePhotoPost.Models;
 using SimplePhotoPost.Properties;
 using SimplePhotoPost.Views;
+using System.Windows.Media;
 
 namespace SimplePhotoPost.Controllers
 {
@@ -26,11 +27,18 @@ namespace SimplePhotoPost.Controllers
             view.GroupId.Text = model.groupId;
             view.Path.Text = model.path;
             view.Title1.Text = model.title;
+            view.Color.SelectedColor = model.color;
         }
 
-        public static void ChangeTitle(ModelGroupItem model)
+        public static void ChangeGroupItem(ModelGroupItem model)
         {
             model.viewGroupItem.Title.Text = model.title;
+            if (model.color != null)
+            {
+                SolidColorBrush brush = new SolidColorBrush(Color.FromArgb(model.color.Value.A, model.color.Value.R, model.color.Value.G, model.color.Value.B));
+                model.viewGroupItem.GroupRect.Fill = brush;
+            }
+
         }
     }
 }

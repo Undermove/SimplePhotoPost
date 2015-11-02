@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Xceed.Wpf.Toolkit;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Threading.Tasks;
@@ -39,7 +40,7 @@ namespace SimplePhotoPost.Models
         public string message { get; set; }
         public string hashTags { get; set; }
         public bool ckBoxDeletePhoto { get; set; }
-        public Color color { get; set; }
+        public System.Windows.Media.Color? color { get; set; }
 
         public ModelGroupItem()
         { }

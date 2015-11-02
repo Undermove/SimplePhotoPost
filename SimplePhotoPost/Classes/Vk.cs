@@ -57,7 +57,6 @@ namespace SimplePhotoPost.Classes
             return vk;
         }
  
-
         public Vk(string accessToken, string expiresIn, string userId, bool isAuthorized)
         {
             this.accessToken = accessToken;
@@ -133,9 +132,5 @@ namespace SimplePhotoPost.Classes
             }
             return photoWallArray;
         }
-
-
-
-
     }
 }

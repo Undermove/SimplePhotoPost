@@ -12,6 +12,7 @@
             <ColumnDefinition Width="72"/>
         </Grid.ColumnDefinitions>
         <TextBlock 
+            FontSize="20"
             Name="Title"
             TextWrapping="Wrap" 
             Text="Новая группа"
@@ -20,9 +21,10 @@
             Foreground="WhiteSmoke"
             TextAlignment="Center"
             Panel.ZIndex="1"
-            FontFamily="Microsoft New Tai Lue" LineStackingStrategy="BlockLineHeight" FontStretch="UltraCondensed" Height="19" Margin="12,28,20,20" Grid.Column="1"
+            FontFamily="Microsoft New Tai Lue" LineStackingStrategy="BlockLineHeight" FontStretch="UltraCondensed" Height="30" Margin="14,21,18,16" Grid.Column="1"
             MouseUp="OpenGroupSettings"/>
         <Rectangle
+            Name="GroupRect"
             Fill="DarkSlateBlue" Grid.Column="1"
             ToolTip="Настройки поста" 
             MouseUp="OpenGroupSettings"/>

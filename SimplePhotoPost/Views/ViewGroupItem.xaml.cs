@@ -43,6 +43,10 @@ namespace SimplePhotoPost.Views
         {
             var Settings = new ViewSettings();
             Settings.viewGroupItem = this;
+            if ((model.path == null) || (model.path == ""))
+            {
+                model.path = "Выберите папку с фото";
+            }
             ControllerGroupItem.SetSettingsView(Settings, model);
 
             //// Отображаем окно

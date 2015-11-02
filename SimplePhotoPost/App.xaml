@@ -5,5 +5,6 @@
     <Application.Resources>
         <BitmapImage x:Key="ImageSource1" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\...\SimplePhotoPost\Tiles\Settings.png"/>
         <BitmapImage x:Key="ImageSource2" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\...\SimplePhotoPost\Tiles\Garbage.png"/>
+        <BitmapImage x:Key="ImageSource3" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\...\SimplePhotoPost\Tiles\Folder.png"/>
     </Application.Resources>
 </Application>

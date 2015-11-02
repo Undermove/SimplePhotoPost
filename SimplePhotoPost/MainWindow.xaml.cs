@@ -10,6 +10,7 @@ using System.Xml.Serialization;
 using SimplePhotoPost.Classes;
 using SimplePhotoPost.Models;
 using SimplePhotoPost.Views;
+using SimplePhotoPost.Controllers;
 using System.Threading;
 
 namespace SimplePhotoPost
@@ -51,6 +52,10 @@ namespace SimplePhotoPost
             try
             {
                 vk = vk.Authorize("wall,photos,groups,offline,messages");
+                if (vk.isAuthorized)
+                {
+                    this.AuthStatus.Text = "Статус: Авторизация пройдена";
+                }
             }
             catch (Exception exc)
             {
@@ -104,7 +109,7 @@ namespace SimplePhotoPost
             ListGroupItems SaveList = new ListGroupItems();
             SaveList.listGroupItem = listGroupItem;
 
-            using (FileStream Stream = new FileStream("Serialization.xml", FileMode.Create, FileAccess.ReadWrite, FileShare.ReadWrite))
+            using (FileStream Stream = new FileStream("userdata/Serialization.xml", FileMode.Create, FileAccess.ReadWrite, FileShare.ReadWrite))
             {
                 XmlSerializer xmlSerializer = new XmlSerializer(typeof(ListGroupItems));
                 xmlSerializer.Serialize(Stream, SaveList);
@@ -114,7 +119,7 @@ namespace SimplePhotoPost
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            using (FileStream Stream = new FileStream("Serialization.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite, FileShare.ReadWrite))
+            using (FileStream Stream = new FileStream("userdata/Serialization.xml", FileMode.OpenOrCreate, FileAccess.ReadWrite, FileShare.ReadWrite))
             {
                 XmlSerializer xmlSerializer = new XmlSerializer(typeof(ListGroupItems));
                 ListGroupItems SaveList = (ListGroupItems)xmlSerializer.Deserialize(Stream);
@@ -126,7 +131,8 @@ namespace SimplePhotoPost
 
                     ViewGroupItem viewGroupItem = new ViewGroupItem(modelGroupItem, viewSettings);
                     modelGroupItem.viewGroupItem = viewGroupItem;
-                    viewGroupItem.Title.Text = modelGroupItem.title;
+
+                    ControllerGroupItem.ChangeGroupItem(modelGroupItem);
 
                     listGroupItem.Add(modelGroupItem);
                     listBox.Items.Insert(listBox.Items.Count - 1, viewGroupItem);

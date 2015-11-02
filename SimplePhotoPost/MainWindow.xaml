@@ -3,6 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:Properties="clr-namespace:SimplePhotoPost.Properties" 
         x:Class="SimplePhotoPost.MainWindow"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         Title="SimplePhotoPost" Height="700" Width="829" MinWidth="300" MinHeight="300" Closing="Window_Closing" Loaded="Window_Loaded">
     <Grid>
         <Grid.RowDefinitions>
@@ -31,7 +32,7 @@
                    VerticalAlignment="Center" Foreground="White" FontSize="30" MouseUp="SimplePhotoPost"/>
         <Grid HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" >
             <Rectangle Fill="#FF4C3BB2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MouseUp="Click_Authorize"/>
-            <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="Авторизоваться" VerticalAlignment="Center" Foreground="White" FontSize="15" MouseUp="Click_Authorize"/>
+            <TextBlock Name="AuthStatus" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Авторизоваться" VerticalAlignment="Center" Foreground="White" FontSize="20" MouseUp="Click_Authorize"/>
         </Grid>
     </Grid>
 
