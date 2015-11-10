@@ -37,6 +37,7 @@ namespace SimplePhotoPost
             InitializeComponent();
         }
 
+
         private void Click_AddGroup(object sender, MouseButtonEventArgs e)
         {
             ModelGroupItem modelGroupItem = new ModelGroupItem(itemId, viewSettings, listBox, listGroupItem);
@@ -70,6 +71,15 @@ namespace SimplePhotoPost
             }
         }
 
+        public delegate void StartDelivery();
+        public event StartDelivery onStartDelivery;
+
+        public delegate void EndDelivery();
+        public event EndDelivery onEndDelivery;
+
+        public delegate void ErrorDelivery();
+        public event ErrorDelivery onErrorDelivery;
+
         private void SimplePhotoPost(object sender, MouseButtonEventArgs e)
         {
          
@@ -85,7 +95,19 @@ namespace SimplePhotoPost
                             {
                                 model.Status = ModelGroupItem.MessageStatus.InProgress;
                                 ControllerGroupItem.SetStatusPicture(model);
+
+                                this.onStartDelivery += model.viewGroupItem.StartAnim;
+                                this.onEndDelivery += model.viewGroupItem.StopAnim;
+
+                                if (onStartDelivery != null)
+                                {
+                                    onStartDelivery();
+                                }
+
+                                Thread tread = new Thread(new ThreadStart(() => { 
                                 
+                                }));
+
                                 // Получаем список путей до каждой из фотграфий
                                 string[] photos = Directory.GetFiles(model.path);
                                 // передаем этот список в метод загрузки фоток в альбом
@@ -102,12 +124,26 @@ namespace SimplePhotoPost
                                 vk.wallPost(HttpUtility.UrlEncode(model.message + "\n" + model.hashTags), model.groupId, attachments);
                                 model.message = "";
                                 sendCount++;
+
+                                if (onEndDelivery != null)
+                                {
+                                    onEndDelivery();
+                                    model.Status = ModelGroupItem.MessageStatus.MessageSent;
+                                    ControllerGroupItem.SetStatusPicture(model);
+                                }
+                                 
                             }
                             //System.Windows.MessageBox.Show("SSSS");
                         }
                         catch (Exception exc)
                         {
-                            MessageBox.Show(exc.ToString());
+                            this.onErrorDelivery += model.viewGroupItem.StopAnim;
+                            if (onErrorDelivery != null)
+                            {
+                                onErrorDelivery();
+                            }
+
+                            MessageBox.Show("Упс, что-то пошло не так! Проверьте, правильно ли вы ввели groupID (должен быть введен без минуса) и albumID. А также проверьте подключение к сети Интернет.");
                             model.Status = ModelGroupItem.MessageStatus.Error;
                             ControllerGroupItem.SetStatusPicture(model);
                         }
