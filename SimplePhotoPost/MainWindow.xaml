@@ -4,35 +4,66 @@
         xmlns:Properties="clr-namespace:SimplePhotoPost.Properties" 
         x:Class="SimplePhotoPost.MainWindow"
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
-        Title="SimplePhotoPost" Height="700" Width="829" MinWidth="300" MinHeight="300" Closing="Window_Closing" Loaded="Window_Loaded">
+        Title="SimplePhotoPost" Height="700" Width="829" MinWidth="300" MinHeight="300" Closing="Window_Closing" Loaded="Window_Loaded"
+        Icon="SPP_icon.ico" WindowStyle="ThreeDBorderWindow" Background="White">
+    
+    <Window.Resources>
+        <Style x:Key="TriggerStyle" TargetType="Grid" >
+            <Style.Triggers>
+                <EventTrigger RoutedEvent="Button.MouseEnter">
+                    <BeginStoryboard>
+                        <Storyboard x:Name="myStoryboard">
+                            <ColorAnimation To="#CC001259" Storyboard.TargetProperty="(Background).(Color)" FillBehavior="HoldEnd"  Duration="0:0:0.2"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+                <EventTrigger RoutedEvent="Button.MouseLeave">
+                    <BeginStoryboard>
+                        <Storyboard>
+                            <ColorAnimation Storyboard.TargetProperty="(Background).(Color)" FillBehavior="HoldEnd" Duration="0:0:0.2"/>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="77"/>
+            <RowDefinition Height="77" />
             <RowDefinition Height="214*"/>
-            <RowDefinition Height="77"/>
+            <RowDefinition Height="77" />
         </Grid.RowDefinitions>
-        <ListBox Name="listBox" HorizontalContentAlignment="Stretch" Grid.Row="1" BorderBrush="DarkSlateBlue">
-            <Grid Name="btnAddGroup" Height="65" HorizontalAlignment="Stretch" MouseUp="Click_AddGroup">
+        
+        <ListBox Name="listBox" HorizontalContentAlignment="Stretch" Grid.Row="1" BorderBrush="DarkSlateBlue" Background="{x:Null}">
+            <Grid Style="{StaticResource TriggerStyle}" Background="#CC0025B6" x:Name="btnAddGroup" Height="65" HorizontalAlignment="Stretch" MouseUp="Click_AddGroup" UseLayoutRounding="False" Margin="-2,0,0,0">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
                     <ColumnDefinition Width="72" />
                 </Grid.ColumnDefinitions>
-                <Rectangle Fill="Green" HorizontalAlignment="Stretch" Grid.ColumnSpan="2" Margin="-2,0,0,0"/>
                 <TextBlock TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Center" Text="Добавить группу" Panel.ZIndex="1" Foreground="White" FontSize="15" />
                 <TextBlock Grid.Column="1" HorizontalAlignment="Center" TextWrapping="Wrap" Text="+" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" FontSize="40" Margin="22,2,21,10"/>
             </Grid>
         </ListBox>
-        <Rectangle 
-            Fill="#FF4C3BB2"
-            Grid.Row="2" MouseUp="SimplePhotoPost"/>
-        <TextBlock HorizontalAlignment="Center"  
-                   Grid.Row="2" 
-                   TextWrapping="Wrap" 
-                   Text="SimplePhotoPost" 
-                   VerticalAlignment="Center" Foreground="White" FontSize="30" MouseUp="SimplePhotoPost"/>
-        <Grid HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" >
-            <Rectangle Fill="#FF4C3BB2" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" MouseUp="Click_Authorize"/>
-            <TextBlock Name="AuthStatus" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Авторизоваться" VerticalAlignment="Center" Foreground="White" FontSize="20" MouseUp="Click_Authorize"/>
+
+        <Grid Name="AuthRect" MouseUp="Click_Authorize" Background="#CC0028C8" Style="{StaticResource TriggerStyle}"  HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" >
+            <TextBlock 
+                Name="AuthStatus" 
+                HorizontalAlignment="Center" 
+                TextWrapping="Wrap" 
+                Text="Авторизоваться"
+                VerticalAlignment="Center"
+                Foreground="White"
+                FontSize="20"/>
+        </Grid>
+
+        <Grid Name="SPP" Background="#CC0028C8" Style="{StaticResource TriggerStyle}" MouseUp="SimplePhotoPost"  HorizontalAlignment="Stretch"  VerticalAlignment="Stretch" Grid.Row="2" >
+            <TextBlock 
+                HorizontalAlignment="Center"  
+                Grid.Row="2" 
+                TextWrapping="Wrap" 
+                Text="SimplePhotoPost" 
+                VerticalAlignment="Center" Foreground="White" FontSize="30"/>
         </Grid>
     </Grid>
 

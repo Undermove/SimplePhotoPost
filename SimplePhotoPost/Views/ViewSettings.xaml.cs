@@ -32,8 +32,15 @@ namespace SimplePhotoPost.Views
         private void SaveAndExit(object sender, MouseButtonEventArgs e)
         {
             ControllerSettings.SaveModel(this.modelGroupItem, this, this.viewGroupItem);
+            
             ControllerGroupItem.ChangeGroupItem(this.modelGroupItem);
-            result = MessageBoxResult.Yes;
+
+            this.Close(MessageBoxResult.Yes);
+        }
+        
+        private void Close(MessageBoxResult result)
+        {
+            this.result = result;
             this.Close();
         }
         
@@ -63,9 +70,6 @@ namespace SimplePhotoPost.Views
             {
                 SolidColorBrush brush = new SolidColorBrush(System.Windows.Media.Color.FromArgb(Color.SelectedColor.Value.A, Color.SelectedColor.Value.R, Color.SelectedColor.Value.G, Color.SelectedColor.Value.B));
                 this.Rectangle1.Fill = brush;
-                this.Rectangle2.Fill = brush;
-                this.Title1.Background = brush;
-                this.Path.Background = brush;
             }
             colorCall = true;
         }

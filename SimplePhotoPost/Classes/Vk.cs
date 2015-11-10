@@ -75,18 +75,18 @@ namespace SimplePhotoPost.Classes
         {
             using (var req = new xNet.HttpRequest())
             {
-                return req.Get(String.Format("https://api.vk.com/method/{0}?{1}&access_token={2}", methodName, parameters, this.accessToken)).ToString();
+                var response = req.Get(String.Format("https://api.vk.com/method/{0}?{1}&access_token={2}", methodName, parameters, this.accessToken)).ToString();
+                
+
+                var json = JObject.Parse(response);
+                var jCheck = json["error"]["error_code"] as JValue;
+                if (jCheck != null)
+                {
+                    throw new Exception("Ошибка в формате отправки. Проверьте правильно ли вы ввели ID группы и ID альбома.");
+                }
+
+                return response;
             }
-        }
-
-        public void wallPost (string messageText)
-        {
-            vkMethod("wall.post", String.Format("owner_id={0}&message={1}", userId, messageText));
-        }
-
-        public void wallPost(string messageText, string attachments)
-        {
-            MessageBox.Show(vkMethod("wall.post", String.Format("owner_id={0}&message={1}&attachments={2}", userId, messageText, attachments)));
         }
 
         public void wallPost(string messageText, string groupId, string attachments)
@@ -100,9 +100,20 @@ namespace SimplePhotoPost.Classes
             // Получаем ответ от сервера в формате JSON group_id - должен быть положительным, то есть минус не нужен!!!
             string response = vkMethod("photos.getUploadServer", String.Format("group_id={0}&album_id={1}", groupId, albumId));
 
+
             // Получаем ссылку на сервер, которую можно использовать для загрузки фотки путем обработки JSON запроса
             var json = JObject.Parse(response);
+            // Отлавливаем ошибку в случае если пользователь что-то не так ввел и отправил это на сервер
+            var jCheck = json["error"]["error_code"] as JValue;
+            if (jCheck == null)
+            {
+
+            }
             var strUrl = json["response"]["upload_url"] as JValue;
+
+        
+
+
             Uri upploadUrl = new Uri(strUrl.ToString());
 
             // составляем POST запрос при помощи которого отправляем фотографии на сервер
@@ -126,7 +137,7 @@ namespace SimplePhotoPost.Classes
                         json = JObject.Parse(response);
                         var photoId = (string)json["response"][0]["pid"];
 
-                        photoWallArray[photoNumber] = photoId; 
+                        photoWallArray[photoNumber] = photoId;
                     }
                 }
             }

@@ -24,6 +24,7 @@ namespace SimplePhotoPost.Controllers
             model.groupId = view.GroupId.Text;
             model.path = view.Path.Text;
             model.color = view.Color.SelectedColor;
+            model.SetStatus();
         }
     }
 }

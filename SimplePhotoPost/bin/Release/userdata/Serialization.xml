@@ -121,25 +121,5 @@
         <ScB>0.09530747</ScB>
       </color>
     </ModelGroupItem>
-    <ModelGroupItem>
-      <id>0</id>
-      <title />
-      <path>Выберите папку с фото</path>
-      <groupId />
-      <albumId />
-      <message />
-      <hashTags />
-      <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
-      <color>
-        <A>255</A>
-        <R>210</R>
-        <G>105</G>
-        <B>30</B>
-        <ScA>1</ScA>
-        <ScR>0.6444797</ScR>
-        <ScG>0.141263291</ScG>
-        <ScB>0.0129830325</ScB>
-      </color>
-    </ModelGroupItem>
   </listGroupItem>
 </ListGroupItems>

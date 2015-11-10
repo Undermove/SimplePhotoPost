@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:watermark ="clr-namespace:WaterMarkControl;assembly=WaterMarkControl"
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
-        Title="Настройки группы" Height="614" Width="543" MinWidth="334" MinHeight="497" Closing="Window_Closing"
+        Title="Настройки группы" Height="614" Width="543" MinWidth="334" MinHeight="497" Closing="Window_Closing" WindowStyle="ToolWindow"
         >
     <Grid>
         <Grid.ColumnDefinitions>
@@ -27,10 +27,11 @@
 
         <AdornerDecorator Grid.Row="0" Grid.ColumnSpan="2">
             <TextBox 
+            BorderThickness="0"
             Name="Title1" 
             TextWrapping="Wrap"
             Foreground="White"
-            Background="#FF4C3BB2"
+            Background="#55000000"
             TextAlignment="Center" 
             FontSize="25" 
             Grid.ColumnSpan="2">
@@ -71,12 +72,13 @@
         </AdornerDecorator>
 
         <Image  Grid.Row="7" Panel.ZIndex="1" MouseUp="OpenFolder" Source="{DynamicResource ImageSource3}" Margin="10,0,0,0"/>
-        <Rectangle Name="Rectangle2" StrokeThickness="0" Fill="#FF4C3BB2" Grid.Row="7" Panel.ZIndex="0" Stroke="Black"/>
+        <Rectangle Name="Rectangle2" StrokeThickness="0" Fill="#55000000" Grid.Row="7" Panel.ZIndex="0" Stroke="Black"/>
         <TextBlock 
+            Focusable="True"
             MouseUp="OpenFolder"
             Name="Path" 
             Foreground="WhiteSmoke"
-            Background="#FF4C3BB2"
+            Background="#55000000"
             Grid.Column="1" 
             Grid.Row="7" 
             TextWrapping="NoWrap" 
@@ -120,21 +122,11 @@
             ToolTip="Цвет группы в списке" Margin="10,0" SelectedColorChanged="Color_SelectedColorChanged"
             />
 
-        <TextBlock 
-            Name="CkBoxDeletePhoto" 
-            Grid.Column="1" 
-            Grid.Row="11" 
-            TextWrapping="Wrap" 
-            FontSize="25" 
-            Margin="5,0,0,0">
-            <Run Text="Удалить фото из папки"/>
-            <Run Language="ru-ru" Text=" на компьютере"/>
-            <Run Text="?"/>
-        </TextBlock>
+
 
         <TextBlock
             Grid.Row="11" 
-            Background="Green" 
+            Background="#CC001774" 
             TextWrapping="Wrap" 
             Text="Сохранить и выйти"
             FontSize="25"

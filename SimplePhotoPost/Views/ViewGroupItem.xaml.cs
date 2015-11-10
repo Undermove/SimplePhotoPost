@@ -5,6 +5,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using SimplePhotoPost.Models;
 using SimplePhotoPost.Controllers;
+using System.Windows.Media.Animation;
+using System;
 
 namespace SimplePhotoPost.Views
 {
@@ -23,7 +25,6 @@ namespace SimplePhotoPost.Views
         public ViewGroupItem(ModelGroupItem model, ViewSettings settings)
         {
             this.model = model;
-            //model.title = "Новая группа";
             InitializeComponent();
         }
 
@@ -51,6 +52,29 @@ namespace SimplePhotoPost.Views
 
             //// Отображаем окно
             Settings.ShowDialog();
+        }
+
+        private void StatusCheck_Checked(object sender, RoutedEventArgs e)
+        {
+            model.Status = ModelGroupItem.MessageStatus.InDelivery;
+        }
+
+        private void StatusCheck_Unchecked(object sender, RoutedEventArgs e)
+        {
+            model.SetStatus();
+        }
+
+        private void UserControl_MouseEnter(object sender, MouseEventArgs e)
+        {
+        }
+
+        private void UserControl_MouseLeave(object sender, MouseEventArgs e)
+        {
+        }
+
+        private void GroupRect_MouseEnter(object sender, MouseEventArgs e)
+        {
+
         }
     }
 }

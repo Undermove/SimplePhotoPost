@@ -1,17 +1,20 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using SimplePhotoPost.Classes;
+using SimplePhotoPost.Controllers;
+using SimplePhotoPost.Models;
+using SimplePhotoPost.Views;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.IO;
+using System.Threading;
 using System.Web;
 using System.Windows;
 using System.Windows.Input;
-using Newtonsoft.Json;
+using System.Windows.Media;
+using System.Windows.Media.Animation;
+using System.Windows.Shapes;
 using System.Xml.Serialization;
-using SimplePhotoPost.Classes;
-using SimplePhotoPost.Models;
-using SimplePhotoPost.Views;
-using SimplePhotoPost.Controllers;
-using System.Threading;
 
 namespace SimplePhotoPost
 {
@@ -39,6 +42,10 @@ namespace SimplePhotoPost
             ModelGroupItem modelGroupItem = new ModelGroupItem(itemId, viewSettings, listBox, listGroupItem);
             ViewGroupItem viewGroupItem = new ViewGroupItem(modelGroupItem, viewSettings);
             modelGroupItem.viewGroupItem = viewGroupItem;
+            ControllerGroupItem.SetStatusPicture(modelGroupItem);
+            
+
+            //modelGroupItem.Status = ModelGroupItem.MessageStatus.NotReady;
 
             listGroupItem.Add(modelGroupItem);
             listBox.Items.Insert(listBox.Items.Count-1, viewGroupItem);
@@ -65,43 +72,53 @@ namespace SimplePhotoPost
 
         private void SimplePhotoPost(object sender, MouseButtonEventArgs e)
         {
-            try
-            {
+         
                 if (vk.isAuthorized)
                 {
+                    int sendCount = 0;
                     /// Пока рановато, но уже скоро будет можно
-                    foreach (ModelGroupItem item in listGroupItem)
+                    foreach (ModelGroupItem model in listGroupItem)
                     {
-                        if (item.path != "")
+                        try
                         {
-                            // Получаем список путей до каждой из фотграфий
-                            string[] photos = Directory.GetFiles(item.path);
-                            // передаем этот список в метод загрузки фоток в альбом
-                            string[] photosId = vk.photoPost(item.groupId, item.albumId, photos);
-                            // После этого формируем поле attachments
-                            string attachments = "";
-                            //...Здесь должен быть код
-                            //
-                            foreach (var photoId in photosId)
+                            if (model.Status == ModelGroupItem.MessageStatus.InDelivery)
                             {
-                                attachments = attachments + String.Format("photo-{0}_{1}", item.groupId, photoId) + ",";
+                                model.Status = ModelGroupItem.MessageStatus.InProgress;
+                                ControllerGroupItem.SetStatusPicture(model);
+                                
+                                // Получаем список путей до каждой из фотграфий
+                                string[] photos = Directory.GetFiles(model.path);
+                                // передаем этот список в метод загрузки фоток в альбом
+                                string[] photosId = vk.photoPost(model.groupId, model.albumId, photos);
+                                // После этого формируем поле attachments
+                                string attachments = "";
+                                //...Здесь должен быть код
+                                //
+                                foreach (var photoId in photosId)
+                                {
+                                    attachments = attachments + String.Format("photo-{0}_{1}", model.groupId, photoId) + ",";
+                                }
+                                attachments = attachments + String.Format("album-{0}_{1}", model.groupId, model.albumId);
+                                vk.wallPost(HttpUtility.UrlEncode(model.message + "\n" + model.hashTags), model.groupId, attachments);
+                                model.message = "";
+                                sendCount++;
                             }
-                            attachments = attachments + String.Format("album-{0}_{1}", item.groupId, item.albumId);
-                            vk.wallPost(HttpUtility.UrlEncode(item.message + "\n" + item.hashTags), item.groupId, attachments);
+                            //System.Windows.MessageBox.Show("SSSS");
                         }
-                        //System.Windows.MessageBox.Show("SSSS");
+                        catch (Exception exc)
+                        {
+                            MessageBox.Show(exc.ToString());
+                            model.Status = ModelGroupItem.MessageStatus.Error;
+                            ControllerGroupItem.SetStatusPicture(model);
+                        }
                     }
-                    MessageBox.Show("Posted");
+                    MessageBox.Show(String.Format("Отправка завершена! Отправлено: {0} сообщений.", sendCount));
                 }
                 else
                 {
                     MessageBox.Show("Авторизация не пройдена. Авторизуйтесь, чтобы продолжить.");
                 }
-            }
-            catch (Exception exc)
-            {
-                MessageBox.Show(exc.ToString());
-            }
+
         }
 
         private void Window_Closing(object sender, CancelEventArgs e)
@@ -131,14 +148,17 @@ namespace SimplePhotoPost
 
                     ViewGroupItem viewGroupItem = new ViewGroupItem(modelGroupItem, viewSettings);
                     modelGroupItem.viewGroupItem = viewGroupItem;
-
+                    modelGroupItem.SetStatus();
+                    // Проверяем заполненные поля и выставляем стату готовности к отправке
                     ControllerGroupItem.ChangeGroupItem(modelGroupItem);
+                    
+                    //viewGroupItem.SendStatus.Text = modelGroupItem.Status.ToString();
 
+                    // Добавляем модель в список моделей и вид в lisBox 
                     listGroupItem.Add(modelGroupItem);
                     listBox.Items.Insert(listBox.Items.Count - 1, viewGroupItem);
                 }
             }
         }
-
     }
 }

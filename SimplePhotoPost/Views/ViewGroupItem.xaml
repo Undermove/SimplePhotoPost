@@ -3,7 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             mc:Ignorable="d" Margin="0,0" HorizontalAlignment="Stretch" d:DesignWidth="414.5" >
+             mc:Ignorable="d" Margin="0,0" HorizontalAlignment="Stretch" d:DesignWidth="414.5" MouseEnter="UserControl_MouseEnter" MouseLeave="UserControl_MouseLeave">
+    <UserControl.Resources>
+
+        <Style TargetType="Image" x:Name="Mybegin">
+            <Setter Property="Image.RenderTransformOrigin" Value="0.5,0.5"></Setter>
+            <Setter Property="RenderTransform">
+                <Setter.Value>
+                    <RotateTransform></RotateTransform>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <ControlTemplate x:Key="gridTemplate">
+        </ControlTemplate>
+    </UserControl.Resources>
+
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="72"/>
@@ -11,10 +26,59 @@
             <ColumnDefinition Width="72"/>
             <ColumnDefinition Width="72"/>
         </Grid.ColumnDefinitions>
-        <TextBlock 
+        <Grid.Triggers>
+            <EventTrigger RoutedEvent="Grid.MouseEnter">
+                <EventTrigger.Actions>
+                    <BeginStoryboard Name="rotateStoryBoardBegin">
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetName="Image" Storyboard.TargetProperty="RenderTransform.Angle"
+                                                 To="180" Duration="0:0:0.4">
+                            </DoubleAnimation>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger.Actions>
+            </EventTrigger>
+
+            <EventTrigger RoutedEvent="Grid.MouseLeave">
+                <EventTrigger.Actions>
+                    <BeginStoryboard Name="rotateStoryBoardEnd">
+                        <Storyboard>
+                            <DoubleAnimation Storyboard.TargetName="Image" Storyboard.TargetProperty="RenderTransform.Angle"
+                                                 Duration="0:0:0.4">
+                            </DoubleAnimation>
+                        </Storyboard>
+                    </BeginStoryboard>
+                </EventTrigger.Actions>
+            </EventTrigger>
+
+            <EventTrigger RoutedEvent="Rectangle.MouseEnter">
+                <BeginStoryboard>
+                    <Storyboard x:Name="myStoryboard">
+                        <ColorAnimation  Storyboard.TargetName="GroupRect" By="#99999999" Storyboard.TargetProperty="(Fill).(Color)" FillBehavior="HoldEnd"  Duration="0:0:0.2"/>
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+            <EventTrigger RoutedEvent="Rectangle.MouseLeave">
+                <BeginStoryboard>
+                    <Storyboard>
+                        <ColorAnimation Storyboard.TargetName="GroupRect" Storyboard.TargetProperty="(Fill).(Color)" FillBehavior="HoldEnd" Duration="0:0:0.2"/>
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+
+            <EventTrigger RoutedEvent="UserEvent">
+                <BeginStoryboard>
+                    <Storyboard>
+                        <ColorAnimation Storyboard.TargetName="GroupRect" Storyboard.TargetProperty="(Fill).(Color)" FillBehavior="HoldEnd" Duration="0:0:0.2"/>
+                    </Storyboard>
+                </BeginStoryboard>
+            </EventTrigger>
+
+        </Grid.Triggers>
+
+        <TextBlock
             FontSize="20"
-            Name="Title"
-            TextWrapping="Wrap" 
+            Name="Title" 
             Text="Новая группа"
             VerticalAlignment="Center"
             HorizontalAlignment="Stretch"
@@ -22,12 +86,12 @@
             TextAlignment="Center"
             Panel.ZIndex="1"
             FontFamily="Microsoft New Tai Lue" LineStackingStrategy="BlockLineHeight" FontStretch="UltraCondensed" Height="30" Margin="14,21,18,16" Grid.Column="1"
-            MouseUp="OpenGroupSettings"/>
-        <Rectangle
+            MouseUp="OpenGroupSettings" TextDecorations="{x:Null}" TextTrimming="CharacterEllipsis" TextWrapping="Wrap"/>
+        <Rectangle 
             Name="GroupRect"
-            Fill="DarkSlateBlue"
+            Fill="#FF432DC5"
             ToolTip="Настройки поста" 
-            MouseUp="OpenGroupSettings" Grid.ColumnSpan="4" Margin="-5,0,0,0"/>
+            MouseUp="OpenGroupSettings" Grid.ColumnSpan="4" Margin="-5,0,0,0" MouseEnter="GroupRect_MouseEnter"/>
         <Rectangle 
             Grid.Column="2" 
             Fill="#44000000" 
@@ -45,19 +109,33 @@
             Width="72" 
             ToolTip="Удалить данную группу"
             MouseLeftButtonUp="Delete"/>
-        <TextBlock 
-            Text="OK"
-            Grid.Column="2" 
-            VerticalAlignment="Center"
-            HorizontalAlignment="Center"
-            Foreground="WhiteSmoke"
-            TextAlignment="Center"
-            Panel.ZIndex="1"
-            FontFamily="Microsoft New Tai Lue" LineStackingStrategy="BlockLineHeight" FontStretch="UltraCondensed" Height="12" Margin="24,28,32,27" Width="16"/>
         <Rectangle Fill="#44000000" ToolTip="Настройки поста" MouseUp="OpenGroupSettings" Margin="-5,0,0,0"/>
-        <Image Name="Image" HorizontalAlignment="Center" Panel.ZIndex="1" Height="40" VerticalAlignment="Center" Width="44" Grid.Column="0" Source="{DynamicResource ImageSource1}" Focusable="True" MouseUp="OpenGroupSettings"/>
+        <Image Name="Image" HorizontalAlignment="Center" Panel.ZIndex="1" Height="40" VerticalAlignment="Center" Width="40" Grid.Column="0" Source="{DynamicResource ImageSource1}" Focusable="True" MouseUp="OpenGroupSettings" RenderTransformOrigin="0.51,0.514" Margin="14,14,18,13"/>
+
+
         <Image Name="Image2" HorizontalAlignment="Center" Panel.ZIndex="1" Height="30" VerticalAlignment="Center" Width="33" Grid.Column="3" Source="{DynamicResource ImageSource2}" Focusable="True"  MouseLeftButtonUp="Delete"/>
-
-
+        <Image Name="StatusImage" HorizontalAlignment="Center" Panel.ZIndex="1" Height="30" VerticalAlignment="Center" Width="33" Grid.Column="2" Source="{DynamicResource ImageSource6}" Focusable="True" RenderTransformOrigin="0.47,0.517"/>
+        <CheckBox Name="StatusCheck" Grid.Column="2" ToolTip="Подтвердите отправку" Margin="19,25,40,29" RenderTransformOrigin="0.225,0.438" BorderThickness="0" BorderBrush="#00195B5B" Background="#00FFFEFE" Checked="StatusCheck_Checked" Unchecked="StatusCheck_Unchecked">
+            <CheckBox.OpacityMask>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Color="White" Offset="1"/>
+                </LinearGradientBrush>
+            </CheckBox.OpacityMask>
+            <CheckBox.Foreground>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0"/>
+                    <GradientStop Offset="1"/>
+                </LinearGradientBrush>
+            </CheckBox.Foreground>
+            <CheckBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform ScaleX="4" ScaleY="4"/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </CheckBox.RenderTransform>
+        </CheckBox>
     </Grid>
 </UserControl>

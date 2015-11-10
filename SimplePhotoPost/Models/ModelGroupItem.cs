@@ -34,13 +34,45 @@ namespace SimplePhotoPost.Models
 
         /// Поля необходимые для окна настроек
         public string title { get; set; }
-        public string path { get; set; }
+        public string path { get ; set; }
         public string groupId { get; set; }
         public string albumId { get; set; }
+        //[XmlIgnore]
         public string message { get; set; }
         public string hashTags { get; set; }
+        [XmlIgnore]
+        public MessageStatus Status {get; set; }
         public bool ckBoxDeletePhoto { get; set; }
         public System.Windows.Media.Color? color { get; set; }
+
+
+        public enum MessageStatus
+        {
+            NotReady = 0,
+            Ready = 1,
+            InDelivery = 2,
+            InProgress = 3,
+            MessageSent = 4,
+            Error = 5
+        }
+
+        public void SetStatus()
+        {
+            if ((path != "") && (path != "Выберите папку с фото") && (groupId != "") && (albumId != "") && (message != "") && (hashTags != "") &&
+                (path != null) && (path != null) && (groupId != null) && (albumId != null) && (message != null) && (hashTags != null))
+            {
+                Status = MessageStatus.Ready;
+            }
+            else
+            {
+                Status = MessageStatus.NotReady;
+            }
+        }
+
+        public void SetStatusInDelivery()
+        {
+            Status = MessageStatus.InDelivery;
+        }
 
         public ModelGroupItem()
         { }
@@ -50,6 +82,7 @@ namespace SimplePhotoPost.Models
             this.id = id;
             this.listbox = listbox;
             this.listGroupItem = listGroupItem;
+            this.Status = MessageStatus.NotReady;
         }
     }
 }
