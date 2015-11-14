@@ -78,12 +78,12 @@ namespace SimplePhotoPost.Classes
                 var response = req.Get(String.Format("https://api.vk.com/method/{0}?{1}&access_token={2}", methodName, parameters, this.accessToken)).ToString();
                 
 
-                var json = JObject.Parse(response);
-                var jCheck = json["error"]["error_code"] as JValue;
-                if (jCheck != null)
+                /*var json = JObject.Parse(response);
+                //var jCheck = json["error"]["error_code"] as JValue;
+                if (json == null)
                 {
                     throw new Exception("Ошибка в формате отправки. Проверьте правильно ли вы ввели ID группы и ID альбома.");
-                }
+                }*/
 
                 return response;
             }
@@ -104,11 +104,11 @@ namespace SimplePhotoPost.Classes
             // Получаем ссылку на сервер, которую можно использовать для загрузки фотки путем обработки JSON запроса
             var json = JObject.Parse(response);
             // Отлавливаем ошибку в случае если пользователь что-то не так ввел и отправил это на сервер
-            var jCheck = json["error"]["error_code"] as JValue;
+            /*var jCheck = json["error"]["error_code"] as JValue;
             if (jCheck == null)
             {
-
-            }
+                throw new Exception("Ошибка в формате отправки. Проверьте правильно ли вы ввели ID группы и ID альбома.");
+            }*/
             var strUrl = json["response"]["upload_url"] as JValue;
 
         

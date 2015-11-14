@@ -72,6 +72,29 @@ namespace SimplePhotoPost.Views
         {
         }
 
+        public void StartAnim()
+        {
+            RotateTransform rt = new RotateTransform();
+            StatusImage.RenderTransform = rt;
+            DoubleAnimation anim = new DoubleAnimation();
+            anim.By = 360;
+            anim.Duration = TimeSpan.FromSeconds(1);
+            anim.RepeatBehavior = RepeatBehavior.Forever;
+            StatusImage.RenderTransform = rt;
+            rt.BeginAnimation(RotateTransform.AngleProperty, anim);
+        }
+
+        public void StopAnim()
+        {
+            RotateTransform rt = new RotateTransform();
+            StatusImage.RenderTransform = rt;
+            DoubleAnimation anim = new DoubleAnimation();
+            anim.Duration = TimeSpan.FromSeconds(1);
+            anim.RepeatBehavior = RepeatBehavior.Forever;
+            StatusImage.RenderTransform = rt;
+            rt.BeginAnimation(RotateTransform.AngleProperty, anim);
+        }
+
         private void GroupRect_MouseEnter(object sender, MouseEventArgs e)
         {
 

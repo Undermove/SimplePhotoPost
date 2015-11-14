@@ -2,26 +2,124 @@
 <ListGroupItems xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <listGroupItem>
     <ModelGroupItem>
-      <id>0</id>
-      <title>ацуацуа</title>
-      <path>C:\Users\Undermove\Desktop\Списки</path>
-      <groupId>wef</groupId>
-      <albumId>wef</albumId>
-      <message>wef</message>
-      <hashTags>wef</hashTags>
+      <id>3</id>
+      <title>TEST</title>
+      <path>D:\Фотки\TEST</path>
+      <groupId>73346178выа</groupId>
+      <albumId>197906416</albumId>
+      <message>sdf</message>
+      <hashTags>#TEST1</hashTags>
       <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
-      <color xsi:nil="true" />
+      <color>
+        <A>255</A>
+        <R>220</R>
+        <G>20</G>
+        <B>60</B>
+        <ScA>1</ScA>
+        <ScR>0.7156935</ScR>
+        <ScG>0.00699541</ScG>
+        <ScB>0.045186203</ScB>
+      </color>
     </ModelGroupItem>
     <ModelGroupItem>
       <id>0</id>
-      <title>hgre</title>
-      <path>C:\Users\Undermove\Desktop\Фото паспорта</path>
-      <groupId>erth</groupId>
-      <albumId>кер</albumId>
-      <message>кер</message>
+      <title>TEST2</title>
+      <path>D:\Фотки\TEST</path>
+      <groupId>73346178sdf</groupId>
+      <albumId>197906416</albumId>
+      <message>wrwer</message>
+      <hashTags>#SPP</hashTags>
+      <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
+      <color>
+        <A>255</A>
+        <R>173</R>
+        <G>42</G>
+        <B>70</B>
+        <ScA>1</ScA>
+        <ScR>0.417885065</ScR>
+        <ScG>0.0231533665</ScG>
+        <ScB>0.0612460524</ScB>
+      </color>
+    </ModelGroupItem>
+    <ModelGroupItem>
+      <id>1</id>
+      <title>TEST3</title>
+      <path>D:\Фотки\TEST</path>
+      <groupId>73346178sdf</groupId>
+      <albumId>197906416</albumId>
+      <message>sdf</message>
+      <hashTags>#TEST3</hashTags>
+      <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
+      <color>
+        <A>255</A>
+        <R>23</R>
+        <G>148</G>
+        <B>23</B>
+        <ScA>1</ScA>
+        <ScR>0.008568126</ScR>
+        <ScG>0.296138257</ScG>
+        <ScB>0.008568126</ScB>
+      </color>
+    </ModelGroupItem>
+    <ModelGroupItem>
+      <id>2</id>
+      <title>TEST4</title>
+      <path>D:\Фотки\TEST</path>
+      <groupId>73346178</groupId>
+      <albumId>197906416</albumId>
+      <message />
+      <hashTags>#TEST$</hashTags>
+      <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
+      <color>
+        <A>255</A>
+        <R>19</R>
+        <G>115</G>
+        <B>19</B>
+        <ScA>1</ScA>
+        <ScR>0.00651209056</ScR>
+        <ScG>0.171441108</ScG>
+        <ScB>0.00651209056</ScB>
+      </color>
+    </ModelGroupItem>
+    <ModelGroupItem>
+      <id>3</id>
+      <title>TEST5</title>
+      <path>D:\Фотки\TEST</path>
+      <groupId>73346178</groupId>
+      <albumId>197906416</albumId>
+      <message />
+      <hashTags>#TEST5</hashTags>
+      <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
+      <color>
+        <A>255</A>
+        <R>106</R>
+        <G>90</G>
+        <B>205</B>
+        <ScA>1</ScA>
+        <ScR>0.144128472</ScR>
+        <ScG>0.102241732</ScG>
+        <ScB>0.610495567</ScB>
+      </color>
+    </ModelGroupItem>
+    <ModelGroupItem>
+      <id>2</id>
+      <title>TEST6</title>
+      <path>Выберите папку с фото</path>
+      <groupId />
+      <albumId />
+      <message />
       <hashTags />
       <ckBoxDeletePhoto>false</ckBoxDeletePhoto>
-      <color xsi:nil="true" />
+      <color>
+        <A>255</A>
+        <R>72</R>
+        <G>61</G>
+        <B>139</B>
+        <ScA>1</ScA>
+        <ScR>0.064803265</ScR>
+        <ScG>0.0466650873</ScG>
+        <ScB>0.258182853</ScB>
+      </color>
     </ModelGroupItem>
   </listGroupItem>
 </ListGroupItems>

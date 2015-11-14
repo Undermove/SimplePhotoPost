@@ -49,46 +49,38 @@ namespace SimplePhotoPost.Controllers
 
         public static void SetStatusPicture(ModelGroupItem model)
         {
-                    //model.viewGroupItem.SendStatus.Text = model.Status.ToString();
-                    switch (model.Status)
-                    {
-                        case ModelGroupItem.MessageStatus.Error:
-                            model.viewGroupItem.StatusCheck.Visibility = Visibility.Hidden;
-                            model.viewGroupItem.StatusImage.Visibility = Visibility.Visible;
-                            model.viewGroupItem.StatusImage.Source = new BitmapImage(new Uri(@"D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\...\SimplePhotoPost\Tiles\Exclamation.png"));
-                            model.viewGroupItem.StatusImage.ToolTip = "Проверьте верно ли введены все значения?";
-                            break;
-                        case ModelGroupItem.MessageStatus.InDelivery:
-                            break;
-                        case ModelGroupItem.MessageStatus.InProgress:
-                            model.viewGroupItem.StatusCheck.Visibility = Visibility.Hidden;
-                            model.viewGroupItem.StatusImage.Source = new BitmapImage(new Uri(@"D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\...\SimplePhotoPost\Tiles\Sync.png"));
-                            
-                            DoubleAnimation rotationAmination = new DoubleAnimation();
-                            rotationAmination.By = 360;
-                            rotationAmination.RepeatBehavior = RepeatBehavior.Forever;
-                            rotationAmination.Duration = TimeSpan.FromSeconds(1);
-                            RotateTransform rt = new RotateTransform();
-                            model.viewGroupItem.StatusImage.RenderTransform = rt;
-                            model.viewGroupItem.StatusImage.RenderTransformOrigin = new Point(0.5,0.5);
-
-                            rt.BeginAnimation(RotateTransform.AngleProperty, rotationAmination);
-                            break;
-                        case ModelGroupItem.MessageStatus.MessageSent:
-                            model.viewGroupItem.StatusCheck.Visibility = Visibility.Hidden;
-                            model.viewGroupItem.StatusImage.Source = new BitmapImage(new Uri(@"D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\...\SimplePhotoPost\Tiles\Checked.png"));
-                            break;
-                        case ModelGroupItem.MessageStatus.NotReady:
-                            model.viewGroupItem.StatusCheck.Visibility = Visibility.Hidden;
-                            model.viewGroupItem.StatusImage.Visibility = Visibility.Visible;
-                            model.viewGroupItem.StatusImage.Source = new BitmapImage(new Uri(@"D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\...\SimplePhotoPost\Tiles\Exclamation.png"));
-                            model.viewGroupItem.StatusImage.ToolTip = "Не все поля заполнены";
-                            break;
-                        case ModelGroupItem.MessageStatus.Ready:
-                            model.viewGroupItem.StatusImage.Visibility = Visibility.Hidden;
-                            model.viewGroupItem.StatusCheck.Visibility = Visibility.Visible;
-                            break;
-                    } 
+            switch (model.Status)
+            {
+                case ModelGroupItem.MessageStatus.Error:
+                    model.viewGroupItem.StatusCheck.Visibility = Visibility.Hidden;
+                    model.viewGroupItem.StatusCheck.IsChecked = false;
+                    model.viewGroupItem.StatusImage.Visibility = Visibility.Visible;
+                    model.viewGroupItem.StatusImage.Source = new BitmapImage(new Uri(@"D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\...\SimplePhotoPost\Tiles\Exclamation.png"));
+                    model.viewGroupItem.StatusImage.ToolTip = "Проверьте верно ли введены все значения?";
+                    break;
+                case ModelGroupItem.MessageStatus.InDelivery:
+                    break;
+                case ModelGroupItem.MessageStatus.InProgress:
+                    model.viewGroupItem.StatusCheck.Visibility = Visibility.Hidden;
+                    model.viewGroupItem.StatusImage.Visibility = Visibility.Visible;
+                    model.viewGroupItem.StatusImage.Source = new BitmapImage(new Uri(@"D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\...\SimplePhotoPost\Tiles\Sync.png"));
+                    break;
+                case ModelGroupItem.MessageStatus.MessageSent:
+                    model.viewGroupItem.StatusCheck.Visibility = Visibility.Hidden;
+                    model.viewGroupItem.StatusImage.Visibility = Visibility.Visible;
+                    model.viewGroupItem.StatusImage.Source = new BitmapImage(new Uri(@"D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\...\SimplePhotoPost\Tiles\Checked.png"));
+                    break;
+                case ModelGroupItem.MessageStatus.NotReady:
+                    model.viewGroupItem.StatusCheck.Visibility = Visibility.Hidden;
+                    model.viewGroupItem.StatusImage.Visibility = Visibility.Visible;
+                    model.viewGroupItem.StatusImage.Source = new BitmapImage(new Uri(@"D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\...\SimplePhotoPost\Tiles\Exclamation.png"));
+                    model.viewGroupItem.StatusImage.ToolTip = "Не все поля заполнены";
+                    break;
+                case ModelGroupItem.MessageStatus.Ready:
+                    model.viewGroupItem.StatusImage.Visibility = Visibility.Hidden;
+                    model.viewGroupItem.StatusCheck.Visibility = Visibility.Visible;
+                    break;
+            } 
         }
     }
 }

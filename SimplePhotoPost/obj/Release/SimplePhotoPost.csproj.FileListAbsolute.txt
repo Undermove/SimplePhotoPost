@@ -39,3 +39,4 @@ D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\ro\Xceed.Wpf.Aval
 D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\ru\Xceed.Wpf.AvalonDock.resources.dll
 D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\sv\Xceed.Wpf.AvalonDock.resources.dll
 D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\Newtonsoft.Json.pdb

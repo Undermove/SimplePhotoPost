@@ -13,7 +13,7 @@
                 <EventTrigger RoutedEvent="Button.MouseEnter">
                     <BeginStoryboard>
                         <Storyboard x:Name="myStoryboard">
-                            <ColorAnimation To="#CC001259" Storyboard.TargetProperty="(Background).(Color)" FillBehavior="HoldEnd"  Duration="0:0:0.2"/>
+                            <ColorAnimation To="#CC3860FF" Storyboard.TargetProperty="(Background).(Color)" FillBehavior="HoldEnd"  Duration="0:0:0.2"/>
                         </Storyboard>
                     </BeginStoryboard>
                 </EventTrigger>

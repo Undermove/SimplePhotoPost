@@ -15,6 +15,7 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using System.Xml.Serialization;
+using System.Threading.Tasks;
 
 namespace SimplePhotoPost
 {
@@ -82,79 +83,99 @@ namespace SimplePhotoPost
 
         private void SimplePhotoPost(object sender, MouseButtonEventArgs e)
         {
-         
-                if (vk.isAuthorized)
+            if (vk.isAuthorized)
+            {
+                foreach (ModelGroupItem model in listGroupItem)
                 {
-                    int sendCount = 0;
-                    /// Пока рановато, но уже скоро будет можно
-                    foreach (ModelGroupItem model in listGroupItem)
+                    if (model.Status == ModelGroupItem.MessageStatus.InDelivery)
                     {
-                        try
+                        model.Status = ModelGroupItem.MessageStatus.InProgress;
+                        ControllerGroupItem.SetStatusPicture(model);
+                        this.onStartDelivery += model.viewGroupItem.StartAnim;
+
+                        if (onStartDelivery != null)
                         {
-                            if (model.Status == ModelGroupItem.MessageStatus.InDelivery)
-                            {
-                                model.Status = ModelGroupItem.MessageStatus.InProgress;
-                                ControllerGroupItem.SetStatusPicture(model);
-
-                                this.onStartDelivery += model.viewGroupItem.StartAnim;
-                                this.onEndDelivery += model.viewGroupItem.StopAnim;
-
-                                if (onStartDelivery != null)
-                                {
-                                    onStartDelivery();
-                                }
-
-                                Thread tread = new Thread(new ThreadStart(() => { 
-                                
-                                }));
-
-                                // Получаем список путей до каждой из фотграфий
-                                string[] photos = Directory.GetFiles(model.path);
-                                // передаем этот список в метод загрузки фоток в альбом
-                                string[] photosId = vk.photoPost(model.groupId, model.albumId, photos);
-                                // После этого формируем поле attachments
-                                string attachments = "";
-                                //...Здесь должен быть код
-                                //
-                                foreach (var photoId in photosId)
-                                {
-                                    attachments = attachments + String.Format("photo-{0}_{1}", model.groupId, photoId) + ",";
-                                }
-                                attachments = attachments + String.Format("album-{0}_{1}", model.groupId, model.albumId);
-                                vk.wallPost(HttpUtility.UrlEncode(model.message + "\n" + model.hashTags), model.groupId, attachments);
-                                model.message = "";
-                                sendCount++;
-
-                                if (onEndDelivery != null)
-                                {
-                                    onEndDelivery();
-                                    model.Status = ModelGroupItem.MessageStatus.MessageSent;
-                                    ControllerGroupItem.SetStatusPicture(model);
-                                }
-                                 
-                            }
-                            //System.Windows.MessageBox.Show("SSSS");
-                        }
-                        catch (Exception exc)
-                        {
-                            this.onErrorDelivery += model.viewGroupItem.StopAnim;
-                            if (onErrorDelivery != null)
-                            {
-                                onErrorDelivery();
-                            }
-
-                            MessageBox.Show("Упс, что-то пошло не так! Проверьте, правильно ли вы ввели groupID (должен быть введен без минуса) и albumID. А также проверьте подключение к сети Интернет.");
-                            model.Status = ModelGroupItem.MessageStatus.Error;
-                            ControllerGroupItem.SetStatusPicture(model);
+                            onStartDelivery();
                         }
                     }
-                    MessageBox.Show(String.Format("Отправка завершена! Отправлено: {0} сообщений.", sendCount));
                 }
-                else
-                {
-                    MessageBox.Show("Авторизация не пройдена. Авторизуйтесь, чтобы продолжить.");
-                }
+                CallSendMethod();
+            }
+            else
+            {
+                MessageBox.Show("Авторизация не пройдена. Авторизуйтесь, чтобы продолжить.");
+            }
+        }
 
+        private async void CallSendMethod()
+        {
+            await SendMethodAsync();
+        }
+
+        private Task SendMethodAsync()
+        {
+            return Task.Factory.StartNew(() => SendMethod());
+        }
+
+        private void SendMethod()
+        {
+            int sendCount = 0;
+
+            foreach (ModelGroupItem model in listGroupItem)
+            {
+                try
+                {
+                    if (model.Status == ModelGroupItem.MessageStatus.InProgress)
+                    {
+                        this.onEndDelivery += model.viewGroupItem.StopAnim;
+
+                        // Получаем список путей до каждой из фотграфий
+                        string[] photos = Directory.GetFiles(model.path);
+                        // передаем этот список в метод загрузки фоток в альбом
+                        string[] photosId = vk.photoPost(model.groupId, model.albumId, photos);
+                        // После этого формируем поле attachments
+                        string attachments = "";
+                        //...Здесь должен быть код
+                        //
+                        foreach (var photoId in photosId)
+                        {
+                            attachments = attachments + String.Format("photo-{0}_{1}", model.groupId, photoId) + ",";
+                        }
+                        attachments = attachments + String.Format("album-{0}_{1}", model.groupId, model.albumId);
+                        vk.wallPost(HttpUtility.UrlEncode(model.message + "\n" + model.hashTags), model.groupId, attachments);
+                        model.message = "";
+                        sendCount++;
+
+                        if (onEndDelivery != null)
+                        {
+                            Dispatcher.BeginInvoke(new Action(delegate()
+                            {
+                                onEndDelivery(); 
+                                model.Status = ModelGroupItem.MessageStatus.MessageSent;
+                                ControllerGroupItem.SetStatusPicture(model);
+                            })); 
+                            
+                        }
+                    }
+                }
+                catch
+                {
+                    Dispatcher.BeginInvoke(new Action(delegate()
+                    {
+                        this.onErrorDelivery += model.viewGroupItem.StopAnim;
+                        if (onErrorDelivery != null)
+                        {
+                            Dispatcher.BeginInvoke(new Action(delegate() { onErrorDelivery(); }));
+                        }
+
+                        model.Status = ModelGroupItem.MessageStatus.Error;
+                        ControllerGroupItem.SetStatusPicture(model);
+                        MessageBox.Show(String.Format("Упс, что-то пошло не так c группой {0}! \n\n Проверьте, правильно ли вы ввели groupID (должен быть введен без минуса) и albumID. А также проверьте подключение к сети Интернет.",model.title));
+                    })); 
+
+                }
+            }
+            MessageBox.Show(String.Format("Отправка завершена! Отправлено: {0} сообщений.", sendCount));
         }
 
         private void Window_Closing(object sender, CancelEventArgs e)
@@ -187,8 +208,6 @@ namespace SimplePhotoPost
                     modelGroupItem.SetStatus();
                     // Проверяем заполненные поля и выставляем стату готовности к отправке
                     ControllerGroupItem.ChangeGroupItem(modelGroupItem);
-                    
-                    //viewGroupItem.SendStatus.Text = modelGroupItem.Status.ToString();
 
                     // Добавляем модель в список моделей и вид в lisBox 
                     listGroupItem.Add(modelGroupItem);
