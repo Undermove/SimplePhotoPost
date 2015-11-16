@@ -52,13 +52,13 @@
 	<summary>
 		<codepage>1252</codepage>
 		<title>Installation Database</title>
-		<subject>SimplePhotoPost</subject>
+		<subject/>
 		<author>##ID_STRING2##</author>
 		<keywords>Installer,MSI,Database</keywords>
 		<comments>Contact:  Your local administrator</comments>
 		<template>Intel;1033</template>
 		<lastauthor>Administrator</lastauthor>
-		<revnumber></revnumber>
+		<revnumber>{E1D1E039-F1E1-4DD2-9C19-CDB3FF2880FC}</revnumber>
 		<lastprinted/>
 		<createdtm>06/21/1999 16:00</createdtm>
 		<lastsavedtm>07/14/2000 19:50</lastsavedtm>
@@ -225,7 +225,6 @@
 	<table name="AppSearch">
 		<col key="yes" def="s72">Property</col>
 		<col key="yes" def="s72">Signature_</col>
-		<row><td>DOTNETVERSION45FULL</td><td>DotNet45Full</td></row>
 	</table>
 
 	<table name="BBControl">
@@ -340,20 +339,7 @@
 		<col def="S0">ISDotNetInstallerArgsCommit</col>
 		<col def="S0">ISDotNetInstallerArgsUninstall</col>
 		<col def="S0">ISDotNetInstallerArgsRollback</col>
-		<row><td>ISX_DEFAULTCOMPONENT</td><td>{A51BA3C8-2ED0-46FE-9177-314F5A1CFBFB}</td><td>INSTALLDIR</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT1</td><td>{EE88EB0B-D8F2-4B9C-AA8D-E08A3F03527B}</td><td>TILES</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>ISX_DEFAULTCOMPONENT2</td><td>{12E6F45A-D718-439D-BB96-C53358D4B8DC}</td><td>USERDATA</td><td>2</td><td/><td/><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Newtonsoft.Json.dll</td><td>{9CA6B284-68C6-4B2B-B6C5-4E7B947B78AF}</td><td>INSTALLDIR</td><td>2</td><td/><td>newtonsoft.json.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SimplePhotoPost.exe</td><td>{A7EE66E1-A254-4FB6-815F-8E6DE1F605F0}</td><td>DZIMPLE</td><td>2</td><td/><td>simplephotopost.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>SimplePhotoPost.exe1</td><td>{7AEB8791-CD62-4D2D-932D-406F8C4D9C72}</td><td>INSTALLDIR</td><td>2</td><td/><td>simplephotopost.exe1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>WaterMarkControl.dll</td><td>{A9457CE9-E284-46AB-8FAD-9A3E8D0D8866}</td><td>INSTALLDIR</td><td>2</td><td/><td>watermarkcontrol.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Xceed.Wpf.AvalonDock.Themes.Aero.dll</td><td>{8240BD76-4E85-482E-83BA-8B6B79B0B831}</td><td>INSTALLDIR</td><td>2</td><td/><td>xceed.wpf.avalondock.themes.1</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Xceed.Wpf.AvalonDock.Themes.Metro.dll</td><td>{FE20383A-75CE-4152-819A-3FBCFB008A36}</td><td>INSTALLDIR</td><td>2</td><td/><td>xceed.wpf.avalondock.themes.</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Xceed.Wpf.AvalonDock.Themes.VS2010.dll</td><td>{6FC608BB-E2F7-469E-87D2-16DD6C5DFA6A}</td><td>INSTALLDIR</td><td>2</td><td/><td>xceed.wpf.avalondock.themes.2</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Xceed.Wpf.AvalonDock.dll</td><td>{1E202B13-EEA6-4CD6-80FE-C213C7EA8D3B}</td><td>INSTALLDIR</td><td>2</td><td/><td>xceed.wpf.avalondock.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Xceed.Wpf.DataGrid.dll</td><td>{02086A62-4B6F-4281-A3DC-9B71A694230C}</td><td>INSTALLDIR</td><td>2</td><td/><td>xceed.wpf.datagrid.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>Xceed.Wpf.Toolkit.dll</td><td>{59CA637E-5B7E-4A1E-99C2-ED3F4B461615}</td><td>INSTALLDIR</td><td>2</td><td/><td>xceed.wpf.toolkit.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
-		<row><td>xNet.dll</td><td>{A0B9BC91-AB06-4BAD-9747-EA0033C758CB}</td><td>INSTALLDIR</td><td>2</td><td/><td>xnet.dll</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
+		<row><td>SimplePhotoPost.exe</td><td>{2ECAAFAB-5DD8-4BFD-9959-3D9E2A6ED3D4}</td><td>INSTALLDIR</td><td>2</td><td/><td>simplephotopost.exe</td><td>17</td><td/><td/><td/><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td><td>/LogFile=</td></row>
 	</table>
 
 	<table name="Condition">
@@ -933,7 +919,7 @@
 		<row><td>DatabaseFolder</td><td>ChangeFolder</td><td>SpawnDialog</td><td>InstallChangeFolder</td><td>1</td><td>1</td></row>
 		<row><td>DatabaseFolder</td><td>ChangeFolder</td><td>[_BrowseProperty]</td><td>DATABASEDIR</td><td>1</td><td>2</td></row>
 		<row><td>DatabaseFolder</td><td>Next</td><td>NewDialog</td><td>SetupType</td><td>1</td><td>1</td></row>
-		<row><td>DestinationFolder</td><td>Back</td><td>NewDialog</td><td>InstallWelcome</td><td>NOT Installed</td><td>0</td></row>
+		<row><td>DestinationFolder</td><td>Back</td><td>NewDialog</td><td>CustomerInformation</td><td>1</td><td>0</td></row>
 		<row><td>DestinationFolder</td><td>Cancel</td><td>SpawnDialog</td><td>CancelSetup</td><td>1</td><td>1</td></row>
 		<row><td>DestinationFolder</td><td>ChangeFolder</td><td>SpawnDialog</td><td>InstallChangeFolder</td><td>1</td><td>1</td></row>
 		<row><td>DestinationFolder</td><td>ChangeFolder</td><td>[_BrowseProperty]</td><td>INSTALLDIR</td><td>1</td><td>2</td></row>
@@ -950,11 +936,11 @@
 		<row><td>InstallChangeFolder</td><td>Up</td><td>DirectoryListUp</td><td>0</td><td>1</td><td>0</td></row>
 		<row><td>InstallWelcome</td><td>Back</td><td>NewDialog</td><td>SplashBitmap</td><td>Display_IsBitmapDlg</td><td>0</td></row>
 		<row><td>InstallWelcome</td><td>Cancel</td><td>SpawnDialog</td><td>CancelSetup</td><td>1</td><td>0</td></row>
-		<row><td>InstallWelcome</td><td>Next</td><td>NewDialog</td><td>DestinationFolder</td><td>1</td><td>0</td></row>
+		<row><td>InstallWelcome</td><td>Next</td><td>NewDialog</td><td>LicenseAgreement</td><td>1</td><td>0</td></row>
 		<row><td>LicenseAgreement</td><td>Back</td><td>NewDialog</td><td>InstallWelcome</td><td>1</td><td>0</td></row>
 		<row><td>LicenseAgreement</td><td>Cancel</td><td>SpawnDialog</td><td>CancelSetup</td><td>1</td><td>0</td></row>
 		<row><td>LicenseAgreement</td><td>ISPrintButton</td><td>DoAction</td><td>ISPrint</td><td>1</td><td>0</td></row>
-		<row><td>LicenseAgreement</td><td>Next</td><td>NewDialog</td><td>DestinationFolder</td><td>AgreeToLicense = "Yes"</td><td>0</td></row>
+		<row><td>LicenseAgreement</td><td>Next</td><td>NewDialog</td><td>CustomerInformation</td><td>AgreeToLicense = "Yes"</td><td>0</td></row>
 		<row><td>MaintenanceType</td><td>Back</td><td>NewDialog</td><td>MaintenanceWelcome</td><td>1</td><td>0</td></row>
 		<row><td>MaintenanceType</td><td>Cancel</td><td>SpawnDialog</td><td>CancelSetup</td><td>1</td><td>0</td></row>
 		<row><td>MaintenanceType</td><td>Next</td><td>NewDialog</td><td>CustomSetup</td><td>_IsMaintenance = "Change"</td><td>12</td></row>
@@ -985,7 +971,7 @@
 		<row><td>ReadmeInformation</td><td>Cancel</td><td>SpawnDialog</td><td>CancelSetup</td><td>1</td><td>1</td></row>
 		<row><td>ReadmeInformation</td><td>Next</td><td>NewDialog</td><td>CustomerInformation</td><td>1</td><td>1</td></row>
 		<row><td>ReadyToInstall</td><td>Back</td><td>NewDialog</td><td>CustomSetup</td><td>Installed OR _IsSetupTypeMin = "Custom"</td><td>2</td></row>
-		<row><td>ReadyToInstall</td><td>Back</td><td>NewDialog</td><td>DestinationFolder</td><td>NOT Installed</td><td>1</td></row>
+		<row><td>ReadyToInstall</td><td>Back</td><td>NewDialog</td><td>CustomerInformation</td><td>NOT Installed</td><td>1</td></row>
 		<row><td>ReadyToInstall</td><td>Back</td><td>NewDialog</td><td>MaintenanceType</td><td>Installed AND _IsMaintenance = "Reinstall"</td><td>3</td></row>
 		<row><td>ReadyToInstall</td><td>Cancel</td><td>SpawnDialog</td><td>CancelSetup</td><td>1</td><td>0</td></row>
 		<row><td>ReadyToInstall</td><td>InstallNow</td><td>EndDialog</td><td>Return</td><td>OutOfNoRbDiskSpace &lt;&gt; 1</td><td>0</td></row>
@@ -1062,23 +1048,7 @@
 	<table name="CreateFolder">
 		<col key="yes" def="s72">Directory_</col>
 		<col key="yes" def="s72">Component_</col>
-		<row><td>DZIMPLE</td><td>SimplePhotoPost.exe</td></row>
-		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT</td></row>
-		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT1</td></row>
-		<row><td>INSTALLDIR</td><td>ISX_DEFAULTCOMPONENT2</td></row>
-		<row><td>INSTALLDIR</td><td>Newtonsoft.Json.dll</td></row>
 		<row><td>INSTALLDIR</td><td>SimplePhotoPost.exe</td></row>
-		<row><td>INSTALLDIR</td><td>SimplePhotoPost.exe1</td></row>
-		<row><td>INSTALLDIR</td><td>WaterMarkControl.dll</td></row>
-		<row><td>INSTALLDIR</td><td>Xceed.Wpf.AvalonDock.Themes.Aero.dll</td></row>
-		<row><td>INSTALLDIR</td><td>Xceed.Wpf.AvalonDock.Themes.Metro.dll</td></row>
-		<row><td>INSTALLDIR</td><td>Xceed.Wpf.AvalonDock.Themes.VS2010.dll</td></row>
-		<row><td>INSTALLDIR</td><td>Xceed.Wpf.AvalonDock.dll</td></row>
-		<row><td>INSTALLDIR</td><td>Xceed.Wpf.DataGrid.dll</td></row>
-		<row><td>INSTALLDIR</td><td>Xceed.Wpf.Toolkit.dll</td></row>
-		<row><td>INSTALLDIR</td><td>xNet.dll</td></row>
-		<row><td>TILES</td><td>ISX_DEFAULTCOMPONENT1</td></row>
-		<row><td>USERDATA</td><td>ISX_DEFAULTCOMPONENT2</td></row>
 	</table>
 
 	<table name="CustomAction">
@@ -1169,13 +1139,13 @@
 		<row><td>FavoritesFolder</td><td>TARGETDIR</td><td>.:FAVORI~1|Favorites</td><td/><td>0</td><td/></row>
 		<row><td>FontsFolder</td><td>TARGETDIR</td><td>.:Fonts</td><td/><td>0</td><td/></row>
 		<row><td>GlobalAssemblyCache</td><td>TARGETDIR</td><td>.:Global~1|GlobalAssemblyCache</td><td/><td>0</td><td/></row>
-		<row><td>INSTALLDIR</td><td>MY_PRODUCT_NAME</td><td>.</td><td/><td>0</td><td/></row>
+		<row><td>INSTALLDIR</td><td>SIMPLEPHOTOPOST</td><td>.</td><td/><td>0</td><td/></row>
 		<row><td>ISCommonFilesFolder</td><td>CommonFilesFolder</td><td>Instal~1|InstallShield</td><td/><td>0</td><td/></row>
 		<row><td>ISMyCompanyDir</td><td>ProgramFilesFolder</td><td>MYCOMP~1|My Company Name</td><td/><td>0</td><td/></row>
 		<row><td>ISMyProductDir</td><td>ISMyCompanyDir</td><td>MYPROD~1|My Product Name</td><td/><td>0</td><td/></row>
 		<row><td>ISYourDataBaseDir</td><td>INSTALLDIR</td><td>Database</td><td/><td>0</td><td/></row>
 		<row><td>LocalAppDataFolder</td><td>TARGETDIR</td><td>.:LocalA~1|LocalAppData</td><td/><td>0</td><td/></row>
-		<row><td>MY_PRODUCT_NAME</td><td>DZIMPLE</td><td>SIMPLE~1|SimplePhotoPost</td><td/><td>0</td><td/></row>
+		<row><td>MY_PRODUCT_NAME</td><td>DZIMPLE</td><td>MYPROD~1|My Product Name</td><td/><td>0</td><td/></row>
 		<row><td>MyPicturesFolder</td><td>TARGETDIR</td><td>.:MyPict~1|MyPictures</td><td/><td>0</td><td/></row>
 		<row><td>NetHoodFolder</td><td>TARGETDIR</td><td>.:NetHood</td><td/><td>0</td><td/></row>
 		<row><td>PersonalFolder</td><td>TARGETDIR</td><td>.:Personal</td><td/><td>0</td><td/></row>
@@ -1185,6 +1155,7 @@
 		<row><td>ProgramFilesFolder</td><td>TARGETDIR</td><td>.:PROGRA~1|program files</td><td/><td>0</td><td/></row>
 		<row><td>ProgramMenuFolder</td><td>TARGETDIR</td><td>.:Programs</td><td/><td>3</td><td/></row>
 		<row><td>RecentFolder</td><td>TARGETDIR</td><td>.:Recent</td><td/><td>0</td><td/></row>
+		<row><td>SIMPLEPHOTOPOST</td><td>DZIMPLE</td><td>SIMPLE~1|SimplePhotoPost</td><td/><td>0</td><td/></row>
 		<row><td>SendToFolder</td><td>TARGETDIR</td><td>.:SendTo</td><td/><td>3</td><td/></row>
 		<row><td>StartMenuFolder</td><td>TARGETDIR</td><td>.:STARTM~1|Start Menu</td><td/><td>3</td><td/></row>
 		<row><td>StartupFolder</td><td>TARGETDIR</td><td>.:StartUp</td><td/><td>3</td><td/></row>
@@ -1192,15 +1163,13 @@
 		<row><td>System64Folder</td><td>TARGETDIR</td><td>.:System64</td><td/><td>0</td><td/></row>
 		<row><td>SystemFolder</td><td>TARGETDIR</td><td>.:System32</td><td/><td>0</td><td/></row>
 		<row><td>TARGETDIR</td><td/><td>SourceDir</td><td/><td>0</td><td/></row>
-		<row><td>TILES</td><td>INSTALLDIR</td><td>Tiles</td><td/><td>0</td><td/></row>
 		<row><td>TempFolder</td><td>TARGETDIR</td><td>.:Temp</td><td/><td>0</td><td/></row>
 		<row><td>TemplateFolder</td><td>TARGETDIR</td><td>.:ShellNew</td><td/><td>0</td><td/></row>
-		<row><td>USERDATA</td><td>INSTALLDIR</td><td>userdata</td><td/><td>0</td><td/></row>
 		<row><td>USERPROFILE</td><td>TARGETDIR</td><td>.:USERPR~1|UserProfile</td><td/><td>0</td><td/></row>
 		<row><td>WindowsFolder</td><td>TARGETDIR</td><td>.:Windows</td><td/><td>0</td><td/></row>
 		<row><td>WindowsVolume</td><td>TARGETDIR</td><td>.:WinRoot</td><td/><td>0</td><td/></row>
 		<row><td>dzimple</td><td>ProgramMenuFolder</td><td>dZimple</td><td/><td>1</td><td/></row>
-		<row><td>my_product_name</td><td>dzimple</td><td>My Product Name</td><td/><td>1</td><td/></row>
+		<row><td>setup1</td><td>dzimple</td><td>Setup1</td><td/><td>1</td><td/></row>
 	</table>
 
 	<table name="DrLocator">
@@ -1892,20 +1861,7 @@
 	<table name="FeatureComponents">
 		<col key="yes" def="s38">Feature_</col>
 		<col key="yes" def="s72">Component_</col>
-		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT</td></row>
-		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT1</td></row>
-		<row><td>AlwaysInstall</td><td>ISX_DEFAULTCOMPONENT2</td></row>
-		<row><td>AlwaysInstall</td><td>Newtonsoft.Json.dll</td></row>
 		<row><td>AlwaysInstall</td><td>SimplePhotoPost.exe</td></row>
-		<row><td>AlwaysInstall</td><td>SimplePhotoPost.exe1</td></row>
-		<row><td>AlwaysInstall</td><td>WaterMarkControl.dll</td></row>
-		<row><td>AlwaysInstall</td><td>Xceed.Wpf.AvalonDock.Themes.Aero.dll</td></row>
-		<row><td>AlwaysInstall</td><td>Xceed.Wpf.AvalonDock.Themes.Metro.dll</td></row>
-		<row><td>AlwaysInstall</td><td>Xceed.Wpf.AvalonDock.Themes.VS2010.dll</td></row>
-		<row><td>AlwaysInstall</td><td>Xceed.Wpf.AvalonDock.dll</td></row>
-		<row><td>AlwaysInstall</td><td>Xceed.Wpf.DataGrid.dll</td></row>
-		<row><td>AlwaysInstall</td><td>Xceed.Wpf.Toolkit.dll</td></row>
-		<row><td>AlwaysInstall</td><td>xNet.dll</td></row>
 	</table>
 
 	<table name="File">
@@ -1920,23 +1876,7 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I4">ISAttributes</col>
 		<col def="S72">ISComponentSubFolder_</col>
-		<row><td>checked.png</td><td>ISX_DEFAULTCOMPONENT1</td><td>Checked.png</td><td>0</td><td/><td/><td/><td>1</td><td>D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\Tiles\Checked.png</td><td>1</td><td/></row>
-		<row><td>exclamation.png</td><td>ISX_DEFAULTCOMPONENT1</td><td>Exclamation.png</td><td>0</td><td/><td/><td/><td>1</td><td>D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\Tiles\Exclamation.png</td><td>1</td><td/></row>
-		<row><td>folder.png</td><td>ISX_DEFAULTCOMPONENT1</td><td>Folder.png</td><td>0</td><td/><td/><td/><td>1</td><td>D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\Tiles\Folder.png</td><td>1</td><td/></row>
-		<row><td>garbage.png</td><td>ISX_DEFAULTCOMPONENT1</td><td>Garbage.png</td><td>0</td><td/><td/><td/><td>1</td><td>D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\Tiles\Garbage.png</td><td>1</td><td/></row>
-		<row><td>newtonsoft.json.dll</td><td>Newtonsoft.Json.dll</td><td>Newtonsoft.Json.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\Newtonsoft.Json.dll</td><td>1</td><td/></row>
-		<row><td>settings.png</td><td>ISX_DEFAULTCOMPONENT1</td><td>Settings.png</td><td>0</td><td/><td/><td/><td>1</td><td>D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\Tiles\Settings.png</td><td>1</td><td/></row>
 		<row><td>simplephotopost.exe</td><td>SimplePhotoPost.exe</td><td>SimplePhotoPost.exe</td><td>0</td><td/><td/><td/><td>1</td><td>D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\SimplePhotoPost.exe</td><td>1</td><td/></row>
-		<row><td>simplephotopost.exe1</td><td>SimplePhotoPost.exe1</td><td>SimplePhotoPost.exe</td><td>0</td><td/><td/><td/><td>1</td><td>D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\SimplePhotoPost.exe</td><td>1</td><td/></row>
-		<row><td>sync.png</td><td>ISX_DEFAULTCOMPONENT1</td><td>Sync.png</td><td>0</td><td/><td/><td/><td>1</td><td>D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\Tiles\Sync.png</td><td>1</td><td/></row>
-		<row><td>watermarkcontrol.dll</td><td>WaterMarkControl.dll</td><td>WaterMarkControl.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\WaterMarkControl.dll</td><td>1</td><td/></row>
-		<row><td>xceed.wpf.avalondock.dll</td><td>Xceed.Wpf.AvalonDock.dll</td><td>Xceed.Wpf.AvalonDock.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\Xceed.Wpf.AvalonDock.dll</td><td>1</td><td/></row>
-		<row><td>xceed.wpf.avalondock.themes.</td><td>Xceed.Wpf.AvalonDock.Themes.Metro.dll</td><td>Xceed.Wpf.AvalonDock.Themes.Metro.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\Xceed.Wpf.AvalonDock.Themes.Metro.dll</td><td>1</td><td/></row>
-		<row><td>xceed.wpf.avalondock.themes.1</td><td>Xceed.Wpf.AvalonDock.Themes.Aero.dll</td><td>Xceed.Wpf.AvalonDock.Themes.Aero.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\Xceed.Wpf.AvalonDock.Themes.Aero.dll</td><td>1</td><td/></row>
-		<row><td>xceed.wpf.avalondock.themes.2</td><td>Xceed.Wpf.AvalonDock.Themes.VS2010.dll</td><td>Xceed.Wpf.AvalonDock.Themes.VS2010.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\Xceed.Wpf.AvalonDock.Themes.VS2010.dll</td><td>1</td><td/></row>
-		<row><td>xceed.wpf.datagrid.dll</td><td>Xceed.Wpf.DataGrid.dll</td><td>Xceed.Wpf.DataGrid.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\Xceed.Wpf.DataGrid.dll</td><td>1</td><td/></row>
-		<row><td>xceed.wpf.toolkit.dll</td><td>Xceed.Wpf.Toolkit.dll</td><td>Xceed.Wpf.Toolkit.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\Xceed.Wpf.Toolkit.dll</td><td>1</td><td/></row>
-		<row><td>xnet.dll</td><td>xNet.dll</td><td>xNet.dll</td><td>0</td><td/><td/><td/><td>1</td><td>D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\xNet.dll</td><td>1</td><td/></row>
 	</table>
 
 	<table name="FileSFPCatalog">
@@ -2078,20 +2018,7 @@
 		<col def="S0">FTPLocation</col>
 		<col def="S0">HTTPLocation</col>
 		<col def="S0">Miscellaneous</col>
-		<row><td>ISX_DEFAULTCOMPONENT</td><td/><td/><td>_91884EF8_23CC_4411_AD1B_D3E2AE8B2140_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT1</td><td/><td/><td>_1DA6FBE9_02AB_4905_AE17_1884EFDC4A08_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>ISX_DEFAULTCOMPONENT2</td><td/><td/><td>_42048AE4_D612_47A5_88C0_F5BAACEC863E_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Newtonsoft.Json.dll</td><td/><td/><td>_3B81874C_86B3_4422_B8F9_54037BA6184B_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SimplePhotoPost.exe</td><td/><td/><td>_39C2E27B_1A86_42E2_A4AF_260C85D7CAD0_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>SimplePhotoPost.exe1</td><td/><td/><td>_1E7BE7E4_A518_4697_B006_1D26010D5A93_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>WaterMarkControl.dll</td><td/><td/><td>_77F355E2_4419_4D77_A910_EC045B6FB2AE_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Xceed.Wpf.AvalonDock.Themes.Aero.dll</td><td/><td/><td>_CAD6F243_D4FA_49B9_A995_23DAA46BBB86_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Xceed.Wpf.AvalonDock.Themes.Metro.dll</td><td/><td/><td>_EF60693B_1D6A_4CA1_815B_23B783C98C06_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Xceed.Wpf.AvalonDock.Themes.VS2010.dll</td><td/><td/><td>_7E9E2C26_3A5F_4498_83C5_BEBE5540538B_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Xceed.Wpf.AvalonDock.dll</td><td/><td/><td>_ECFF9774_2520_405F_901C_9D0DE619FE3E_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Xceed.Wpf.DataGrid.dll</td><td/><td/><td>_0B369303_4252_4242_B01F_B921364F4A57_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>Xceed.Wpf.Toolkit.dll</td><td/><td/><td>_45701088_D4FF_4008_B8B5_B89E869A5F40_FILTER</td><td/><td/><td/><td/></row>
-		<row><td>xNet.dll</td><td/><td/><td>_BCC49486_609D_4C2A_B84C_942922AC3C62_FILTER</td><td/><td/><td/><td/></row>
+		<row><td>SimplePhotoPost.exe</td><td/><td/><td>_895BA5CE_06A0_4F38_A781_7B3B55D60AAB_FILTER</td><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="ISCustomActionReference">
@@ -2680,1117 +2607,1116 @@
 		<col def="I2">Encoded</col>
 		<col def="S0">Comment</col>
 		<col def="I4">TimeStamp</col>
-		<row><td>COMPANY_NAME</td><td>1049</td><td>Название организации</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>DN_AlwaysInstall</td><td>1049</td><td>Всегда устанавливать</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1049</td><td>Настройки цвета системы не подходят для работы [ProductName].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION45FULL</td><td>1049</td><td>Microsoft .NET Framework 4.5 Full package or greater needs to be installed for this installation to continue.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_OS</td><td>1049</td><td>Операционная система не подходит для работы [ProductName].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_PROCESSOR</td><td>1049</td><td>Процессор не подходит для работы [ProductName].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_RAM</td><td>1049</td><td>Объем памяти ОЗУ не достаточен для работы [ProductName].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_SCREEN</td><td>1049</td><td>Разрешение экрана не подходит для работы [ProductName].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDPROP_SETUPTYPE_COMPACT</td><td>1049</td><td>Сокращенная</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDPROP_SETUPTYPE_COMPACT_DESC</td><td>1049</td><td>Описание сокращенной установки</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDPROP_SETUPTYPE_COMPLETE</td><td>1049</td><td>Полная</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDPROP_SETUPTYPE_COMPLETE_DESC</td><td>1049</td><td>Описание Полной установки</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDPROP_SETUPTYPE_CUSTOM</td><td>1049</td><td>Выборочная</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDPROP_SETUPTYPE_CUSTOM_DESC</td><td>1049</td><td>Описание выборочной установки</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDPROP_SETUPTYPE_CUSTOM_DESC_PRO</td><td>1049</td><td>Описание выборочной установки</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDPROP_SETUPTYPE_TYPICAL</td><td>1049</td><td>Обычная</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDPROP_SETUPTYPE_TYPICAL_DESC</td><td>1049</td><td>Описание обычной установки</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_1</td><td>1049</td><td>[1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_1b</td><td>1049</td><td>[1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_1c</td><td>1049</td><td>[1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_1d</td><td>1049</td><td>[1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_Advertising</td><td>1049</td><td>Реклама приложения</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_AllocatingRegistry</td><td>1049</td><td>Выделение памяти для реестра</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_AppCommandLine</td><td>1049</td><td>Приложение: [1], Командная строка: [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_AppId</td><td>1049</td><td>Код: [1]{{, Тип: [2]}}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_AppIdAppTypeRSN</td><td>1049</td><td>Код: [1]{{, Тип: [2], Пользователи: [3], RSN: [4]}}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_Application</td><td>1049</td><td>Приложение: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_BindingExes</td><td>1049</td><td>Привязка выполняемых файлов</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_ClassId</td><td>1049</td><td>Class Id: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_ClsID</td><td>1049</td><td>Class Id: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_ComponentIDQualifier</td><td>1049</td><td>Код компонента: [1], Описатель: [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_ComponentIdQualifier2</td><td>1049</td><td>Код компонента: [1], Описатель: [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_ComputingSpace</td><td>1049</td><td>Вычисление необходимого свободного места</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_ComputingSpace2</td><td>1049</td><td>Вычисление необходимого свободного места</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_ComputingSpace3</td><td>1049</td><td>Вычисление необходимого свободного места</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_ContentTypeExtension</td><td>1049</td><td>Тип содержимого MIME: [1], Расширение: [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_ContentTypeExtension2</td><td>1049</td><td>Тип содержимого MIME: [1], Расширение: [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_CopyingNetworkFiles</td><td>1049</td><td>Копирование файлов сетевой установки</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_CopyingNewFiles</td><td>1049</td><td>Копирование новых файлов</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_CreatingDuplicate</td><td>1049</td><td>Создание дубликатов файлов</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_CreatingFolders</td><td>1049</td><td>Создание папок</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_CreatingIISRoots</td><td>1049</td><td>Создание виртуальных корней службы IIS...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_CreatingShortcuts</td><td>1049</td><td>Создание ярлыков</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_DeletingServices</td><td>1049</td><td>Удаление служб</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_EnvironmentStrings</td><td>1049</td><td>Обновление строк среды</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_EvaluateLaunchConditions</td><td>1049</td><td>Проверка условий запуска</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_Extension</td><td>1049</td><td>Расширение: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_Extension2</td><td>1049</td><td>Расширение: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_Feature</td><td>1049</td><td>Компонент: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_FeatureColon</td><td>1049</td><td>Компонент: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_File</td><td>1049</td><td>Файл: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_File2</td><td>1049</td><td>Файл: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_FileDependencies</td><td>1049</td><td>Файл: [1],  Зависимости: [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_FileDir</td><td>1049</td><td>Файл: [1], Каталог: [9]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_FileDir2</td><td>1049</td><td>File: [1], Directory: [9]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_FileDir3</td><td>1049</td><td>Файл: [1], Каталог: [9]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_FileDirSize</td><td>1049</td><td>Файл: [1], Каталог: [9], Размер: [6]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_FileDirSize2</td><td>1049</td><td>File: [1],  Directory: [9],  Size: [6]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_FileDirSize3</td><td>1049</td><td>Файл: [1], Каталог: [9],  Размер: [6]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_FileDirSize4</td><td>1049</td><td>Файл: [1], Каталог: [2],  Размер: [3]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_FileDirectorySize</td><td>1049</td><td>Файл: [1], Каталог: [9],  Размер: [6]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_FileFolder</td><td>1049</td><td>Файл: [1], Папка: [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_FileFolder2</td><td>1049</td><td>Файл: [1], Папка: [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_FileSectionKeyValue</td><td>1049</td><td>Файл: [1], Раздел: [2],  Подраздел: [3], Значение: [4]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_FileSectionKeyValue2</td><td>1049</td><td>Файл: [1], Раздел: [2],  Подраздел: [3], Значение: [4]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_Folder</td><td>1049</td><td>Папка: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_Folder1</td><td>1049</td><td>Папка: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_Font</td><td>1049</td><td>Шрифт: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_Font2</td><td>1049</td><td>Шрифт: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_FoundApp</td><td>1049</td><td>Найдено приложение: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_FreeSpace</td><td>1049</td><td>Свободно: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_GeneratingScript</td><td>1049</td><td>Создание операций сценария для макрокоманды:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_ISLockPermissionsCost</td><td>1049</td><td>Сбор информации о правах для объектов...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_ISLockPermissionsInstall</td><td>1049</td><td>Применение информации о правах для объектов...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_InitializeODBCDirs</td><td>1049</td><td>Инициализация каталогов ODBC</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_InstallODBC</td><td>1049</td><td>Установка компонентов ODBC</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_InstallServices</td><td>1049</td><td>Установка новых служб</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_InstallingSystemCatalog</td><td>1049</td><td>Установка системного каталога</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_KeyName</td><td>1049</td><td>Раздел: [1], Имя: [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_KeyNameValue</td><td>1049</td><td>Раздел: [1], Имя: [2], Значение: [3]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_LibId</td><td>1049</td><td>LibID: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_Libid2</td><td>1049</td><td>LibID: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_MigratingFeatureStates</td><td>1049</td><td>Перенос состояний свойств из связанных приложений</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_MovingFiles</td><td>1049</td><td>Перемещение файлов</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_NameValueAction</td><td>1049</td><td>Имя: [1], Значение: [2], Действие [3]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_NameValueAction2</td><td>1049</td><td>Имя: [1], Значение: [2], Действие [3]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_PatchingFiles</td><td>1049</td><td>Обновление файлов</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_ProgID</td><td>1049</td><td>ProgId: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_ProgID2</td><td>1049</td><td>ProgId: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_PropertySignature</td><td>1049</td><td>Свойство: [1], Подпись: [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_PublishProductFeatures</td><td>1049</td><td>Публикация компонентов продукта</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_PublishProductInfo</td><td>1049</td><td>Публикация сведений о продукте</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_PublishingQualifiedComponents</td><td>1049</td><td>Публикация подходящих компонентов</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_RegUser</td><td>1049</td><td>Регистрация пользователей</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_RegisterClassServer</td><td>1049</td><td>Регистрация серверов классов</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_RegisterExtensionServers</td><td>1049</td><td>Регистрация серверов расширений</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_RegisterFonts</td><td>1049</td><td>Регистрация шрифтов</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_RegisterMimeInfo</td><td>1049</td><td>Регистрация MIME</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_RegisterTypeLibs</td><td>1049</td><td>Регистрация библиотек типов</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_RegisteringComPlus</td><td>1049</td><td>Регистрация приложений и компонентов COM+</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_RegisteringModules</td><td>1049</td><td>Регистрация модулей</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_RegisteringProduct</td><td>1049</td><td>Регистрация продукта</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_RegisteringProgIdentifiers</td><td>1049</td><td>Отмена регистрации кодов приложений</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_RemoveApps</td><td>1049</td><td>Удаление приложений</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_RemovingBackup</td><td>1049</td><td>Удаление временных файлов</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_RemovingDuplicates</td><td>1049</td><td>Удаление дублирующихся файлов</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_RemovingFiles</td><td>1049</td><td>Удаление файлов</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_RemovingFolders</td><td>1049</td><td>Удаление папок</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_RemovingIISRoots</td><td>1049</td><td>Удаление виртуальных корней службы IIS...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_RemovingIni</td><td>1049</td><td>Удаление записей в INI-файлах</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_RemovingMoved</td><td>1049</td><td>Удаление перемещенных файлов</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_RemovingODBC</td><td>1049</td><td>Удаление компонентов ODBC</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_RemovingRegistry</td><td>1049</td><td>Удаление параметров системного реестра</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_RemovingShortcuts</td><td>1049</td><td>Удаление ярлыков</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_RollingBack</td><td>1049</td><td>Откат действия:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_SearchForRelated</td><td>1049</td><td>Поиск связанных приложений</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_SearchInstalled</td><td>1049</td><td>Поиск установленных приложений</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_SearchingQualifyingProducts</td><td>1049</td><td>Поиск подходящих продуктов</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_SearchingQualifyingProducts2</td><td>1049</td><td>Поиск подходящих продуктов</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_Service</td><td>1049</td><td>Служба: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_Service2</td><td>1049</td><td>Служба: [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_Service3</td><td>1049</td><td>Служба: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_Service4</td><td>1049</td><td>Служба: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_Shortcut</td><td>1049</td><td>Ярлык: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_Shortcut1</td><td>1049</td><td>Ярлык: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_StartingServices</td><td>1049</td><td>Запуск служб</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_StoppingServices</td><td>1049</td><td>Останов служб</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_UnpublishProductFeatures</td><td>1049</td><td>Отмена публикации компонентов продукта</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_UnpublishQualified</td><td>1049</td><td>Отмена публикация подходящих компонентов</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_UnpublishingProductInfo</td><td>1049</td><td>Отмена публикация сведений о продукте</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_UnregTypeLibs</td><td>1049</td><td>Отмена регистрация библиотек типов</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_UnregisterClassServers</td><td>1049</td><td>Отмена регистрация серверов классов</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_UnregisterExtensionServers</td><td>1049</td><td>Отмена регистрация серверов расширений</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_UnregisterModules</td><td>1049</td><td>Отмена регистрации модулей</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_UnregisteringComPlus</td><td>1049</td><td>Отмена регистрации приложений и компонентов COM+</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_UnregisteringFonts</td><td>1049</td><td>Отмена регистрации шрифтов</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_UnregisteringMimeInfo</td><td>1049</td><td>Отмена регистрации MIME</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_UnregisteringProgramIds</td><td>1049</td><td>Отмена регистрации кодов приложений</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_UpdateComponentRegistration</td><td>1049</td><td>Обновление регистрации компонентов</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_UpdateEnvironmentStrings</td><td>1049</td><td>Обновление строк среды</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_Validating</td><td>1049</td><td>Проверка установки</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_WritingINI</td><td>1049</td><td>Сохранение значений в INI-файлах</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ACTIONTEXT_WritingRegistry</td><td>1049</td><td>Запись параметров системного реестра</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_BACK</td><td>1049</td><td>&lt; &amp;Назад</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_CANCEL</td><td>1049</td><td>Отмена</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_CANCEL2</td><td>1049</td><td>{&amp;Tahoma8}&amp;Отмена</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_CHANGE</td><td>1049</td><td>&amp;Изменить...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_COMPLUS_PROGRESSTEXT_COST</td><td>1049</td><td>Оценка необходимо места для приложения COM+: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_COMPLUS_PROGRESSTEXT_INSTALL</td><td>1049</td><td>Установка приложения COM+: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_COMPLUS_PROGRESSTEXT_UNINSTALL</td><td>1049</td><td>Удаление приложения COM+: [1]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_DIALOG_TEXT2_DESCRIPTION</td><td>1049</td><td>Описание - шрифт Dialog, обычный</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_DIALOG_TEXT_DESCRIPTION_EXTERIOR</td><td>1049</td><td>{&amp;TahomaBold10}Заголовок - шрифт Dialog, жирный</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_DIALOG_TEXT_DESCRIPTION_INTERIOR</td><td>1049</td><td>{&amp;MSSansBold8}Заголовок - шрифт Dialog, жирный</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_DIFX_AMD64</td><td>1049</td><td>Для [ProductName] необходим процессор X64. Для выхода из мастера нажмите кнопку OK.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_DIFX_IA64</td><td>1049</td><td>Для [ProductName] необходим процессор IA64. Для выхода из мастера нажмите кнопку ОК.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_DIFX_X86</td><td>1049</td><td>Для [ProductName] необходим процессор X86. Для выхода из мастера нажмите кнопку OK.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_DatabaseFolder_InstallDatabaseTo</td><td>1049</td><td>Установить базу данных [ProductName] в:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_0</td><td>1049</td><td>{{Неустранимая ошибка: }}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1</td><td>1049</td><td>Ошибка [1].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_10</td><td>1049</td><td>=== Начало записи журнала: [Date]  [Time] ===</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_100</td><td>1049</td><td>Не удается удалить ярлык [2]. Проверьте, что файл ярлыка существует и доступен.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_101</td><td>1049</td><td>Не удается зарегистрировать библиотеку типов для файла [2].  Обратитесь в службу поддержки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_102</td><td>1049</td><td>Не удается отменить регистрацию библиотеки типов для файла [2].  Обратитесь в службу поддержки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_103</td><td>1049</td><td>Не удается обновить ini-файл [2][3].  Проверьте, что файл существует и доступен.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_104</td><td>1049</td><td>Не удается спланировать замену файла [3] на [2] при перезагрузке.  Убедитесь, что у вас имеются разрешения на доступ к файлу [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_105</td><td>1049</td><td>Ошибка при удалении диспетчера драйвера ODBC, ошибка ODBC [2]: [3]. Обратитесь в службу поддержки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_106</td><td>1049</td><td>Ошибка при установке диспетчера драйвера ODBC, ошибка ODBC [2]: [3]. Обратитесь в службу поддержки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_107</td><td>1049</td><td>Ошибка при удалении драйвера ODBC: [4], ошибка ODBC [2]: [3]. Убедитесь, что у вас имеются разрешения на удаление драйверов ODBC.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_108</td><td>1049</td><td>Ошибка при установке драйвера ODBC: [4], ошибка ODBC [2]: [3]. Проверьте, что файл [4] существует и доступен.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_109</td><td>1049</td><td>Ошибка при настройке источника данных ODBC: [4], ошибка ODBC [2]: [3]. Проверьте, что файл [4] существует и доступен.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_11</td><td>1049</td><td>=== Завершение записи журнала: [Date]  [Time] ===</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_110</td><td>1049</td><td>Ошибка при запуске службы "[2]" ([3]).  Убедитесь, что у вас имеются разрешения на запуск системных служб.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_111</td><td>1049</td><td>Не удается остановить службу "[2]" ([3]).  Убедитесь, что у вас имеются разрешения на останов системных служб.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_112</td><td>1049</td><td>Не удается удалить службу "[2]" ([3]).  Убедитесь, что у вас имеются разрешения на удаление системных служб.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_113</td><td>1049</td><td>Не удается установить службу "[2]" ([3]).  Убедитесь, что у вас имеются разрешения на установку системных служб.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_114</td><td>1049</td><td>Не удается обновить переменную среды "[2]".  Убедитесь, что у вас имеются разрешения на изменение переменных среды.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_115</td><td>1049</td><td>У вас недостаточно полномочий для выполнения этой установки для всех пользователей данного компьютера.  Войдите в систему в качестве администратора и повторите установку.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_116</td><td>1049</td><td>Не удается установить атрибуты безопасности для файла "[3]". Ошибка: [2].  Убедитесь, что у вас достаточно полномочий для изменения разрешений на доступ к этому файлу.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_117</td><td>1049</td><td>Службы COM+ 1.0 не установлены на данном компьютере.  Они необходимы для успешной установки.  Эти службы входят в состав Windows 2000.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_118</td><td>1049</td><td>Произошла ошибка при регистрации приложения COM+.  За дополнительными сведениями обратитесь в службу поддержки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_119</td><td>1049</td><td>Произошла ошибка при отмене регистрации приложения COM+.  За дополнительными сведениями обратитесь в службу поддержки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_12</td><td>1049</td><td>Начало действия [Time]: [1].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_120</td><td>1049</td><td>Удаление более ранних версий этого приложения...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_121</td><td>1049</td><td>Подготовка к удалению более ранних версий этого приложения...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_122</td><td>1049</td><td>Произошла ошибка при обновлении файла [2].  Возможно, он уже был обновлен другими средствами, и к нему не может быть применен данный пакет исправлений.  За дополнительными сведениями обратитесь к поставщику пакета.  {{Системная ошибка: [3]}}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_123</td><td>1049</td><td>[2] не удается установить один из обязательных продуктов. Обратитесь в группу технической поддержки.  {{Системная ошибка: [3].}}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_124</td><td>1049</td><td>Не удается удалить более раннюю версию [2]. Обратитесь в группу технической поддержки.  {{Системная ошибка: [3].}}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_125</td><td>1049</td><td>Изменение описания службы  '[2]' ([3]) не допускается.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_126</td><td>1049</td><td>Службе Windows Installer не удается обновить системный файл [2], поскольку он защищен средствами Windows.  Возможно, для правильной работы программы потребуется обновление операционной системы. {{Версия пакета: [3], Защищенная версия ОС: [4]}}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_127</td><td>1049</td><td>Службе Windows Installer не удается обновить защищенный системный файл [2]. {{Версия пакета: [3], Защищенная версия ОС: [4], Ошибка SFP: [5]}}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_128</td><td>1049</td><td>Службе установщика Windows не удалось обновить один или несколько защищенных файлов Windows. Ошибка SFP: [2]. Список защищенных файлов: [3]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_129</td><td>1049</td><td>Установки пользователя отключены в соответствии с политикой на этой машине.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_13</td><td>1049</td><td>Завершение действия [Time]: [1]. Возвращенное значение [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_130</td><td>1049</td><td>Установка требует наличия IIS-сервера для осуществления конфигурации виртуальных корней IIS. Убедитесь в том, что IIS установлен.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_131</td><td>1049</td><td>Для этой установки требуются привилегии администратора для настройки виртуальных корней службы IIS.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1329</td><td>1049</td><td>Невозможно установить необходимый файл, поскольку CAB-файл [2] не имеет цифровой подписи. Это может означать, что CAB-файл поврежден.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1330</td><td>1049</td><td>Невозможно установить необходимый файл, поскольку CAB-файл [2] имеет недопустимую цифровую подпись. Возможно, CAB-файл поврежден.{ Ошибка [3] получена WinVerifyTrust.}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1331</td><td>1049</td><td>Не удалось корректно скопировать [2] файл: Ошибка CRC.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1332</td><td>1049</td><td>Не удалось корректно исправить [2] файл: Ошибка CRC.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1333</td><td>1049</td><td>Не удалось корректно исправить [2] файл: Ошибка CRC.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1334</td><td>1049</td><td>Невозможно установить файл '[2]' поскольку файл не найден CAB-файле '[3]'. Возможны: ошибка сети, ошибка чтения с компакт-диска, неполадка пакета установки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1335</td><td>1049</td><td>Невозможно использовать необходимый для данной установки CAB-файл '[2]', поскольку он поврежден. Возможны: ошибка сети, ошибка чтения с компакт-диска, неполадка пакета установки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1336</td><td>1049</td><td>Произошла ошибка при создании временного файла, необходимого для завершения установки. Папка: [3]. Код системной ошибки: [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_14</td><td>1049</td><td>Оставшееся время: {[1] мин }{[2] сек}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_15</td><td>1049</td><td>Недостаточно памяти. Закройте другие приложения и повторите попытку.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_16</td><td>1049</td><td>Windows Installer не отвечает.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1609</td><td>1049</td><td>При настр. безоп. произошла ошибка. [2] - недопустимый польз./группа. Проблема м.б. связана с приложением или контроллером домена. Проверьте подключ-е и щелкните Повтор или Отмена для заверш. установки. Невозможно опр. SID пользователя, сист. ошибка [3]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1651</td><td>1049</td><td>Администратору не удалось применить исправление для управляемого пользователем или автоматического приложения в заявленном состоянии.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_17</td><td>1049</td><td>Программа Windows Installer завершена преждевременно.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1715</td><td>1049</td><td>Установлено [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1716</td><td>1049</td><td>Настроено [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1717</td><td>1049</td><td>Удалено [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1718</td><td>1049</td><td>Файл [2] был отклонен политикой цифровой подписи.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1719</td><td>1049</td><td>Не удается получить доступ к программе установки Windows. Обратитесь в службу поддержки для подтверждения регистрации и подключения.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1720</td><td>1049</td><td>Неполадки пакета установщика Windows. Невозможно запустить программу, необходимую для завершения установки. Обратитесь в службу поддержки или поставщику пакета. Действие пользователя [2] ошибка сценария [3], [4]: [5] Строка [6], Столбец [7], [8]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1721</td><td>1049</td><td>Неполадки пакета установщика Windows. Невозможно запустить программу, необходимую для завершения установки. Обратитесь в службу поддержки или к поставщику пакета. Действие: [2], местоположение: [3], команда: [4]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1722</td><td>1049</td><td>Неполадка пакета установщика Windows. Непредвиденное завершение программы, являющейся частью установки. Обратитесь в службу поддержки или к поставщику пакета. Действие [2], местоположение: [3], команда: [4]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1723</td><td>1049</td><td>Неполадка пакета установщика Windows. Невозможно запустить необходимый для завершения установки файл DLL. Обратитесь в службу поддержки или к поставщику пакета. Действие [2], свойство: [3], библиотека: [4]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1724</td><td>1049</td><td>Удаление завершено успешно.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1725</td><td>1049</td><td>Удаление не удалось.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1726</td><td>1049</td><td>Объявление завершено успешно.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1727</td><td>1049</td><td>Объявление не удалось.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1728</td><td>1049</td><td>Конфигурация завершена успешно.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1729</td><td>1049</td><td>Конфигурация не удалась.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1730</td><td>1049</td><td>Для удаления этого приложения необходимо иметь права администратора. Для удаления этого приложения войдите в систему как администратор или обратитесь в группу технической поддержки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1731</td><td>1049</td><td>Источник установочного пакета для продукта [2] не найден. Попробуйте повторить установку, используя работоспособную копию пакета '[3]'.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1732</td><td>1049</td><td>Для завершения установки [2] необходимо перезагрузить компьютер. Другие пользователи в настоящий момент вошли в систему на этом компьютере, перезагрузка может помешать их работе. Перезагрузить компьютер?</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_18</td><td>1049</td><td>Идет настройка [ProductName]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_19</td><td>1049</td><td>Сбор сведений...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1935</td><td>1049</td><td>Возникла ошибка при установке компонента сборки [2]. HRESULT: [3]. {{интерфейс сборки: [4], функция: [5], имя сборки: [6]}}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1936</td><td>1049</td><td>Возникла ошибка при установке сборки '[6]'. Сборка не строго именована или не подписана ключом минимальной длины. HRESULT: [3]. {{интерфейс сборки: [4], функция: [5], компонент: [2]}}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1937</td><td>1049</td><td>Возникла ошибка при установке сборки '[6]'. Подпись или каталог не могут быть проверены или недействительны. HRESULT: [3]. {{интерфейс сборки: [4], функция: [5], компонент: [2]}}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_1938</td><td>1049</td><td>Возникла ошибка при установке компонента сборки '[6]'. Не удается найти один или несколько модулей сборки. HRESULT: [3]. {{интерфейс сборки: [4], функция: [5], компонент: [2]}}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2</td><td>1049</td><td>Предупреждение [1]. </td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_20</td><td>1049</td><td>{[ProductName] }Установка успешно завершена.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_21</td><td>1049</td><td>{[ProductName] }Установка не выполнена.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2101</td><td>1049</td><td>Ярлыки не поддерживаются операционной системой.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2102</td><td>1049</td><td>Недопустимое действие файла INI: [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2103</td><td>1049</td><td>Невозможно сопоставить путь для папки оболочек [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2104</td><td>1049</td><td>Запись файла INI: [3]: Системная ошибка: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2105</td><td>1049</td><td>Не удалось создать ярлык [3]. Системная ошибка: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2106</td><td>1049</td><td>Не удалось удалить ярлык [3]. Системная ошибка: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2107</td><td>1049</td><td>Ошибка [3] регистрации библиотеки типов [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2108</td><td>1049</td><td>Ошибка [3] отмены регистрации библиотеки типов [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2109</td><td>1049</td><td>Отсутствует раздел для действия файла INI.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2110</td><td>1049</td><td>Отсутствует ключ для действия файла INI.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2111</td><td>1049</td><td>Не удалось определить запущенные приложения, невозможно получить данные быстродействия. Операция реестра вернула код: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2112</td><td>1049</td><td>Не удалось определить запущенные приложения, невозможно получить индекс быстродействия. Операция реестра вернула код: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2113</td><td>1049</td><td>Не удалось определить запущенные приложения.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_22</td><td>1049</td><td>Ошибка чтения из файла: [2]. {{ Системная ошибка [3].}}  Проверьте, что файл существует и доступен.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2200</td><td>1049</td><td>База данных: [2]. Не удалось создать объект базы данных, режим = [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2201</td><td>1049</td><td>База данных: [2]. Инициализация не удалась, недостаточно памяти.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2202</td><td>1049</td><td>База данных: [2]. Нет доступа к данным, недостаточно памяти.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2203</td><td>1049</td><td>База данных: [2]. Невозможно открыть файл базы данных. Системная ошибка [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2204</td><td>1049</td><td>База данных: [2]. Таблица уже существует: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2205</td><td>1049</td><td>База данных: [2]. Таблица не существует: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2206</td><td>1049</td><td>База данных: [2]. Невозможно пропустить таблицу: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2207</td><td>1049</td><td>База данных: [2]. Нарушение значения.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2208</td><td>1049</td><td>База данных: [2]. Недостаточные параметры выполнения.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2209</td><td>1049</td><td>База данных: [2]. Недопустимое состояние курсора.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2210</td><td>1049</td><td>База данных: [2]. Недопустимый тип данных обновления в столбце [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2211</td><td>1049</td><td>База данных: [2]. Невозможно создать таблицу баз данных [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2212</td><td>1049</td><td>База данных: [2]. База данных не находится в состоянии записи.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2213</td><td>1049</td><td>База данных: [2]. Ошибка при сохранении таблиц баз данных.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2214</td><td>1049</td><td>База данных: [2]. Ошибка записи файла экспорта: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2215</td><td>1049</td><td>База данных: [2]. Невозможно открыть файл импорта: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2216</td><td>1049</td><td>База данных: [2]. Ошибка импорта формата файла: [3], Строка [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2217</td><td>1049</td><td>База данных: [2]. Неверное состояние для CreateOutputDatabase [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2218</td><td>1049</td><td>База данных: [2]. Не указано имя таблицы.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2219</td><td>1049</td><td>База данных: [2]. Недопустимый формат базы данных установщика.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2220</td><td>1049</td><td>База данных: [2]. Недопустимые данные строки/поля.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2221</td><td>1049</td><td>База данных: [2]. Конфликт кодовой страницы в файле импорта: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2222</td><td>1049</td><td>База данных: [2]. Преобразование или объединение кодовой страницы [3] отличается от кодовой страницы базы данных [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2223</td><td>1049</td><td>База данных: [2]. Одинаковые базы данных. Преобразование не создано.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2224</td><td>1049</td><td>База данных: [2]. GenerateTransform: База данных повреждена. Таблица: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2225</td><td>1049</td><td>База данных: [2]. Преобразовать: Невозможно преобразовать временную таблицу. Таблица: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2226</td><td>1049</td><td>База данных: [2]. Преобразование не удалось.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2227</td><td>1049</td><td>База данных: [2]. Недопустимый определитель '[3]' в запросе SQL: [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2228</td><td>1049</td><td>База данных: [2]. Неизвестная таблица '[3]' в запросе SQL: [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2229</td><td>1049</td><td>База данных: [2]. Невозможно загрузить таблицу '[3]' запроса SQL: [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2230</td><td>1049</td><td>База данных: [2]. Повтор таблицы '[3]' в запросе SQL: [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2231</td><td>1049</td><td>База данных: [2]. Отсутствует ')' в запросе SQL: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2232</td><td>1049</td><td>База данных: [2]. Недопустимый маркер '[3]' в запросе SQL: [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2233</td><td>1049</td><td>База данных: [2]. Отсутствуют столбцы в предложении SELECT запроса SQL: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2234</td><td>1049</td><td>База данных: [2]. Отсутствуют столбцы в предложении ORDER BY запроса SQL: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2235</td><td>1049</td><td>База данных: [2]. Столбец '[3]' в запросе SQL отсутствует или неоднозначен: [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2236</td><td>1049</td><td>База данных: [2]. Недопустимый оператор '[3]' в запросе SQL: [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2237</td><td>1049</td><td>База данных: [2]. Недопустимая или отсутствующая строка запроса: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2238</td><td>1049</td><td>База данных: [2]. Отсутствует предложение FROM в запросе SQL: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2239</td><td>1049</td><td>База данных: [2]. Недостаточные значения в инструкции INSERT SQL.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2240</td><td>1049</td><td>База данных: [2]. Отсутствуют столбцы обновлений в инструкции UPDATE SQL.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2241</td><td>1049</td><td>База данных: [2]. Отсутствуют столбцы вставки в инструкции INSERT SQL.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2242</td><td>1049</td><td>База данных: [2]. Столбец '[3]' повторяется.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2243</td><td>1049</td><td>База данных: [2]. Не определены первичные столбцы для создания таблицы.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2244</td><td>1049</td><td>База данных: [2]. Недопустимый определитель типа '[3]' в запросе SQL [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2245</td><td>1049</td><td>Выполнение IStorage::Stat не удалось из-за ошибки [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2246</td><td>1049</td><td>База данных: [2]. Недопустимый формат преобразования установщика.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2247</td><td>1049</td><td>База данных: [2] Ошибка чтения/записи потока преобразования.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2248</td><td>1049</td><td>База данных: [2] GenerateTransform/Merge: Тип столбца в основной таблице не соответствует таблице ссылок. Таблица: [3], Столбец №: [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2249</td><td>1049</td><td>База данных: [2] GenerateTransform: В основной таблице больше столбцов, чем в таблице ссылок. Таблица: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2250</td><td>1049</td><td>База данных: [2] Преобразовать: Невозможно добавить существующую строку. Таблица: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2251</td><td>1049</td><td>База данных: [2] Преобразовать: Невозможно удалить несуществующую строку. Таблица: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2252</td><td>1049</td><td>База данных: [2] Преобразовать: Невозможно добавить существующую таблицу. Таблица: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2253</td><td>1049</td><td>База данных: [2] Преобразовать: Невозможно удалить несуществующую таблицу. Таблица: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2254</td><td>1049</td><td>База данных: [2] Преобразовать: Невозможно обновить несуществующую строку. Таблица: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2255</td><td>1049</td><td>База данных: [2] Преобразовать: Столбец с таким именем уже существует. Таблица: [3] Столбец: [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2256</td><td>1049</td><td>База данных: [2] GenerateTransform/Merge: Количество первичных ключей в основной таблице не соответствует таблице ссылок. Таблица: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2257</td><td>1049</td><td>База данных: [2]. Попытка внесения изменений в таблицу, предназначенную только для чтения: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2258</td><td>1049</td><td>База данных: [2]. Несовпадение типа в параметре: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2259</td><td>1049</td><td>База данных: [2] Не удалось обновить таблицу (-цы)</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2260</td><td>1049</td><td>Не удалось выполнить команду CopyTo для хранилища. Системная ошибка: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2261</td><td>1049</td><td>Невозможно удалить поток [2]. Системная ошибка: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2262</td><td>1049</td><td>Поток не существует: [2]. Системная ошибка: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2263</td><td>1049</td><td>Невозможно открыть поток [2]. Системная ошибка: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2264</td><td>1049</td><td>Невозможно удалить поток [2]. Системная ошибка: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2265</td><td>1049</td><td>Невозможно сохранить хранилище. Системная ошибка: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2266</td><td>1049</td><td>Невозможно откатить хранилище. Системная ошибка: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2267</td><td>1049</td><td>Невозможно удалить хранилище [2]. Системная ошибка: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2268</td><td>1049</td><td>База данных: [2]. Объединить: Возникли конфликты объединения, о которых сообщено в [3] таблицах.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2269</td><td>1049</td><td>База данных: [2]. Объединить: Разное число столбцов в таблице '[3]' в двух базах данных.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2270</td><td>1049</td><td>База данных: [2]. GenerateTransform/Merge: Имя столбца в основной таблице не соответствует таблице ссылок. Таблица: [3], Столбец №: [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2271</td><td>1049</td><td>Не удалось записать сводную информацию для преобразования.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2272</td><td>1049</td><td>База данных: [2]. Команда MergeDatabase данных не запишет внесенные изменения, поскольку база данных открыта только для чтения.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2273</td><td>1049</td><td>База данных: [2]. MergeDatabase: Ссылка на основную базу данных передана как база данных ссылок.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2274</td><td>1049</td><td>База данных: [2]. MergeDatabase: Невозможно внести ошибки в Таблицу ошибок. Возможно, это связано тем, что столбец встроенной Таблицы ошибок не может иметь неопределенное значение.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2275</td><td>1049</td><td>База данных: [2]. Заданная операция изменения [3] невозможна для объединения таблиц.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2276</td><td>1049</td><td>База данных: [2]. Кодовая страница [3] не поддерживается системой.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2277</td><td>1049</td><td>База данных: [2]. Не удалось сохранить таблицу [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2278</td><td>1049</td><td>База данных: [2]. Превышение ограничения числа выражений в 32 в предложении WHERE запроса SQL: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2279</td><td>1049</td><td>База данных: [2] Преобразовать: Слишком много столбцов в основной таблице [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2280</td><td>1049</td><td>База данных: [2]. Невозможно создать столбец [3] в таблице [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2281</td><td>1049</td><td>Невозможно переименовать поток [2]. Системная ошибка: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2282</td><td>1049</td><td>Недопустимое имя потока [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_23</td><td>1049</td><td>Не удается создать файл "[2]".  Каталог с этим именем уже существует.  Прервите установку и укажите другой каталог.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2302</td><td>1049</td><td>Уведомление исправления: [2] байта (-ов) уже исправлено.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2303</td><td>1049</td><td>Ошибка при получении информации тома. GetLastError: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2304</td><td>1049</td><td>Ошибка поиска свободного места на диске. GetLastError: [2]. Том: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2305</td><td>1049</td><td>Ошибка ожидания потока пути. GetLastError: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2306</td><td>1049</td><td>Невозможно создать поток для приложения исправлений. GetLastError: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2307</td><td>1049</td><td>Нулевое имя ключа исходного файла.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2308</td><td>1049</td><td>Нулевое имя файла назначения.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2309</td><td>1049</td><td>Попытка исправления файла [2] при уже запущенном исправлении.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2310</td><td>1049</td><td>Попытка продолжения исправления при отсутствии запущенных исправлений.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2315</td><td>1049</td><td>Отсутствует разделитель пути: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2318</td><td>1049</td><td>Файл не существует: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2319</td><td>1049</td><td>Ошибка при установке атрибутов файла: [3] GetLastError: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2320</td><td>1049</td><td>Незаписываемый файл: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2321</td><td>1049</td><td>Ошибка при создании файла: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2322</td><td>1049</td><td>Пользователь отменен.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2323</td><td>1049</td><td>Недопустимый атрибут файла.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2324</td><td>1049</td><td>Невозможно открыть файл: [3] GetLastError: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2325</td><td>1049</td><td>Невозможно получить время файла для файла: [3] GetLastError: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2326</td><td>1049</td><td>Ошибка в FileToDosDateTime.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2327</td><td>1049</td><td>Невозможно удалить каталог: [3] GetLastError: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2328</td><td>1049</td><td>Ошибка получения информации о версии файла для файла: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2329</td><td>1049</td><td>Ошибка при удалении файла: [3]. GetLastError: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2330</td><td>1049</td><td>Ошибка при получении атрибутов файла: [3]. GetLastError: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2331</td><td>1049</td><td>Ошибка при загрузке библиотеки [2] или поиске точки входа [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2332</td><td>1049</td><td>Ошибка при получении атрибутов файла. GetLastError: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2333</td><td>1049</td><td>Ошибка при установке атрибутов файла. GetLastError: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2334</td><td>1049</td><td>Ошибка преобразования времени файла в местное время для файла: [3]. GetLastError: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2335</td><td>1049</td><td>Путь: [2] не является родительским объектом для [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2336</td><td>1049</td><td>Ошибка создания временного файла на пути: [3]. GetLastError: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2337</td><td>1049</td><td>Невозможно закрыть файл: [3] GetLastError: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2338</td><td>1049</td><td>Невозможно обновить ресурс для файла: [3] GetLastError: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2339</td><td>1049</td><td>Невозможно установить время файла для файла: [3] GetLastError: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2340</td><td>1049</td><td>Невозможно обновить ресурс для файла: [3], Отсутствующий ресурс.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2341</td><td>1049</td><td>Невозможно обновить ресурс для файла: [3], Ресурс слишком велик.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2342</td><td>1049</td><td>Невозможно обновить ресурс для файла: [3] GetLastError: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2343</td><td>1049</td><td>Указанный путь пустой.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2344</td><td>1049</td><td>Невозможно найти требуемый файл IMAGEHLP.DLL для проверки файла: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2345</td><td>1049</td><td>[2]: Файл не содержит допустимого значения контрольной суммы.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2347</td><td>1049</td><td>Отказ пользователя.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2348</td><td>1049</td><td>Ошибка при чтении потока CAB-файла.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2349</td><td>1049</td><td>Копия запущена заново с другой информацией.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2350</td><td>1049</td><td>Ошибка сервера FDI </td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2351</td><td>1049</td><td>Ключ файла '[2]' не найден в CAB-файле '[3]'. Невозможно продолжить установку.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2352</td><td>1049</td><td>Невозможно инициализировать сервер CAB-файлов. Отсутствует требуемый файл 'CABINET.DLL'.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2353</td><td>1049</td><td>Не CAB-файл.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2354</td><td>1049</td><td>Невозможно применить дескриптор к CAB-файлу.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2355</td><td>1049</td><td>CAB-файл поврежден.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2356</td><td>1049</td><td>Невозможно определить CAB-файл в потоке: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2357</td><td>1049</td><td>Невозможно установить атрибуты.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2358</td><td>1049</td><td>Определение ошибки в процессе использования файла: [3]. GetLastError: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2359</td><td>1049</td><td>Невозможно создать целевой файл – возможно, он используется.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2360</td><td>1049</td><td>Отметка прогресса.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2361</td><td>1049</td><td>Необходим следующий CAB-файл.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2362</td><td>1049</td><td>Папка не найдена: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2363</td><td>1049</td><td>Невозможно перечислить подпапки в папке: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2364</td><td>1049</td><td>Неверная константа перечисления при вызове CreateCopier.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2365</td><td>1049</td><td>Невозможно выполнить действие BindImage для файла EXE [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2366</td><td>1049</td><td>Ошибка пользователя.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2367</td><td>1049</td><td>Прерывание пользователя.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2368</td><td>1049</td><td>Невозможно получить информацию о сетевом ресурсе. Ошибка [2], сетевой путь [3]. Ошибка: служба доступа к сети [5], код ошибки [4], описание ошибки [6].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2370</td><td>1049</td><td>Некорректное значение контрольной суммы CRC для файла [2].{ В заголовке указана контрольная сумма [3], вычисленное значение равняется [4].}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2371</td><td>1049</td><td>Невозможно применить исправление к файлу [2]. GetLastError: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2372</td><td>1049</td><td>Файл исправления [2] поврежден или имеет недопустимый формат. Попытка исправления файла [3]. GetLastError: [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2373</td><td>1049</td><td>Файл [2] не является допустимым файлом исправлений.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2374</td><td>1049</td><td>Файл [2] не является допустимым файлом назначения для файла исправлений [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2375</td><td>1049</td><td>Неизвестная ошибка исправления: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2376</td><td>1049</td><td>CAB-файл не найден.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2379</td><td>1049</td><td>Ошибка при открытии файла для чтения: [3] GetLastError: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2380</td><td>1049</td><td>Ошибка при открытии файла для записи: [3]. GetLastError: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2381</td><td>1049</td><td>Каталог не существует: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2382</td><td>1049</td><td>Дисковод не готов: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_24</td><td>1049</td><td>Вставьте диск [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2401</td><td>1049</td><td>Попытка 64-битной операции в реестре в 32-битной операционной системе для ключа [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2402</td><td>1049</td><td>Недостаточно памяти.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_25</td><td>1049</td><td>У программы Windows Installer недостаточно полномочий для получения доступа к этому каталогу: [2].  Установка не может быть продолжена.  Войдите в систему в качестве администратора, либо обратитесь к системному администратору.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2501</td><td>1049</td><td>Невозможно создать перечислитель сценария отката.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2502</td><td>1049</td><td>Попытка окончания установки при отсутствии процесса установки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2503</td><td>1049</td><td>Вызов команды RunScript, когда она не помечена как запущенная.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_26</td><td>1049</td><td>Ошибка записи в файл [2].  Убедитесь, что у вас есть доступ к этому каталогу.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2601</td><td>1049</td><td>Недопустимое значение свойства [2]: '[3]'</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2602</td><td>1049</td><td>Для вхождения '[3]' таблицы [2] не существует связанного вхождения в таблице носителей.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2603</td><td>1049</td><td>Повторяющееся имя таблицы [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2604</td><td>1049</td><td>[2] Свойство не определено.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2605</td><td>1049</td><td>Невозможно найти сервер [2] в [3] или [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2606</td><td>1049</td><td>Значение свойства [2] не является допустимым полным путем: '[3]'.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2607</td><td>1049</td><td>Таблица носителей не найдена или пуста (требуется для установки файлов).</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2608</td><td>1049</td><td>Невозможно создать дескриптор безопасности для объекта. Ошибка: '[2]'.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2609</td><td>1049</td><td>Попытка миграции установок продукта перед инициализацией.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2611</td><td>1049</td><td>Файл [2] помечен как сжатый, но связанная запись носителя не задает CAB-файл.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2612</td><td>1049</td><td>Не найден поток в '[2]' столбце. Первичный ключ: '[3]'.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2613</td><td>1049</td><td>Действие RemoveExistingProducts упорядочено некорректно.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2614</td><td>1049</td><td>Нет доступа к объекту IStorage из пакета установки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2615</td><td>1049</td><td>Пропущена отмена регистрации модуля [2] из-за ошибки разрешения источника.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2616</td><td>1049</td><td>Отсутствует родительский объект вспомогательного файла [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2617</td><td>1049</td><td>Общий компонент приложения [2] не найден в таблице компонентов.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2618</td><td>1049</td><td>Изолированный компонент приложения [2] не найден в таблице компонентов.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2619</td><td>1049</td><td>Изолированные компоненты [2], [3] не являются частью одной и той же функции.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2620</td><td>1049</td><td>Ключ файла изолированного компонента приложения [2] отсутствует в таблице файлов.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2621</td><td>1049</td><td>Информация библиотеки ресурсов или идентификатора ресурсов для ярлыка [2] установлена неверно.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27</td><td>1049</td><td>Ошибка чтения из файла: [2]. {{ Системная ошибка [3].}} Проверьте, что файл существует и доступен.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2701</td><td>1049</td><td>Глубина функции превышает допустимую глубину дерева, составляющую [2] уровня (-ей).</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2702</td><td>1049</td><td>Запись в таблице функций ([2]) ссылается на несуществующий родительский объект в поле атрибутов.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2703</td><td>1049</td><td>Имя свойства для пути корневого источника не определено: [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2704</td><td>1049</td><td>Не определено свойство корневой каталога: [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2705</td><td>1049</td><td>Недопустимая таблица: [2]; Невозможно связать в качестве дерева.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2706</td><td>1049</td><td>Не созданы исходные пути. Не существует пути для вхождения [2] в таблице каталогов.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2707</td><td>1049</td><td>Не созданы конечные пути. Не существует пути для вхождения [2] в таблице каталогов.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2708</td><td>1049</td><td>Не обнаружено вхождений в таблице файлов.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2709</td><td>1049</td><td>Указанное имя компонента ('[2]') не найдено в таблице компонентов.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2710</td><td>1049</td><td>Требуемая команда 'Выбрать' недопустима для данного компонента.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2711</td><td>1049</td><td>Определенное имя функции ('[2]') не найдено в таблице функций.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2712</td><td>1049</td><td>Недопустимое возвращение из немодального диалога: [3], в действии [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2713</td><td>1049</td><td>Нулевое значение в столбце с неопределенным значением ('[2]' в '[3]' столбце '[4]' таблицы.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2714</td><td>1049</td><td>Недопустимое значение имени папки по умолчанию: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2715</td><td>1049</td><td>Определенный ключ файла ('[2]') не найден в таблице файлов.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2716</td><td>1049</td><td>Невозможно создать случайное имя субкомпонента для компонента '[2]'.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2717</td><td>1049</td><td>Неверное условие действия или ошибка вызванная действием пользователя '[2]'.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2718</td><td>1049</td><td>Отсутствует имя пакета для кода продукта '[2]'.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2719</td><td>1049</td><td>В источнике '[2]' не найдены ни UNC, ни путь буквы диска.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2720</td><td>1049</td><td>Ошибка при открытии ключа списка источников. Ошибка: '[2]'</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2721</td><td>1049</td><td>Действие пользователя [2] не найдено в потоке двоичной таблицы.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2722</td><td>1049</td><td>Действие пользователя [2] не найдено в таблице файлов.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2723</td><td>1049</td><td>Действие пользователя [2] определяет неподдерживаемый тип.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2724</td><td>1049</td><td>Метка тома '[2]' на носителе, с которым вы работаете, не совпадает с меткой '[3]', указанной в таблице носителей. Это допустимо только если в вашей таблице носителей есть всего одна запись.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2725</td><td>1049</td><td>Недопустимые таблицы баз данных</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2726</td><td>1049</td><td>Действие не найдено: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2727</td><td>1049</td><td>Запись в каталоге '[2]' не существует в таблице каталогов.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2728</td><td>1049</td><td>Ошибка определения таблицы: [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2729</td><td>1049</td><td>Система установки не инициализирована.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2730</td><td>1049</td><td>Ошибочное значение в базе данных. Таблица: '[2]'; Первичный ключ: '[3]'; Столбец: '[4]'</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2731</td><td>1049</td><td>Диспетчер выбора не инициализирован.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2732</td><td>1049</td><td>Диспетчер каталогов не инициализирован.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2733</td><td>1049</td><td>Неверный внешний ключ ('[2]' в '[3]' столбце '[4]' таблицы.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2734</td><td>1049</td><td>Недопустимый символ режима переустановки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2735</td><td>1049</td><td>Действие пользователя '[2]' вызвало необработанное исключение и было остановлено. Возможно, это результат внутренней ошибки в действии пользователя, например, нарушения доступа.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2736</td><td>1049</td><td>Не удалось создать временный файл действия пользователя: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2737</td><td>1049</td><td>Нет доступа к действию пользователя [2], запись [3], библиотека [4]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2738</td><td>1049</td><td>Нет доступа ко времени запуска VBScript для действия пользователя [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2739</td><td>1049</td><td>Нет доступа ко времени запуска JavaScript для действия пользователя [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2740</td><td>1049</td><td>Действие пользователя [2] ошибка сценария [3], [4]: [5] Строка [6], Столбец [7], [8]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2741</td><td>1049</td><td>Информация о конфигурации продукта [2] повреждена. Недопустимая информация: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2742</td><td>1049</td><td>Не удалась упаковка для сервера: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2743</td><td>1049</td><td>Невозможно выполнить действие пользователя [2], местоположение: [3], команда: [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2744</td><td>1049</td><td>Ошибка EXE вызванная действием пользователя [2], местоположение: [3], команда: [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2745</td><td>1049</td><td>Преобразование [2] недопустимо для пакета [3]. Ожидаемый язык [4], найден язык [5].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2746</td><td>1049</td><td>Преобразование [2] недопустимо для пакета [3]. Ожидаемый продукт [4], найден продукт [5].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2747</td><td>1049</td><td>Преобразование [2] недопустимо для пакета [3]. Ожидаемая версия продукта &lt; [4], найдена версия продукта [5].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2748</td><td>1049</td><td>Преобразование [2] недопустимо для пакета [3]. Ожидаемая версия продукта &lt;= [4], найдена версия продукта [5].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2749</td><td>1049</td><td>Преобразование [2] недопустимо для пакета [3]. Ожидаемая версия продукта == [4], найдена версия продукта [5].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2750</td><td>1049</td><td>Преобразование [2] недопустимо для пакета [3]. Ожидаемая версия продукта &gt;= [4], найдена версия продукта [5].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27502</td><td>1049</td><td>Не удается подключиться к [2] '[3]'. [4]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27503</td><td>1049</td><td>Ошибка при получении строки версии от [2] '[3]'. [4]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27504</td><td>1049</td><td>Не выполнены требования к версии SQL: [3]. Для этой установки требуется [2] [4] или более поздней версии.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27505</td><td>1049</td><td>Не удалось открыть файл сценария SQL [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27506</td><td>1049</td><td>Ошибка при выполнении сценария SQL [2]. Строка [3]. [4]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27507</td><td>1049</td><td>Для просмотра серверов баз данных или подключения к ним должен быть установлен компонент MDAC.  Установка будет прервана.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27508</td><td>1049</td><td>Ошибка при установке приложения COM+ [2]. [3]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27509</td><td>1049</td><td>Ошибка при удалении приложения COM+ [2]. [3]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2751</td><td>1049</td><td>Преобразование [2] недопустимо для пакета [3]. Ожидаемая версия продукта &gt; [4], найдена версия продукта [5].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27510</td><td>1049</td><td>Ошибка при установке приложения COM+ [2]. Не удалось создать объект System.EnterpriseServices.RegistrationHelper. Для регистрации обслуживаемых компонентов Microsoft(R) .NET необходимо установить компонент Microsoft(R) .NET Framework.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27511</td><td>1049</td><td>Не удалось выполнить файл сценария SQL [2]. Сеанс связи не открыт: [3]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27512</td><td>1049</td><td>Ошибка при начале транзакций для [2] '[3]'. База данных [4]. [5]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27513</td><td>1049</td><td>Ошибка при выполнении транзакций для [2] '[3]'. База данных [4]. [5]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27514</td><td>1049</td><td>Для этой установки требуется Microsoft SQL Server. Указанный сервер '[3]' - Microsoft SQL Server Desktop Engine или SQL Server Express.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27515</td><td>1049</td><td>Ошибка при получении версии схемы с [2] '[3]'. База данных: '[4]'. [5]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27516</td><td>1049</td><td>Ошибка при записи версии схемы на [2] '[3]'. База данных: '[4]'. [5]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27517</td><td>1049</td><td>Для установки приложений COM+ необходимо иметь права администратора. Зарегистрируйтесь с правами администратора и повторите установку.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27518</td><td>1049</td><td>Приложение COM+ "[2]" сконфигурировано работать в качестве сервиса NT; для этого требуется, чтобы в системе было установлено COM+ 1.5 или более поздняя версия. Это приложение не будет установлено, потому что в системе установлена версия COM+ 1.0.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27519</td><td>1049</td><td>Ошибка при обновлении файла XML [2]. [3]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2752</td><td>1049</td><td>Невозможно открыть преобразование [2], сохраненное как дочернее хранилище пакета [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27520</td><td>1049</td><td>Ошибка при открытии файла XML [2]. [3]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27521</td><td>1049</td><td>Для этой установки требуется приложение MSXML 3.0 или более поздней версии, позволяющее настраивать файлы XML. Убедитесь, что имеется версия 3.0 или более поздняя версия.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27522</td><td>1049</td><td>Ошибка при создании файла XML [2]. [3]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27523</td><td>1049</td><td>Ошибка при загрузке серверов.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27524</td><td>1049</td><td>Ошибка при загрузке NetApi32.DLL. ISNetApi.dllтребуется правильно загруженный NetApi32.DLL и операционная система на основе NT.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27525</td><td>1049</td><td>Сервер не найден. Убедитесь, что указанный сервер существует. Имя сервера не может быть пустым.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27526</td><td>1049</td><td>Неопределенная ошибка ISNetApi.dll.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27527</td><td>1049</td><td>Недостаточный размер буфера.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27528</td><td>1049</td><td>В доступе отказано. Проверьте права администрирования.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27529</td><td>1049</td><td>Недопустимый компьютер.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2753</td><td>1049</td><td>Файл '[2]' не отмечен для установки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27530</td><td>1049</td><td>Неизвестная ошибка, выданная NetAPI. Системная ошибка: [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27531</td><td>1049</td><td>Необрабатываемое исключение.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27532</td><td>1049</td><td>Недопустимое имя пользователя для этого сервера или домена.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27533</td><td>1049</td><td>Пароли с учетом регистра не совпадают.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27534</td><td>1049</td><td>Список пуст.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27535</td><td>1049</td><td>Нарушение прав доступа.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27536</td><td>1049</td><td>Ошибка при получении группы.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27537</td><td>1049</td><td>Ошибка при добавлении пользователя в группу. Убедитесь, что группа существует для этого домена или сервера.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27538</td><td>1049</td><td>Ошибка при создании пользователя.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27539</td><td>1049</td><td>ERROR_NETAPI_ERROR_NOT_PRIMARY возвращено от NetAPI.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2754</td><td>1049</td><td>Файл '[2]' не является допустимым файлом исправлений.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27540</td><td>1049</td><td>Пользователь с указанным именем уже существует.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27541</td><td>1049</td><td>Указанная группа уже существует.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27542</td><td>1049</td><td>Недействительный пароль. Убедитесь, что пароль соответствует сетевой политике использования паролей.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27543</td><td>1049</td><td>Недопустимое имя.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27544</td><td>1049</td><td>Недопустимая группа.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27545</td><td>1049</td><td>Имя пользователя не может быть пустым и должно соответствовать формату ДОМЕН\Имя пользователя.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27546</td><td>1049</td><td>Ошибка при загрузке файла INI или его создании в папке пользователя TEMP.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27547</td><td>1049</td><td>Файл ISNetAPI.dll не загружен, или при загрузке файла DLL произошла ошибка. Для выполнения данного действия требуется загрузить этот файл DLL. Убедитесь, что файл DLL находится в каталоге SUPPORTDIR.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27548</td><td>1049</td><td>Ошибка при удалении файла INI, содержащего новые сведения о пользователе, из папки пользователя TEMP.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27549</td><td>1049</td><td>Ошибка при получении основного контроллера домена (PDC).</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2755</td><td>1049</td><td>Сервер возвратил непредвиденную ошибку [2] при попытке установки пакета [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27550</td><td>1049</td><td>Для создания пользователя требуется заполнить каждое поле.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27551</td><td>1049</td><td>Не обнаружен драйвер ODBC для [2]. Это требуется для подключения к серверам баз данных [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27552</td><td>1049</td><td>Ошибка при создании базы данных [4]. Сервер: [2] [3]. [5]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27553</td><td>1049</td><td>Ошибка при подключении к базе данных [4]. Сервер: [2] [3]. [5]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27554</td><td>1049</td><td>Ошибка при попытке подключения [2]. Отсутствуют правильные метаданные, связанные с этим устройством.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_27555</td><td>1049</td><td>Неудачная попытка применить права к объекту '[2]'. Системная ошибка: [3] ([4])</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2756</td><td>1049</td><td>Свойство '[2]' использовано как свойство службы каталогов в одной или нескольких таблицах, но для него не было задано никакое значение.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2757</td><td>1049</td><td>Невозможно создать сводку для преобразования [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2758</td><td>1049</td><td>Преобразование [2] не содержит версии MSI.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2759</td><td>1049</td><td>Версия [3] преобразования [2] несовместима с системой; мин.: [4], макс.: [5].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2760</td><td>1049</td><td>Преобразование [2] недопустимо для пакета [3]. Ожидаемый код обновления [4], найден [5].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2761</td><td>1049</td><td>Невозможно начать транзакцию. Общий семафор инициализирован неправильно.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2762</td><td>1049</td><td>Невозможно записать запись сценария. Транзакция не начата.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2763</td><td>1049</td><td>Невозможно запустить сценарий. Транзакция не начата.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2765</td><td>1049</td><td>Имя сборки отсутствует в таблице AssemblyName: Компонент: [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2766</td><td>1049</td><td>Файл [2] является недопустимым файлом хранилища MSI.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2767</td><td>1049</td><td>Нет данных{ при перечислении [2]}.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2768</td><td>1049</td><td>Недопустимое преобразование пакета исправлений.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2769</td><td>1049</td><td>Действие пользователя [2] не закрыло [3] MSIHANDLEs.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2770</td><td>1049</td><td>Кэшированная папка [2] не определяется во внутренней таблице кэшированных папок.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2771</td><td>1049</td><td>В обновлении функции [2] пропущен компонент.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2772</td><td>1049</td><td>Новая функция обновления [2] должен добавляться как лист.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_28</td><td>1049</td><td>Другое приложение имеет монопольный доступ к файлу "[2]".  Закройте все другие приложения и повторите попытку.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2801</td><td>1049</td><td>Неизвестное сообщение -- Тип [2]. Не выбрано действие.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2802</td><td>1049</td><td>Не найден издатель события [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2803</td><td>1049</td><td>Представление диалога не обнаружило записи для диалога [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2804</td><td>1049</td><td>При активации управляющего элемента [3] диалога [2] CMsiDialog не смог оценить состояние [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2806</td><td>1049</td><td>Диалог [2] не смог оценить состояние [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2807</td><td>1049</td><td>Действие [2] не опознано.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2808</td><td>1049</td><td>Копка по умолчанию неверно определена в диалоге [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2809</td><td>1049</td><td>В диалоге [2] последовательные контрольные указатели не создают цикл. Существуют указатели с [3] по [4], но следующий указатель отсутствует.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2810</td><td>1049</td><td>В диалоге [2] последовательные контрольные указатели не создают цикл. Существует указатель с [3] и [5] до [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2811</td><td>1049</td><td>В диалоге [2] управляющий элемент [3] должен установить фокус, но не может этого сделать.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2812</td><td>1049</td><td>Событие [2] не опознано.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2813</td><td>1049</td><td>Событие EndDialog названо аргументом [2], но у диалога есть родительский объект.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2814</td><td>1049</td><td>В диалоге [2] управляющий элемент [3] называет несуществующий управляющий элемент [4] следующим элементом.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2815</td><td>1049</td><td>В таблице контроля условий есть строка, не содержащая условия для диалога [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2816</td><td>1049</td><td>Таблица сопоставления событий ссылается на недопустимый управляющий элемент [4] диалога [2] для события [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2817</td><td>1049</td><td>Событие [2] не может установить атрибут для управляющего элемента [4] диалога [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2818</td><td>1049</td><td>В таблице ControlEvent присутствует неопознанный аргумент для EndDialog [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2819</td><td>1049</td><td>Для управляющего элемента[3] диалога [2] необходимо связанное с ним свойство.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2820</td><td>1049</td><td>Попытка инициализации уже инициализированного обработчика.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2821</td><td>1049</td><td>Попытка инициализации уже инициализированного диалога: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2822</td><td>1049</td><td>Невозможно применить к диалогу [2] никакой другой метод, пока не добавлены все элементы контроля.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2823</td><td>1049</td><td>Попытка инициализации уже инициализированного управляющего элемента: [3] в диалоге [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2824</td><td>1049</td><td>Для атрибута диалога [3] требуется запись по меньшей мере [2] поля (полей).</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2825</td><td>1049</td><td>Для управляющего атрибута [3] требуется запись по меньшей мере [2] поля (полей).</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2826</td><td>1049</td><td>Управляющий элемент [3] диалога [2] нарушает границы диалога [4] на [5] пикселей.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2827</td><td>1049</td><td>Кнопка [4] переключателя [3] диалога [2] нарушает границы группы [5] на [6] пикселей.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2828</td><td>1049</td><td>Совершена попытка удалить управляющий элемент [3] из диалога [2], но управляющий элемент не является частью диалога.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2829</td><td>1049</td><td>Попытка использования неинициализированного диалога.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2830</td><td>1049</td><td>Попытка использования неинициализированного управляющего элемента диалога [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2831</td><td>1049</td><td>Управляющий элемент [3] диалога [2] не поддерживает [5] атрибут [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2832</td><td>1049</td><td>Диалог [2] не поддерживает атрибут [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2833</td><td>1049</td><td>Контрольный элемент [4] диалога [3] проигнорировал сообщение [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2834</td><td>1049</td><td>Последовательные указатели в диалоге [2] не создают одиночного цикла.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2835</td><td>1049</td><td>Управляющий элемент [2] не найден в диалоге [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2836</td><td>1049</td><td>Управляющий элемент [3] диалога [2] не может установить фокус.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2837</td><td>1049</td><td>Управляющий элемент [3] диалога [2] требует возврата winproc [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2838</td><td>1049</td><td>Пункт [2] в таблице выбора является родительским объектом сам для себя.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2839</td><td>1049</td><td>Не удалось установить свойство [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2840</td><td>1049</td><td>Не совпадает имя диалога ошибки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2841</td><td>1049</td><td>Не найдено кнопка ОК в диалоге ошибки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2842</td><td>1049</td><td>Не найдено текстовое поле в диалоге ошибки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2843</td><td>1049</td><td>Атрибут ErrorString не поддерживается стандартными диалогами.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2844</td><td>1049</td><td>Невозможно выполнить диалог ошибки, если строка ошибки не установлена.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2845</td><td>1049</td><td>Общая ширина кнопок превышает размер диалога ошибки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2846</td><td>1049</td><td>SetFocus не обнаружил требуемого управляющего элемента в диалоге ошибки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2847</td><td>1049</td><td>У управляющего элемента [3] диалога [2] есть одновременно значок и набор точечных рисунков.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2848</td><td>1049</td><td>Совершена попытка установить контрольный элемент [3] в качестве кнопки, выбираемой по умолчанию, для диалога [2], но такого контрольного элемента не существует.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2849</td><td>1049</td><td>Тип управляющего элемента [3] в диалоге [2] не может быть целочисленным.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2850</td><td>1049</td><td>Неопознанный тип тома.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2851</td><td>1049</td><td>Недопустимые данные для значка [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2852</td><td>1049</td><td>Необходимо добавить как минимум один управляющий элемент в диалог [2] перед его использованием.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2853</td><td>1049</td><td>Диалог [2] не является модальным диалогом. На него невозможно применить метод выполнения.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2854</td><td>1049</td><td>В диалоге [2] управляющий элемент [3] назначен первым активным элементом контроля, но такой элемент отсутствует.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2855</td><td>1049</td><td>В переключателе [3] диалога [2] менее 2 кнопок.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2856</td><td>1049</td><td>Создание второй копии диалога [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2857</td><td>1049</td><td>Каталог [2] упомянута в таблице выбора, но не обнаружена.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2858</td><td>1049</td><td>Недопустимые данные для точечного рисунка [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2859</td><td>1049</td><td>Сообщение об ошибке проверки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2860</td><td>1049</td><td>Кнопка отмены неверно определена в диалоге [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2861</td><td>1049</td><td>Последовательные указатели для переключателя управляющего элемента [3] диалога [2] не создают цикл.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2862</td><td>1049</td><td>Атрибуты управляющего элемента [3] диалога [2] не определяют допустимый размер значка. Установить размер 16.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2863</td><td>1049</td><td>Элемент управления [3] диалогом [2] требует значка [4] размером [5]x[5], но такой размер недоступен. Загрузка первого доступного размера.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2864</td><td>1049</td><td>Элемент управления [3] диалогом [2] получил событие обзора, но для текущего выбора невозможно настроить каталог. Наиболее вероятная причина: кнопка обзора содержит ошибки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2865</td><td>1049</td><td>Управляющий элемент [3] с объявлением [2] нарушает границы объявления[4] на [5] пикселей.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2866</td><td>1049</td><td>Диалог [2] недопустим для возврата аргумента [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2867</td><td>1049</td><td>Свойство диалога ошибки не установлено.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2868</td><td>1049</td><td>Диалог ошибки [2] не имеет набора стилей ошибки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2869</td><td>1049</td><td>В диалоге [2] установлен бит ошибки стилей, но это не диалог сообщения об ошибке.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2870</td><td>1049</td><td>В строке справки [4] для управляющего элемента [3] диалога [2] нет разделителя.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2871</td><td>1049</td><td>Истек срок таблицы [2]: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2872</td><td>1049</td><td>Недопустимый аргумент контрольного события CheckPath в диалоге [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2873</td><td>1049</td><td>Управляющий элемент [3] в диалоге [2] имеет недопустимое ограничение длины строки: [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2874</td><td>1049</td><td>Не удалось изменить шрифт текста на [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2875</td><td>1049</td><td>Не удалось изменить цвет текста на [2]. </td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2876</td><td>1049</td><td>Управляющий элемент [3] диалога [2] должен усечь строку: [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2877</td><td>1049</td><td>Двоичные данные [2] не обнаружены</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2878</td><td>1049</td><td>Возможное значение контрольного элемента [3] в диалоге [2]: [4]. Недопустимое или повторяющееся значение.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2879</td><td>1049</td><td>Управляющий элемент [3] диалога [2] не может интерпретировать строку маски: [4].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2880</td><td>1049</td><td>Не представлены оставшиеся события управления.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2881</td><td>1049</td><td>Не удалось инициализировать обработчик CMsiHandler.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2882</td><td>1049</td><td>Не удалось зарегистрировать класс окна диалога.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2883</td><td>1049</td><td>Не удалось выполнить команду CreateNewDialog для диалога [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2884</td><td>1049</td><td>Не удалось создать окно для диалога [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2885</td><td>1049</td><td>Невозможно создать управляющий элемент [3] диалога [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2886</td><td>1049</td><td>Не удалось создать таблицу [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2887</td><td>1049</td><td>Не удалось создать курсор для таблицы [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2888</td><td>1049</td><td>Не удалось выполнить просмотр [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2889</td><td>1049</td><td>Не удалось создать окно для управляющего элемента [3] диалога [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2890</td><td>1049</td><td>Обработчику не удалось создать инициализированный диалог.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2891</td><td>1049</td><td>Не удалось уничтожить окно для диалога [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2892</td><td>1049</td><td>[2] является управляющим элементом только для целых чисел, [3] не является допустимым значением целого числа.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2893</td><td>1049</td><td>Элемент управления [3] диалогом [2] принимает значения свойств максимум [5] знаков длиной. Значение [4] превышает это ограничение и было усечено.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2894</td><td>1049</td><td>Не удалось загрузить RICHED20.DLL. GetLastError() вернула код: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2895</td><td>1049</td><td>Не удалось опустошить RICHED20.DLL. GetLastError() вернула код: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2896</td><td>1049</td><td>Не удалось выполнить действие [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2897</td><td>1049</td><td>Не удалось создать какой-либо шрифт [2] для данной системы.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2898</td><td>1049</td><td>Для стиля текста [2] система создала '[3]' шрифт в [4] наборе символов.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2899</td><td>1049</td><td>Не удалось создать [2] стиль текста. GetLastError() возвратила код: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_29</td><td>1049</td><td>На диске недостаточно места для установки файла [2].  Освободите место и нажмите кнопку "Повторить" либо кнопку "Отмена" для прекращения установки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2901</td><td>1049</td><td>Недопустимый параметр операции [2]: Параметр [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2902</td><td>1049</td><td>Действие [2] вызвано в нарушение последовательности.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2903</td><td>1049</td><td>Файл [2] отсутствует.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2904</td><td>1049</td><td>Невозможно выполнить действие BindImage для файла [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2905</td><td>1049</td><td>Невозможно прочитать запись из файла сценария [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2906</td><td>1049</td><td>Отсутствует заголовок в файле сценария [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2907</td><td>1049</td><td>Невозможно создать безопасный дескриптор безопасности. Ошибка: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2908</td><td>1049</td><td>Невозможно произвести регистрацию компонента [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2909</td><td>1049</td><td>Невозможно отменить регистрацию компонента [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2910</td><td>1049</td><td>Невозможно определить идентификатор безопасности пользователя.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2911</td><td>1049</td><td>Невозможно удалить папку [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2912</td><td>1049</td><td>Невозможно создать файл расписания[2] для удаления при перезапуске.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2919</td><td>1049</td><td>Не определен CAB-файл для сжатого файла: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2920</td><td>1049</td><td>Не определен исходный каталог для файла [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2924</td><td>1049</td><td>Версия [2] сценария не поддерживается. Версия сценария: [3], минимальная версия: [4], максимальная версия: [5].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2927</td><td>1049</td><td>Недопустимый код [2] ShellFolder.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2928</td><td>1049</td><td>Превышение максимального количества источников. Пропуск источника '[2]'.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2929</td><td>1049</td><td>Невозможно определить корень публикации. Ошибка: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2932</td><td>1049</td><td>Невозможно создать файл [2] из данных сценария. Ошибка: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2933</td><td>1049</td><td>Невозможно инициализировать сценарий отката [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2934</td><td>1049</td><td>Невозможно установить защиту преобразования [2]. Ошибка [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2935</td><td>1049</td><td>Невозможно отменить защиту преобразования [2]. Ошибка [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2936</td><td>1049</td><td>Невозможно найти преобразование [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2937</td><td>1049</td><td>Установщик Windows не может установить каталог защиты системных файлов. Каталог: [2], Ошибка: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2938</td><td>1049</td><td>Установщик Windows не может загрузить каталог защиты системных файлов из кэша. Каталог: [2], Ошибка: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2939</td><td>1049</td><td>Установщик Windows не может удалить каталог защиты системных файлов из кэша. Каталог: [2], Ошибка: [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2940</td><td>1049</td><td>Диспетчер каталогов не поддерживает разрешение источника.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2941</td><td>1049</td><td>Невозможно вычислить CRC для файла [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2942</td><td>1049</td><td>Действие BindImage не было выполнено для [2] файла.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2943</td><td>1049</td><td>Эта версия системы Windows не поддерживает развертывание 64-битных пакетов приложений. Сценарий [2] предназначен для 64-битных пакетов приложений.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2944</td><td>1049</td><td>Выполнить действие GetProductAssignmentType не удалось.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_2945</td><td>1049</td><td>Не удалось установить приложение ComPlus [2] из-за ошибки [3].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_3</td><td>1049</td><td>Сведения [1]. </td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_30</td><td>1049</td><td>Исходный файл не найден: [2].  Проверьте, что этот файл существует и доступен.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_3001</td><td>1049</td><td>Исправления в списке содержат неверную информацию последовательности: [2][3][4][5][6][7][8][9][10][11][12][13][14][15][16].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_3002</td><td>1049</td><td>Путь [2] содержит недопустимую информацию последовательности. </td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_31</td><td>1049</td><td>Ошибка чтения из файла [3]. {{ Системная ошибка [2].}}  Проверьте, что файл существует и доступен.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_32</td><td>1049</td><td>Ошибка записи в файл [3]. {{ Системная ошибка [2].}}  Убедитесь, что у вас есть доступ к этому каталогу.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_33</td><td>1049</td><td>Исходный файл не найден{{(CAB-файл)}}: [2].  Проверьте, что файл существует и доступен.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_34</td><td>1049</td><td>Не удается создать каталог "[2]".  Файл с этим именем уже существует.  Переименуйте или переместите этот файл и повторите попытку, либо нажмите кнопку "Отмена" для прекращения установки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_35</td><td>1049</td><td>Том [2] недоступен.  Выберите другой том.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_36</td><td>1049</td><td>Указанный путь "[2]" недоступен.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_37</td><td>1049</td><td>Запись в указанный каталог "[2]" запрещена.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_38</td><td>1049</td><td>Ошибка в сети при чтении из файла [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_39</td><td>1049</td><td>Ошибка при создании каталога [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_4</td><td>1049</td><td>Внутренняя ошибка [1]. [2]{, [3]}{, [4]}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_40</td><td>1049</td><td>Ошибка в сети при создании каталога [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_41</td><td>1049</td><td>Ошибка в сети при открытии исходного CAB-файла [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_42</td><td>1049</td><td>Указан слишком длинный путь: [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_43</td><td>1049</td><td>У программы Windows Installer недостаточно полномочий для изменения этого файла: [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_44</td><td>1049</td><td>Неверная часть пути к папке "[2]". Путь либо пуст, либо превышает максимально допустимую длину.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_45</td><td>1049</td><td>Путь к папке "[2]" содержит недопустимые имена.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_46</td><td>1049</td><td>Путь к папке "[2]" содержит недопустимый символ.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_47</td><td>1049</td><td>"[2]" не является допустимым коротким именем файла.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_48</td><td>1049</td><td>Ошибка при получении сведений о безопасности файла: [3] GetLastError: [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_49</td><td>1049</td><td>Недопустимый диск: [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_5</td><td>1049</td><td>{{Диск переполнен: }}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_50</td><td>1049</td><td>Не удается создать раздел [2]. {{ Системная ошибка [3].}}  Убедитесь, что у вас достаточно полномочий для доступа к этому разделу, либо обратитесь в службу поддержки. </td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_51</td><td>1049</td><td>Не удается открыть раздел [2]. {{ Системная ошибка [3].}}  Убедитесь, что у вас достаточно полномочий для доступа к этому разделу, либо обратитесь в службу поддержки. </td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_52</td><td>1049</td><td>Не удается удалить значение [2] из раздела [3]. {{ Системная ошибка [4].}}  Убедитесь, что у вас достаточно полномочий для доступа к этому разделу, либо обратитесь в службу поддержки. </td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_53</td><td>1049</td><td>Не удается удалить раздел [2]. {{ Системная ошибка [3].}}  Убедитесь, что у вас достаточно полномочий для доступа к этому разделу, либо обратитесь в службу поддержки. </td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_54</td><td>1049</td><td>Не удается прочитать значение [2] из раздела [3]. {{ Системная ошибка [4].}}  Убедитесь, что у вас достаточно полномочий для доступа к этому разделу, либо обратитесь в службу поддержки. </td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_55</td><td>1049</td><td>Не удается записать значение [2] в раздел [3]. {{ Системная ошибка [4].}}  Убедитесь, что у вас достаточно полномочий для доступа к этому разделу, либо обратитесь в службу поддержки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_56</td><td>1049</td><td>Не удается получить имена значений из раздела [2]. {{ Системная ошибка [3].}}  Убедитесь, что у вас достаточно полномочий для доступа к этому разделу, либо обратитесь в службу поддержки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_57</td><td>1049</td><td>Не удается получить имена подразделов из раздела [2]. {{ Системная ошибка [3].}}  Убедитесь, что у вас достаточно полномочий для доступа к этому разделу, либо обратитесь в службу поддержки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_58</td><td>1049</td><td>Не удается прочитать сведения о безопасности из раздела [2]. {{ Системная ошибка [3].}}  Убедитесь, что у вас достаточно полномочий для доступа к этому разделу, либо обратитесь в службу поддержки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_59</td><td>1049</td><td>Не удается увеличить размер реестра. Для установки данного приложения необходимо [2] Кбайт свободного места в реестре.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_6</td><td>1049</td><td>Действие [Time]: [1]. [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_60</td><td>1049</td><td>Другой процесс установки уже выполняется. Завершите этот процесс перед новой установкой.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_61</td><td>1049</td><td>Ошибка доступа к защищенным данным. Проверьте правильность настройки Windows Installer и повторите попытку.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_62</td><td>1049</td><td>Пользователь "[2]" ранее начал установку продукта "[3]".  Этому пользователю придется выполнить установку заново.  Ваша текущая установка будет продолжена.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_63</td><td>1049</td><td>Пользователь "[2]" ранее начал установку продукта "[3]".  Этому пользователю придется выполнить установку заново.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_64</td><td>1049</td><td>Недостаточно места на диске -- том: "[2]"; требуемый объем: [3] Кбайт; доступный объем: [4] Кбайт.  Освободите место на диске и повторите попытку.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_65</td><td>1049</td><td>Отменить установку?</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_66</td><td>1049</td><td>Файл [2][3] используется{ следующим процессом: Имя: [4], Код: [5], Заголовок окна: "[6]"}.  Закройте это приложение и повторите попытку.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_67</td><td>1049</td><td>Продукт "[2]" уже установлен, установка данного продукта невозможна.  Эти два продукта несовместимы.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_68</td><td>1049</td><td>Недостаточно места на диске -- том: "[2]"; требуемый объем: [3] Кбайт; доступный объем: [4] Кбайт.  При отключении отката места будет достаточно. Нажмите кнопку "Отмена" для выхода, "Повторить" для повторной проверки доступного места на диске или "Пропустить" для продолжения без отката.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_69</td><td>1049</td><td>Не удается подключиться через сеть к [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_7</td><td>1049</td><td>[ProductName]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_70</td><td>1049</td><td>Для продолжения установки следует закрыть следующие приложения:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_71</td><td>1049</td><td>Не удается найти установленные совместимые продукты для установки данного продукта.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_72</td><td>1049</td><td>Неверный ключ [2].  Проверьте правильность ключа.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_73</td><td>1049</td><td>Перед продолжением настройки [2] программа Windows Installer должна перезагрузить систему.  Нажмите кнопку "Да", чтобы перезагрузить компьютер сейчас, либо кнопку "Нет", чтобы выполнить перезагрузку позже вручную.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_74</td><td>1049</td><td>Для учета изменений в настройках [2] требуется перезагрузка системы. Нажмите кнопку "Да", чтобы перезагрузить компьютер сейчас, либо кнопку "Нет", чтобы выполнить перезагрузку позже вручную.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_75</td><td>1049</td><td>Установка [2] приостановлена.  Для продолжения необходимо отменить изменения, внесенные в процессе этой установки.  Отменить изменения?</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_76</td><td>1049</td><td>Выполняется предыдущая установка этого продукта.  Для продолжения необходимо отменить изменения, внесенные в процессе этой установки.  Отменить изменения?</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_77</td><td>1049</td><td>Не удается найти пакет установки для продукта [2]. Повторите установку с использованием правильной копии пакета "[3]".</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_78</td><td>1049</td><td>Операция установки успешно завершена.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_79</td><td>1049</td><td>Операция установки не выполнена.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_8</td><td>1049</td><td>{[2]}{, [3]}{, [4]}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_80</td><td>1049</td><td>Продукт: [2] -- [3]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_81</td><td>1049</td><td>Можно либо восстановить исходное состояние компьютера, либо продолжить установку позже. Восстановить исходное состояние?</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_82</td><td>1049</td><td>Ошибка при записи сведений об установке на диск.  Проверьте наличие свободного места на диске и нажмите кнопку "Повторить", либо нажмите кнопку "Отмена", чтобы прервать установку.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_83</td><td>1049</td><td>Не удается найти файлы, необходимые для восстановления исходного состояния компьютера.  Восстановление невозможно.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_84</td><td>1049</td><td>Недопустимый путь [2].  Укажите правильный путь.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_85</td><td>1049</td><td>Недостаточно памяти. Закройте другие приложения и повторите попытку.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_86</td><td>1049</td><td>В дисководе [2] нет диска. Вставьте диск и нажмите кнопку "Повторить", либо нажмите кнопку "Отмена" для возврата к ранее выбранному тому.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_87</td><td>1049</td><td>В дисководе [2] нет диска. Вставьте диск и нажмите кнопку "Повтор" или нажмите кнопку "Отмена", чтобы вернуться в окно обзора и выбрать другий том.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_88</td><td>1049</td><td>Папка [2] не существует.  Введите путь к существующей папке.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_89</td><td>1049</td><td>У вас недостаточно полномочий для чтения этой папки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_9</td><td>1049</td><td>Тип сообщения: [1], Аргумент: [2]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_90</td><td>1049</td><td>Не удается определить конечную папку для установки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_91</td><td>1049</td><td>Ошибка при чтении исходной базы данных установки. [2].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_92</td><td>1049</td><td>Планирование операции перезагрузки: переименование файла [2] в [3]. Для завершения операции требуется перезагрузка.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_93</td><td>1049</td><td>Планирование операции перезагрузки: удаление файла [2]. Для завершения операции требуется перезагрузка.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_94</td><td>1049</td><td>Не удается зарегистрировать модуль [2].  HRESULT [3].  Обратитесь в службу поддержки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_95</td><td>1049</td><td>Не удается отменить регистрацию модуля [2].  HRESULT [3].  Обратитесь в службу поддержки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_96</td><td>1049</td><td>Ошибка кэширования пакета [2]. Ошибка: [3]. Обратитесь в службу поддержки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_97</td><td>1049</td><td>Не удается зарегистрировать шрифт [2].  Убедитесь, что у вас имеются разрешения на установку шрифтов, и что система поддерживает этот шрифт.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_98</td><td>1049</td><td>Не удается отменить регистрацию шрифта [2]. Убедитесь, что у вас имеются разрешения на удаление шрифтов.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ERROR_99</td><td>1049</td><td>Не удается создать ярлык [2]. Проверьте, что конечная папка существует и доступна.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_INSTALLDIR</td><td>1049</td><td>{&amp;Tahoma8}[INSTALLDIR]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_INSTALLSHIELD</td><td>1049</td><td>InstallShield</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_INSTALLSHIELD_FORMATTED</td><td>1049</td><td>{&amp;MSSWhiteSerif8}InstallShield</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ISSCRIPT_VERSION_MISSING</td><td>1049</td><td>Компонент InstallScript отсутствует на этом компьютере.  Если возможно, запустите пакет ISScript.msi или обратитесь за помощью в службу поддержки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_ISSCRIPT_VERSION_OLD</td><td>1049</td><td>Версия компонента InstallScript на этом компьютере более ранняя, чем требуется для данной установки.  Если возможно, установите последнюю версию пакета ISScript.msi или обратитесь за помощью в службу поддержки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_NEXT</td><td>1049</td><td>&amp;Далее &gt;</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_OK</td><td>1049</td><td>{&amp;Tahoma8}OK</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PREREQUISITE_SETUP_BROWSE</td><td>1049</td><td>Открыть оригинальный файл [SETUPEXENAME] [ProductName]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PREREQUISITE_SETUP_INVALID</td><td>1049</td><td>Похоже исполняемый файл не является оригинальным исполняемым файлом для [ProductName]. Если не использовать оригинальный файл [SETUPEXENAME] для установки дополнительных зависимостей, [ProductName] может не работать. Найти оригинал [SETUPEXENAME]?</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PREREQUISITE_SETUP_SEARCH</td><td>1049</td><td>Эта установка может потребовать дополнительных зависимостей. Без этих зависимостей [ProductName] может не работать. Найти оригинал [SETUPEXENAME]?</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PREVENT_DOWNGRADE_EXIT</td><td>1049</td><td>На компьютере уже установлена более новая версия этого приложения. Чтобы установить приложение, сначала удалите новую версию. Нажмите кнопку «ОК», чтобы закрыть мастер.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PRINT_BUTTON</td><td>1049</td><td>&amp;Печать</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PRODUCTNAME_INSTALLSHIELD</td><td>1049</td><td>[ProductName] - InstallShield Wizard</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_IIS_CREATEAPPPOOL</td><td>1049</td><td>Создание группы приложений %s</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_IIS_CREATEAPPPOOLS</td><td>1049</td><td>Создание групп приложений...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_IIS_CREATEVROOT</td><td>1049</td><td>Создание виртуального каталога IIS %s</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_IIS_CREATEVROOTS</td><td>1049</td><td>Создание виртуальных каталогов IIS...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_IIS_CREATEWEBSERVICEEXTENSION</td><td>1049</td><td>Создание расширения веб-службы</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_IIS_CREATEWEBSERVICEEXTENSIONS</td><td>1049</td><td>Создания расширений веб-службы...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_IIS_CREATEWEBSITE</td><td>1049</td><td>Создание веб-сайтов IIS %s</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_IIS_CREATEWEBSITES</td><td>1049</td><td>Создание веб-сайтов IIS...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_IIS_EXTRACT</td><td>1049</td><td>Извлечение данных для виртуальных каталогов IIS...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_IIS_EXTRACTDONE</td><td>1049</td><td>Извлеченные данные для виртуальных каталогов IIS...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_IIS_REMOVEAPPPOOL</td><td>1049</td><td>Удаление группы приложений</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_IIS_REMOVEAPPPOOLS</td><td>1049</td><td>Удаление групп приложений...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_IIS_REMOVESITE</td><td>1049</td><td>Удаление веб-узла для порта %d</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_IIS_REMOVEVROOT</td><td>1049</td><td>Удаление виртуального каталога IIS %s</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_IIS_REMOVEVROOTS</td><td>1049</td><td>Удаление виртуальных каталогов IIS...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_IIS_REMOVEWEBSERVICEEXTENSION</td><td>1049</td><td>Удаление расширения веб-службы</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_IIS_REMOVEWEBSERVICEEXTENSIONS</td><td>1049</td><td>Удаление расширений веб-службы...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_IIS_REMOVEWEBSITES</td><td>1049</td><td>Удаление веб-сайтов IIS...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_IIS_ROLLBACKAPPPOOLS</td><td>1049</td><td>Откат группы приложений...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_IIS_ROLLBACKVROOTS</td><td>1049</td><td>Откат виртуального каталога и изменений веб-узла...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS</td><td>1049</td><td>Откат расширений веб-службы...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_TEXTFILECHANGS_REPLACE</td><td>1049</td><td>Замена %s на %s в %s...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_XML_COSTING</td><td>1049</td><td>Оценка необходимого места для файлов XML...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_XML_CREATE_FILE</td><td>1049</td><td>Создание файла XML %s...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_XML_FILES</td><td>1049</td><td>Изменение файла XML...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_XML_REMOVE_FILE</td><td>1049</td><td>Удаление файла XML %s...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_XML_ROLLBACK_FILES</td><td>1049</td><td>Откат изменений файла XML...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_PROGMSG_XML_UPDATE_FILE</td><td>1049</td><td>Обновление файла XML %s...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SETUPEXE_EXPIRE_MSG</td><td>1049</td><td>Эта программа установки может работать до %s. Программа установки будет закрыта.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SETUPEXE_LAUNCH_COND_E</td><td>1049</td><td>Эта программа установки создана на базе пробной версии InstallShield и может быть запущена только из setup.exe.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SHORTCUT_DISPLAY_NAME1</td><td>1049</td><td>SimplePhotoPost</td><td>0</td><td/><td>1973650931</td></row>
-		<row><td>IDS_SQLBROWSE_INTRO</td><td>1049</td><td>В следующем списке серверов выберите сервер базы данных, который необходимо использовать.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SQLBROWSE_INTRO_DB</td><td>1049</td><td>Из приведенного ниже списка имен каталогов выберите каталог базы данных, которую нужно выбрать.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SQLBROWSE_INTRO_TEMPLATE</td><td>1049</td><td>[IS_SQLBROWSE_INTRO]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SQLLOGIN_BROWSE</td><td>1049</td><td>&amp;Обзор...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SQLLOGIN_BROWSE_DB</td><td>1049</td><td>Об&amp;зор…</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SQLLOGIN_CATALOG</td><td>1049</td><td>И&amp;мя каталога баз данных:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SQLLOGIN_CONNECT</td><td>1049</td><td>Подключение:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SQLLOGIN_DESC</td><td>1049</td><td>Выберите сервер базы данных и метод проверки подлинности.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SQLLOGIN_ID</td><td>1049</td><td>&amp;Имя пользователя:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SQLLOGIN_INTRO</td><td>1049</td><td>Выберите сервер базы данных, который необходимо установить, в следующем списке или нажмите кнопку "Обзор" для просмотра списка всех серверов баз данных. Можно также указать вариант проверки подлинности пользователя с использованием текущих учетных данных или имени пользователя и пароля SQL-сервера.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SQLLOGIN_PSWD</td><td>1049</td><td>П&amp;ароль:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SQLLOGIN_SERVER</td><td>1049</td><td>&amp;Сервер базы данных:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SQLLOGIN_SERVER2</td><td>1049</td><td>&amp;Сервер базы данных, который вы устанавливаете в:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SQLLOGIN_SQL</td><td>1049</td><td>Проверка подлинности с&amp;ервера с использованием следующего имени пользователя и пароля</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SQLLOGIN_TITLE</td><td>1049</td><td>{&amp;MSSansBold8}Сервер базы данных</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SQLLOGIN_WIN</td><td>1049</td><td>&amp;Учетные данные проверки подлинности Windows текущего пользователя</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SQLSCRIPT_INSTALLING</td><td>1049</td><td>Выполнение сценария установки SQL...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SQLSCRIPT_UNINSTALLING</td><td>1049</td><td>Выполнение сценария удаления SQL...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_STANDARD_USE_SETUPEXE</td><td>1049</td><td>Запуск этой установки путем простого запуска пакета MSI невозможен. Необходимо запустить setup.exe.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SetupTips_Advertise</td><td>1049</td><td>{&amp;Tahoma8}будет установлен при первом использовании.</td><td>0</td><td>	 	</td><td>1973644659</td></row>
-		<row><td>IDS_SetupTips_AllInstalledLocal</td><td>1049</td><td>{&amp;Tahoma8}будет полностью установлен на локальный жесткий диск.</td><td>0</td><td>	</td><td>1973644659</td></row>
-		<row><td>IDS_SetupTips_CustomSetup</td><td>1049</td><td>{&amp;MSSansBold8}Советы по выборочной установке</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SetupTips_CustomSetupDescription</td><td>1049</td><td>{&amp;Tahoma8}Выборочная установка позволяет установить определенные компоненты программы.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SetupTips_IconInstallState</td><td>1049</td><td>{&amp;Tahoma8}Значок рядом с названием компонента показывает состояние установки компонента. Щелкните этот значок, чтобы раскрыть меню состояния установки для каждого компонента.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SetupTips_InstallState</td><td>1049</td><td>{&amp;Tahoma8}Данное состояние установки означает, что компонент...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SetupTips_Network</td><td>1049</td><td>{&amp;Tahoma8}будет установлен для запуска по сети.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SetupTips_OK</td><td>1049</td><td>{&amp;Tahoma8}OK</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SetupTips_SubFeaturesInstalledLocal</td><td>1049</td><td>{&amp;Tahoma8}будет содержать подкомпоненты на локальном жестком диске.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_SetupTips_WillNotBeInstalled</td><td>1049</td><td>{&amp;Tahoma8}не будет установлен.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_Available</td><td>1049</td><td>Доступно</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_Bytes</td><td>1049</td><td>байт</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_CompilingFeaturesCost</td><td>1049</td><td>Оценка дискового пространства для данного компонента...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_Differences</td><td>1049</td><td>Разница</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_DiskSize</td><td>1049</td><td>Размер диска</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureCompletelyRemoved</td><td>1049</td><td>Данный компонент будет полностью удален.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureContinueNetwork</td><td>1049</td><td>Данный компонент по-прежнему будет запускаться по сети</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureFreeSpace</td><td>1049</td><td>Данный компонент освобождает [1] на жестком диске.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureInstalledCD</td><td>1049</td><td>Данный компонент и все подкомпоненты будут установлены для запуска с компакт-диска.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureInstalledCD2</td><td>1049</td><td>Данный компонент будет установлен для запуска с компакт-диска.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureInstalledLocal</td><td>1049</td><td>Данный компонент и все подкомпоненты будут установлены на локальный жесткий диск.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureInstalledLocal2</td><td>1049</td><td>Данный компонент будет установлен на локальный жесткий диск.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureInstalledNetwork</td><td>1049</td><td>Данный компонент и все подкомпоненты будут установлены для запуска по сети.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureInstalledNetwork2</td><td>1049</td><td>Данный компонент будет установлен для запуска по сети.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureInstalledRequired</td><td>1049</td><td>Его при необходимости можно установить.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureInstalledWhenRequired</td><td>1049</td><td>Данный компонент можно при необходимости установить.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureInstalledWhenRequired2</td><td>1049</td><td>Данный компонент можно при необходимости установить.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureLocal</td><td>1049</td><td>Данный компонент будет установлен на локальный жесткий диск.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureLocal2</td><td>1049</td><td>Данный компонент будет установлен на локальный жесткий диск.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureNetwork</td><td>1049</td><td>Данный компонент будет установлен для запуска по сети.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureNetwork2</td><td>1049</td><td>Данный компонент будет доступен для запуска по сети.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureNotAvailable</td><td>1049</td><td>Данный компонент будет недоступен.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureOnCD</td><td>1049</td><td>Данный компонент будет установлен для запуска с компакт-диска.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureOnCD2</td><td>1049</td><td>Данный компонент будет доступен для запуска с компакт-диска.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureRemainLocal</td><td>1049</td><td>Данный компонент останется на локальном жестком диске.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureRemoveNetwork</td><td>1049</td><td>Данный компонент будет удален с локального жесткого диска, но его по-прежнему можно будет запускать по сети.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureRemovedCD</td><td>1049</td><td>Данный компонент будет удален с локального жесткого диска, но его по-прежнему можно будет запускать с компакт-диска.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureRemovedUnlessRequired</td><td>1049</td><td>Данный компонент будет удален с локального жесткого диска, но его при необходимости можно установить.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureRequiredSpace</td><td>1049</td><td>Для данного компонента требуется [1] на жестком диске.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureRunFromCD</td><td>1049</td><td>Данный компонент по-прежнему будет запускаться с компакт-диска</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureSpaceFree</td><td>1049</td><td>Данный компонент освобождает [1] на жестком диске. Для него выбраны [2] из [3] подкомпонентов. Подкомпоненты освобождают [4] на жестком диске.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureSpaceFree2</td><td>1049</td><td>Данный компонент освобождает [1] на жестком диске. Для него выбраны [2] из [3] подкомпонентов. Для подкомпонентов требуется [4] на жестком диске.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureSpaceFree3</td><td>1049</td><td>Для данного компонента требуется [1] на жестком диске. Для него выбраны [2] из [3] подкомпонентов. Подкомпоненты освобождают [4] на жестком диске.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureSpaceFree4</td><td>1049</td><td>Для данного компонента требуется [1] на жестком диске. Для него выбраны [2] из [3] подкомпонентов. Для подкомпонентов требуется [4] на жестком диске.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureUnavailable</td><td>1049</td><td>Данный компонент станет недоступным.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureUninstallNoNetwork</td><td>1049</td><td>Данный компонент будет полностью удален, и его нельзя будет запускать по сети.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureWasCD</td><td>1049</td><td>Данный компонент запущен с компакт-диска, но его при необходимости можно установить.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureWasCDLocal</td><td>1049</td><td>Данный компонент запущен с компакт-диска, но будет установлен на локальный диск.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureWasOnNetworkInstalled</td><td>1049</td><td>Данный компонент запущен по сети, но его при необходимости можно установить.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureWasOnNetworkLocal</td><td>1049</td><td>Данный компонент запущен по сети, но его при необходимости можно установить локальный жесткий диск.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_FeatureWillBeUninstalled</td><td>1049</td><td>Данный компонент будет полностью удален, и его нельзя будет запускать с компакт-диска.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_Folder</td><td>1049</td><td>Папка|Создать папку</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_GB</td><td>1049</td><td>Гб</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_KB</td><td>1049</td><td>Кб</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_MB</td><td>1049</td><td>Мб</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_Required</td><td>1049</td><td>Требуется</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_TimeRemaining</td><td>1049</td><td>Осталось времени: {[1] мин }{[2] сек}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS_UITEXT_Volume</td><td>1049</td><td>Том</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__AgreeToLicense_0</td><td>1049</td><td>{&amp;Tahoma8}Я не п&amp;ринимаю условия лицензионного соглашения</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__AgreeToLicense_1</td><td>1049</td><td>{&amp;Tahoma8}Я &amp;принимаю условия лицензионного соглашения</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__DatabaseFolder_ChangeFolder</td><td>1049</td><td>Нажмите кнопу "Далее", чтобы установить в эту папку. Нажмите кнопку "Изменить", чтобы выполнить установку в другую папку.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__DatabaseFolder_DatabaseDir</td><td>1049</td><td>[DATABASEDIR]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__DatabaseFolder_DatabaseFolder</td><td>1049</td><td>{&amp;MSSansBold8}Папка базы данных</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__DestinationFolder_Change</td><td>1049</td><td>{&amp;Tahoma8}&amp;Изменить...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__DestinationFolder_ChangeFolder</td><td>1049</td><td>{&amp;Tahoma8}Нажмите кнопку "Далее", чтобы установить в эту папку. Нажмите кнопку "Изменить", чтобы выполнить установку в другую папку.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__DestinationFolder_DestinationFolder</td><td>1049</td><td>{&amp;MSSansBold8}Папка назначения</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__DestinationFolder_InstallTo</td><td>1049</td><td>{&amp;Tahoma8}Установка [ProductName] в:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__DisplayName_Custom</td><td>1049</td><td>Выборочная</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__DisplayName_Minimal</td><td>1049</td><td>Минимальная</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__DisplayName_Typical</td><td>1049</td><td>Обычная</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsAdminInstallBrowse_11</td><td>1049</td><td>{&amp;Tahoma8}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsAdminInstallBrowse_4</td><td>1049</td><td>{&amp;Tahoma8}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsAdminInstallBrowse_8</td><td>1049</td><td>{&amp;Tahoma8}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsAdminInstallBrowse_BrowseDestination</td><td>1049</td><td>{&amp;Tahoma8}Перейдите в папку назначения.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsAdminInstallBrowse_ChangeDestination</td><td>1049</td><td>{&amp;MSSansBold8}Изменение текущей папки назначения</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsAdminInstallBrowse_CreateFolder</td><td>1049</td><td>Создать новую папку|</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsAdminInstallBrowse_FolderName</td><td>1049</td><td>{&amp;Tahoma8}&amp;Имя папки:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsAdminInstallBrowse_LookIn</td><td>1049</td><td>{&amp;Tahoma8}&amp;Поиск в папке:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsAdminInstallBrowse_UpOneLevel</td><td>1049</td><td>Переход на один уровень вверх|</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsAdminInstallPointWelcome_ServerImage</td><td>1049</td><td>{&amp;Tahoma8}Программа InstallShield(R) Wizard создаст образ диска [ProductName] на сервере в указанной сетевой папке. Для продолжения нажмите кнопку "Далее".</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsAdminInstallPointWelcome_Wizard</td><td>1049</td><td>{&amp;VerdanaBold14}Вас приветствует программа InstallShield Wizard для [ProductName]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsAdminInstallPoint_Change</td><td>1049</td><td>{&amp;Tahoma8}&amp;Изменить...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsAdminInstallPoint_EnterNetworkLocation</td><td>1049</td><td>{&amp;Tahoma8}Введите имя сетевой папки или нажмите кнопку "Изменить" для перехода в требуемую папку.  Нажмите кнопку "Установить", чтобы создать образ диска [ProductName] на сервере в указанной сетевой папке, или нажмите кнопку "Отмена" для выхода из программы.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsAdminInstallPoint_Install</td><td>1049</td><td>{&amp;Tahoma8}&amp;Установить</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsAdminInstallPoint_NetworkLocation</td><td>1049</td><td>{&amp;Tahoma8}&amp;Сетевая папка:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsAdminInstallPoint_NetworkLocationFormatted</td><td>1049</td><td>{&amp;MSSansBold8}Сетевая папка</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsAdminInstallPoint_SpecifyNetworkLocation</td><td>1049</td><td>{&amp;Tahoma8}Укажите сетевую папку для образа диска продукта на сервере.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsBrowseButton</td><td>1049</td><td>&amp;Обзор...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsBrowseFolderDlg_11</td><td>1049</td><td>{&amp;Tahoma8}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsBrowseFolderDlg_4</td><td>1049</td><td>{&amp;Tahoma8}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsBrowseFolderDlg_8</td><td>1049</td><td>{&amp;Tahoma8}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsBrowseFolderDlg_BrowseDestFolder</td><td>1049</td><td>{&amp;Tahoma8}Перейдите в папку назначения.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsBrowseFolderDlg_ChangeCurrentFolder</td><td>1049</td><td>{&amp;MSSansBold8}Изменение текущей папки назначения</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsBrowseFolderDlg_CreateFolder</td><td>1049</td><td>Создать новую папку|</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsBrowseFolderDlg_FolderName</td><td>1049</td><td>{&amp;Tahoma8}&amp;Имя папки:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsBrowseFolderDlg_LookIn</td><td>1049</td><td>{&amp;Tahoma8}&amp;Поиск в папке:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsBrowseFolderDlg_OK</td><td>1049</td><td>{&amp;Tahoma8}OK</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsBrowseFolderDlg_UpOneLevel</td><td>1049</td><td>Переход на один уровень вверх|</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsBrowseForAccount</td><td>1049</td><td>Поиск учетной записи пользователя</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsBrowseGroup</td><td>1049</td><td>Выберите группу со списком пользователей</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsBrowseUsernameTitle</td><td>1049</td><td>Выберите имя пользователя</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsCancelDlg_ConfirmCancel</td><td>1049</td><td>{&amp;Tahoma8}Отменить установку [ProductName]?</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsCancelDlg_No</td><td>1049</td><td>{&amp;Tahoma8}&amp;Нет</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsCancelDlg_Yes</td><td>1049</td><td>{&amp;Tahoma8}Д&amp;а</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsConfirmPassword</td><td>1049</td><td>Под&amp;тверждение:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsCreateNewUserTitle</td><td>1049</td><td>Сведения о новом пользователе</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsCreateUserBrowse</td><td>1049</td><td>&amp;Сведения о новом пользователе...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsCustomSelectionDlg_Change</td><td>1049</td><td>{&amp;Tahoma8}&amp;Изменить...</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsCustomSelectionDlg_ClickFeatureIcon</td><td>1049</td><td>{&amp;Tahoma8}Щелкните значок в списке ниже, чтобы изменить способ установки компонента.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsCustomSelectionDlg_CustomSetup</td><td>1049</td><td>{&amp;MSSansBold8}Выборочная установка</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsCustomSelectionDlg_FeatureDescription</td><td>1049</td><td>{&amp;Tahoma8}Описание компонента</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsCustomSelectionDlg_FeaturePath</td><td>1049</td><td>{&amp;Tahoma8}&lt;выбранный путь компонента&gt;</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsCustomSelectionDlg_FeatureSize</td><td>1049</td><td>{&amp;Tahoma8}Размер компонента</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsCustomSelectionDlg_Help</td><td>1049</td><td>{&amp;Tahoma8}&amp;Справка</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsCustomSelectionDlg_InstallTo</td><td>1049</td><td>{&amp;Tahoma8}Папка:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsCustomSelectionDlg_MultilineDescription</td><td>1049</td><td>{&amp;Tahoma8}Многострочное описание выбранного элемента</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsCustomSelectionDlg_SelectFeatures</td><td>1049</td><td>{&amp;Tahoma8}Выберите компоненты программы, которые необходимо установить.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsCustomSelectionDlg_Space</td><td>1049</td><td>{&amp;Tahoma8}Дис&amp;к</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsDiskSpaceDlg_DiskSpace</td><td>1049</td><td>{&amp;Tahoma8}Свободного места на диске меньше, чем требуется для установки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsDiskSpaceDlg_HighlightedVolumes</td><td>1049</td><td>{&amp;Tahoma8}На указанных дисках недостаточно места для установки выбранных компонентов. Можно удалить файлы с выбранных дисков, установить меньше компонентов на локальные диски или выбрать другие диски.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsDiskSpaceDlg_Numbers</td><td>1049</td><td>{&amp;Tahoma8}{120}{70}{70}{70}{70}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsDiskSpaceDlg_OK</td><td>1049</td><td>{&amp;Tahoma8}&amp;OK</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsDiskSpaceDlg_OutOfDiskSpace</td><td>1049</td><td>{&amp;MSSansBold8}Не хватает места на диске</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsDomainOrServer</td><td>1049</td><td>Д&amp;омен или сервер:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsErrorDlg_Abort</td><td>1049</td><td>{&amp;Tahoma8}&amp;Прервать</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsErrorDlg_ErrorText</td><td>1049</td><td>{&amp;Tahoma8}&lt;error text goes here&gt;&lt;error text goes here&gt;&lt;error text goes here&gt;&lt;error text goes here&gt;&lt;error text goes here&gt;&lt;error text goes here&gt;&lt;error text goes here&gt;&lt;error text goes here&gt;&lt;error text goes here&gt;&lt;error text goes here&gt;&lt;error text goes here&gt;</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsErrorDlg_Ignore</td><td>1049</td><td>{&amp;Tahoma8}&amp;Пропустить</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsErrorDlg_InstallerInfo</td><td>1049</td><td>Сведения о программе установки [ProductName]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsErrorDlg_NO</td><td>1049</td><td>{&amp;Tahoma8}&amp;Нет</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsErrorDlg_OK</td><td>1049</td><td>{&amp;Tahoma8}&amp;OK</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsErrorDlg_Retry</td><td>1049</td><td>{&amp;Tahoma8}По&amp;вторить</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsErrorDlg_Yes</td><td>1049</td><td>{&amp;Tahoma8}Д&amp;а</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsExitDialog_Finish</td><td>1049</td><td>{&amp;Tahoma8}&amp;Готово</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsExitDialog_InstallSuccess</td><td>1049</td><td>{&amp;Tahoma8}Программа InstallShield Wizard успешно установила [ProductName]. Нажмите кнопку "Готово" для выхода из программы.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsExitDialog_LaunchProgram</td><td>1049</td><td>Запустить программу</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsExitDialog_ShowReadMe</td><td>1049</td><td>Показать файл readme</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsExitDialog_UninstallSuccess</td><td>1049</td><td>{&amp;Tahoma8}Программа установки InstallShield успешно удалила [ProductName]. Нажмите кнопку "Готово" для выхода из программы установки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsExitDialog_Update_InternetConnection</td><td>1049</td><td>Можно воспользоваться интернет-соединением и убедиться, что у вас самые последние обновления.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsExitDialog_Update_PossibleUpdates</td><td>1049</td><td>Некоторые программные файлы, возможно, были обновлены с тех пор, как вы приобрели свою копию [ProductName].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsExitDialog_Update_SetupFinished</td><td>1049</td><td>Операция установки завершила инсталляцию [ProductName].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsExitDialog_Update_YesCheckForUpdates</td><td>1049</td><td>&amp;Да, проверьте программные обновления (Рекомендация) после завершения операции установки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsExitDialog_WizardCompleted</td><td>1049</td><td>{&amp;TahomaBold10}Программа InstallShield Wizard завершена</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsFatalError_ClickFinish</td><td>1049</td><td>{&amp;Tahoma8}Нажмите кнопку "Готово" для выхода из программы.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsFatalError_Finish</td><td>1049</td><td>{&amp;Tahoma8}&amp;Готово</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsFatalError_KeepOrRestore</td><td>1049</td><td>{&amp;Tahoma8}Можно либо сохранить установленные элементы в системе, чтобы продолжить данную установку позднее, либо восстановить первоначальное состояние системы до установки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsFatalError_NotModified</td><td>1049</td><td>{&amp;Tahoma8}Параметры системы не изменены. Чтобы выполнить установку в другое время, запустите программу установки еще раз.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsFatalError_RestoreOrContinueLater</td><td>1049</td><td>{&amp;Tahoma8}Нажмите кнопку "Восстановить" или "Продолжить позже" для выхода из программы установки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsFatalError_WizardCompleted</td><td>1049</td><td>{&amp;TahomaBold10}Программа InstallShield Wizard завершена</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsFatalError_WizardInterrupted</td><td>1049</td><td>{&amp;Tahoma8}Выполнение программы было прервано до завершения установки [ProductName].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsFeatureDetailsDlg_DiskSpaceRequirements</td><td>1049</td><td>{&amp;MSSansBold8}Требования к дисковому пространству</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsFeatureDetailsDlg_Numbers</td><td>1049</td><td>{&amp;Tahoma8}{120}{70}{70}{70}{70}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsFeatureDetailsDlg_OK</td><td>1049</td><td>{&amp;Tahoma8}OK</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsFeatureDetailsDlg_SpaceRequired</td><td>1049</td><td>{&amp;Tahoma8}Требуемое пространство на диске для установки выбранных компонентов.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsFeatureDetailsDlg_VolumesTooSmall</td><td>1049</td><td>{&amp;Tahoma8}На указанных дисках недостаточно места для установки выбранных компонентов. Можно удалить файлы с выбранных дисков, установить меньше компонентов на локальные диски или выбрать другие диски.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsFilesInUse_ApplicationsUsingFiles</td><td>1049</td><td>{&amp;Tahoma8}Следующие приложения используют файлы, которые должна обновить данная программа установки. Закройте эти приложения и для продолжения нажмите кнопку "Повторить".</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsFilesInUse_Exit</td><td>1049</td><td>{&amp;Tahoma8}&amp;Выход</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsFilesInUse_FilesInUse</td><td>1049</td><td>{&amp;MSSansBold8}Используются файлы</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsFilesInUse_FilesInUseMessage</td><td>1049</td><td>{&amp;Tahoma8}Некоторые файлы, которые нуждаются в обновлении, в данный момент используются.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsFilesInUse_Ignore</td><td>1049</td><td>{&amp;Tahoma8}&amp;Пропустить</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsFilesInUse_Retry</td><td>1049</td><td>{&amp;Tahoma8}По&amp;вторить</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsGroup</td><td>1049</td><td>&amp;Группа со списком пользователей:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsGroupLabel</td><td>1049</td><td>&amp;Группа со списком пользователей:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsInitDlg_1</td><td>1049</td><td>{&amp;Tahoma8}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsInitDlg_2</td><td>1049</td><td>{&amp;Tahoma8}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsInitDlg_PreparingWizard</td><td>1049</td><td>{&amp;Tahoma8}Программа установки [ProductName] подготавливает программу InstallShield Wizard, которая поможет выполнить установку.  Пожалуйста, подождите.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsInitDlg_WelcomeWizard</td><td>1049</td><td>{&amp;VerdanaBold14}Вас приветствует программа InstallShield Wizard для [ProductName]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsLicenseDlg_LicenseAgreement</td><td>1049</td><td>{&amp;MSSansBold8}Лицензионное соглашение</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsLicenseDlg_ReadLicenseAgreement</td><td>1049</td><td>{&amp;Tahoma8}Пожалуйста, внимательно прочтите следующее лицензионное соглашение.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsLogonInfoDescription</td><td>1049</td><td>Укажите учетную запись пользователя, которую следует использовать в этом приложении. Учетные записи пользователей должны соответствовать формату ДОМЕН\Имя пользователя.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsLogonInfoTitle</td><td>1049</td><td>{&amp;MSSansBold8}Вход в систему</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsLogonInfoTitleDescription</td><td>1049</td><td>Укажите имя пользователя и пароль</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsLogonNewUserDescription</td><td>1049</td><td>Нажмите одну из следующих кнопок для указания сведений о новом пользователе, который будет создан во время установки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsMaintenanceDlg_ChangeFeatures</td><td>1049</td><td>{&amp;Tahoma8}Изменение устанавливаемых компонентов программы. Появится диалоговое окно "Выборочная установка", в котором можно изменить способ установки компонентов.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsMaintenanceDlg_MaitenanceOptions</td><td>1049</td><td>{&amp;Tahoma8}Изменение, исправление или удаление программы.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsMaintenanceDlg_Modify</td><td>1049</td><td>{&amp;MSSansBold8}&amp;Изменить</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsMaintenanceDlg_ProgramMaintenance</td><td>1049</td><td>{&amp;MSSansBold8}Обслуживание программ</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsMaintenanceDlg_Remove</td><td>1049</td><td>{&amp;MSSansBold8}&amp;Удалить</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsMaintenanceDlg_RemoveProductName</td><td>1049</td><td>{&amp;Tahoma8}Удаление [ProductName] из компьютера.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsMaintenanceDlg_Repair</td><td>1049</td><td>{&amp;MSSansBold8}Ис&amp;править</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsMaintenanceDlg_RepairMessage</td><td>1049</td><td>{&amp;Tahoma8}Исправление ошибок в программе. При выборе данного параметра исправляются отсутствующие или поврежденные файлы, ярлыки и записи реестра.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsMaintenanceWelcome_MaintenanceOptionsDescription</td><td>1049</td><td>{&amp;Tahoma8}Программа InstallShield(R) Wizard предоставит возможность изменить, исправить или удалить [ProductName]. Для продолжения нажмите кнопку "Далее".</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsMaintenanceWelcome_WizardWelcome</td><td>1049</td><td>{&amp;TahomaBold10}Вас приветствует программа InstallShield(R) для [ProductName]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsMsiRMFilesInUse_ApplicationsUsingFiles</td><td>1049</td><td>Следующие приложения используют файлы, которые должна обновить данная программа установки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsMsiRMFilesInUse_CloseRestart</td><td>1049</td><td>Автоматически закрыть и попробовать перезапустить приложения.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsMsiRMFilesInUse_RebootAfter</td><td>1049</td><td>Не закрывать приложения. (Потребуется перезагрузка.)</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsPatchDlg_PatchClickUpdate</td><td>1049</td><td>Мастер InstallShield(R) Wizard установит программу-заплату для [ProductName] на компьютер.  Для продолжения нажмите кнопку ""Обновить"".</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsPatchDlg_PatchWizard</td><td>1049</td><td>Программа-заплата [ProductName] - InstallShield Wizard</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsPatchDlg_Update</td><td>1049</td><td>&amp;Обновить &gt;</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsPatchDlg_WelcomePatchWizard</td><td>1049</td><td>{&amp;TahomaBold10}Добро пожаловать в программу-заплату для [ProductName]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsProgressDlg_2</td><td>1049</td><td>{&amp;Tahoma8}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsProgressDlg_Hidden</td><td>1049</td><td>{&amp;Tahoma8}(Hidden for now)</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsProgressDlg_HiddenTimeRemaining</td><td>1049</td><td>{&amp;Tahoma8}(Hidden for now)Осталось примерно:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsProgressDlg_InstallingProductName</td><td>1049</td><td>{&amp;MSSansBold8}Установка [ProductName]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsProgressDlg_ProgressDone</td><td>1049</td><td>Выполнено</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsProgressDlg_SecHidden</td><td>1049</td><td>{&amp;Tahoma8}(Hidden for now)с.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsProgressDlg_Status</td><td>1049</td><td>{&amp;Tahoma8}Состояние:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsProgressDlg_Uninstalling</td><td>1049</td><td>{&amp;MSSansBold8}Удаление [ProductName]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsProgressDlg_UninstallingFeatures</td><td>1049</td><td>{&amp;Tahoma8}Удаление выбранных компонентов программы.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsProgressDlg_UninstallingFeatures2</td><td>1049</td><td>{&amp;Tahoma8}Устанавливаются выбранные компоненты программы.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsProgressDlg_WaitUninstall</td><td>1049</td><td>{&amp;Tahoma8}Дождитесь окончания удаления [ProductName]. Это может занять несколько минут.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsProgressDlg_WaitUninstall2</td><td>1049</td><td>{&amp;Tahoma8}Дождитесь окончания установки [ProductName]. Это может занять несколько минут.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsReadmeDlg_Cancel</td><td>1049</td><td>&amp;Отмена</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsReadmeDlg_PleaseReadInfo</td><td>1049</td><td>Внимательно прочитайте следующую информацию в файле readme.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsReadmeDlg_ReadMeInfo</td><td>1049</td><td>{&amp;MSSansBold8}Информация в файле Readme</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsRegisterUserDlg_16</td><td>1049</td><td>{&amp;Tahoma8}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsRegisterUserDlg_Anyone</td><td>1049</td><td>{&amp;Tahoma8}&amp;всех пользователей данного компьютера</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsRegisterUserDlg_CustomerInformation</td><td>1049</td><td>{&amp;MSSansBold8}Сведения о пользователе</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsRegisterUserDlg_InstallFor</td><td>1049</td><td>{&amp;Tahoma8}Установить приложение для:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsRegisterUserDlg_OnlyMe</td><td>1049</td><td>{&amp;Tahoma8}только для &amp;меня ([USERNAME])</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsRegisterUserDlg_Organization</td><td>1049</td><td>{&amp;Tahoma8}&amp;Организация:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsRegisterUserDlg_PleaseEnterInfo</td><td>1049</td><td>{&amp;Tahoma8}Укажите сведения о себе.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsRegisterUserDlg_SerialNumber</td><td>1049</td><td>&amp;Серийный номер:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsRegisterUserDlg_Tahoma50</td><td>1049</td><td>{50}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsRegisterUserDlg_Tahoma80</td><td>1049</td><td>{80}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsRegisterUserDlg_UserName</td><td>1049</td><td>{&amp;Tahoma8}&amp;Пользователь:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsResumeDlg_ResumeSuspended</td><td>1049</td><td>{&amp;Tahoma8}Программа InstallShield(R) Wizard выполнит отложенную установку [ProductName] на вашем компьютере. Для продолжения нажмите кнопку "Далее".</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsResumeDlg_Resuming</td><td>1049</td><td>{&amp;TahomaBold10}Продолжение выполнения программы InstallShield Wizard для [ProductName]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsResumeDlg_WizardResume</td><td>1049</td><td>{&amp;Tahoma8}Программа InstallShield(R) Wizard закончит установку [ProductName] на компьютере. Для продолжения нажмите кнопку "Далее".</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsSelectDomainOrServer</td><td>1049</td><td>Выберите домен или сервер</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsSelectDomainUserInstructions</td><td>1049</td><td>С помощью кнопок обзора выберите "домен\сервер" и имя пользователя.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsSetupComplete_ShowMsiLog</td><td>1049</td><td>Показать журнал установщика Windows</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsSetupTypeMinDlg_13</td><td>1049</td><td>{&amp;Tahoma8}</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsSetupTypeMinDlg_AllFeatures</td><td>1049</td><td>{&amp;Tahoma8}Будут установлены все компоненты программы. (Требуется больше всего места на диске.)</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsSetupTypeMinDlg_ChooseFeatures</td><td>1049</td><td>{&amp;Tahoma8}Выбор необходимых компонентов программы и папки, в которой они будут установлены. Рассчитана на опытных пользователей.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsSetupTypeMinDlg_ChooseSetupType</td><td>1049</td><td>{&amp;Tahoma8}Выбор наиболее подходящего вида установки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsSetupTypeMinDlg_Complete</td><td>1049</td><td>{&amp;MSSansBold8}&amp;Полная</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsSetupTypeMinDlg_Custom</td><td>1049</td><td>{&amp;MSSansBold8}&amp;Выборочная</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsSetupTypeMinDlg_Minimal</td><td>1049</td><td>{&amp;MSSansBold8}&amp;Минимальная</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsSetupTypeMinDlg_MinimumFeatures</td><td>1049</td><td>{&amp;Tahoma8}Будет установлен минимальный набор функций</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsSetupTypeMinDlg_SelectSetupType</td><td>1049</td><td>{&amp;Tahoma8}Выберите вид установки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsSetupTypeMinDlg_SetupType</td><td>1049</td><td>{&amp;MSSansBold8}Вид установки</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsSetupTypeMinDlg_Typical</td><td>1049</td><td>{&amp;MSSansBold8}&amp;Обычная</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsUserExit_ClickFinish</td><td>1049</td><td>{&amp;Tahoma8}Нажмите кнопку "Готово" для выхода из программы.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsUserExit_Finish</td><td>1049</td><td>{&amp;Tahoma8}&amp;Готово</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsUserExit_KeepOrRestore</td><td>1049</td><td>{&amp;Tahoma8}Можно либо сохранить установленные элементы в системе, чтобы продолжить данную установку позднее, либо восстановить первоначальное состояние системы до установки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsUserExit_NotModified</td><td>1049</td><td>{&amp;Tahoma8}Параметры системы не изменены. В дальнейшем, чтобы установить программу, запустите программу установки еще раз.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsUserExit_RestoreOrContinue</td><td>1049</td><td>{&amp;Tahoma8}Нажмите кнопку "Восстановить" или "Продолжить позже" для выхода из программы.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsUserExit_WizardCompleted</td><td>1049</td><td>{&amp;TahomaBold10}Программа InstallShield Wizard завершена</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsUserExit_WizardInterrupted</td><td>1049</td><td>{&amp;Tahoma8}Выполнение программы было прервано до завершения установки [ProductName].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsUserNameLabel</td><td>1049</td><td>&amp;Имя пользователя:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsVerifyReadyDlg_BackOrCancel</td><td>1049</td><td>{&amp;Tahoma8}Чтобы просмотреть или изменить параметры установки, нажмите кнопку "Назад". Нажмите кнопку "Отмена" для выхода из программы.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsVerifyReadyDlg_ClickInstall</td><td>1049</td><td>{&amp;Tahoma8}Нажмите кнопку "Установить", чтобы начать установку.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsVerifyReadyDlg_Company</td><td>1049</td><td>Организация: [COMPANYNAME]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsVerifyReadyDlg_CurrentSettings</td><td>1049</td><td>Текущие установки:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsVerifyReadyDlg_DestFolder</td><td>1049</td><td>Папка назначения:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsVerifyReadyDlg_Install</td><td>1049</td><td>{&amp;Tahoma8}&amp;Установить</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsVerifyReadyDlg_Installdir</td><td>1049</td><td>[INSTALLDIR]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsVerifyReadyDlg_ModifyReady</td><td>1049</td><td>{&amp;MSSansBold8}Готова к изменению программы</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsVerifyReadyDlg_ReadyInstall</td><td>1049</td><td>{&amp;MSSansBold8}Готова к установке программы</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsVerifyReadyDlg_ReadyRepair</td><td>1049</td><td>{&amp;MSSansBold8}Готова к исправлению программы</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsVerifyReadyDlg_SelectedSetupType</td><td>1049</td><td>[SelectedSetupType]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsVerifyReadyDlg_Serial</td><td>1049</td><td>Серийный номер: [ISX_SERIALNUM]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsVerifyReadyDlg_SetupType</td><td>1049</td><td>Вид установки:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsVerifyReadyDlg_UserInfo</td><td>1049</td><td>Сведения о пользователе:</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsVerifyReadyDlg_UserName</td><td>1049</td><td>Имя: [USERNAME]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsVerifyReadyDlg_WizardReady</td><td>1049</td><td>{&amp;Tahoma8}Программа готова к началу установки.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsVerifyRemoveAllDlg_ChoseRemoveProgram</td><td>1049</td><td>{&amp;Tahoma8}Вы собираетесь удалить программу из компьютера.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsVerifyRemoveAllDlg_ClickBack</td><td>1049</td><td>{&amp;Tahoma8}Чтобы просмотреть или изменить настройки, нажмите кнопку "Назад".</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsVerifyRemoveAllDlg_ClickRemove</td><td>1049</td><td>{&amp;Tahoma8}Нажмите кнопку "Удалить", чтобы удалить [ProductName] из компьютера. После удаления данная программа будет недоступна.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsVerifyRemoveAllDlg_Remove</td><td>1049</td><td>{&amp;Tahoma8}&amp;Удалить</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsVerifyRemoveAllDlg_RemoveProgram</td><td>1049</td><td>{&amp;MSSansBold8}Удаление программы</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsWelcomeDlg_InstallProductName</td><td>1049</td><td>{&amp;Tahoma8}Программа InstallShield(R) Wizard выполнит установку [ProductName] на компьютер. Для продолжения нажмите кнопку "Далее".</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsWelcomeDlg_WarningCopyright</td><td>1049</td><td>ПРЕДУПРЕЖДЕНИЕ: Данная программа защищена законами об авторских правах и международными соглашениями.</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__IsWelcomeDlg_WelcomeProductName</td><td>1049</td><td>{&amp;TahomaBold10}Вас приветствует программа InstallShield Wizard для [ProductName]</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__TargetReq_DESC_COLOR</td><td>1049</td><td>Настройки цвета системы не подходят для работы [ProductName].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__TargetReq_DESC_OS</td><td>1049</td><td>Операционная система не подходит для работы [ProductName].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__TargetReq_DESC_PROCESSOR</td><td>1049</td><td>Процессор не подходит для работы [ProductName].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__TargetReq_DESC_RAM</td><td>1049</td><td>Объем памяти ОЗУ не достаточен для работы [ProductName].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1049</td><td>Разрешение экрана не подходит для работы [ProductName].</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>ID_STRING1</td><td>1049</td><td>http://www.dZimple.ru</td><td>0</td><td/><td>1973642739</td></row>
-		<row><td>ID_STRING2</td><td>1049</td><td>dZimple</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>ID_STRING3</td><td>1049</td><td>Launch SimplePhotoPost.exe</td><td>0</td><td/><td>1973644659</td></row>
-		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1049</td><td>Данный компонент не будет удален.</td><td>0</td><td/><td>1973644659</td></row>
+		<row><td>COMPANY_NAME</td><td>1049</td><td>Название организации</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>DN_AlwaysInstall</td><td>1049</td><td>Всегда устанавливать</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_COLOR</td><td>1049</td><td>Настройки цвета системы не подходят для работы [ProductName].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_OS</td><td>1049</td><td>Операционная система не подходит для работы [ProductName].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_PROCESSOR</td><td>1049</td><td>Процессор не подходит для работы [ProductName].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_RAM</td><td>1049</td><td>Объем памяти ОЗУ не достаточен для работы [ProductName].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDPROP_EXPRESS_LAUNCH_CONDITION_SCREEN</td><td>1049</td><td>Разрешение экрана не подходит для работы [ProductName].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDPROP_SETUPTYPE_COMPACT</td><td>1049</td><td>Сокращенная</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDPROP_SETUPTYPE_COMPACT_DESC</td><td>1049</td><td>Описание сокращенной установки</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDPROP_SETUPTYPE_COMPLETE</td><td>1049</td><td>Полная</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDPROP_SETUPTYPE_COMPLETE_DESC</td><td>1049</td><td>Описание Полной установки</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDPROP_SETUPTYPE_CUSTOM</td><td>1049</td><td>Выборочная</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDPROP_SETUPTYPE_CUSTOM_DESC</td><td>1049</td><td>Описание выборочной установки</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDPROP_SETUPTYPE_CUSTOM_DESC_PRO</td><td>1049</td><td>Описание выборочной установки</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDPROP_SETUPTYPE_TYPICAL</td><td>1049</td><td>Обычная</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDPROP_SETUPTYPE_TYPICAL_DESC</td><td>1049</td><td>Описание обычной установки</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_1</td><td>1049</td><td>[1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_1b</td><td>1049</td><td>[1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_1c</td><td>1049</td><td>[1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_1d</td><td>1049</td><td>[1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_Advertising</td><td>1049</td><td>Реклама приложения</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_AllocatingRegistry</td><td>1049</td><td>Выделение памяти для реестра</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_AppCommandLine</td><td>1049</td><td>Приложение: [1], Командная строка: [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_AppId</td><td>1049</td><td>Код: [1]{{, Тип: [2]}}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_AppIdAppTypeRSN</td><td>1049</td><td>Код: [1]{{, Тип: [2], Пользователи: [3], RSN: [4]}}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_Application</td><td>1049</td><td>Приложение: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_BindingExes</td><td>1049</td><td>Привязка выполняемых файлов</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_ClassId</td><td>1049</td><td>Class Id: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_ClsID</td><td>1049</td><td>Class Id: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_ComponentIDQualifier</td><td>1049</td><td>Код компонента: [1], Описатель: [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_ComponentIdQualifier2</td><td>1049</td><td>Код компонента: [1], Описатель: [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_ComputingSpace</td><td>1049</td><td>Вычисление необходимого свободного места</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_ComputingSpace2</td><td>1049</td><td>Вычисление необходимого свободного места</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_ComputingSpace3</td><td>1049</td><td>Вычисление необходимого свободного места</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_ContentTypeExtension</td><td>1049</td><td>Тип содержимого MIME: [1], Расширение: [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_ContentTypeExtension2</td><td>1049</td><td>Тип содержимого MIME: [1], Расширение: [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_CopyingNetworkFiles</td><td>1049</td><td>Копирование файлов сетевой установки</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_CopyingNewFiles</td><td>1049</td><td>Копирование новых файлов</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_CreatingDuplicate</td><td>1049</td><td>Создание дубликатов файлов</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_CreatingFolders</td><td>1049</td><td>Создание папок</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_CreatingIISRoots</td><td>1049</td><td>Создание виртуальных корней службы IIS...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_CreatingShortcuts</td><td>1049</td><td>Создание ярлыков</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_DeletingServices</td><td>1049</td><td>Удаление служб</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_EnvironmentStrings</td><td>1049</td><td>Обновление строк среды</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_EvaluateLaunchConditions</td><td>1049</td><td>Проверка условий запуска</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_Extension</td><td>1049</td><td>Расширение: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_Extension2</td><td>1049</td><td>Расширение: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_Feature</td><td>1049</td><td>Компонент: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_FeatureColon</td><td>1049</td><td>Компонент: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_File</td><td>1049</td><td>Файл: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_File2</td><td>1049</td><td>Файл: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_FileDependencies</td><td>1049</td><td>Файл: [1],  Зависимости: [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_FileDir</td><td>1049</td><td>Файл: [1], Каталог: [9]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_FileDir2</td><td>1049</td><td>File: [1], Directory: [9]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_FileDir3</td><td>1049</td><td>Файл: [1], Каталог: [9]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_FileDirSize</td><td>1049</td><td>Файл: [1], Каталог: [9], Размер: [6]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_FileDirSize2</td><td>1049</td><td>File: [1],  Directory: [9],  Size: [6]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_FileDirSize3</td><td>1049</td><td>Файл: [1], Каталог: [9],  Размер: [6]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_FileDirSize4</td><td>1049</td><td>Файл: [1], Каталог: [2],  Размер: [3]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_FileDirectorySize</td><td>1049</td><td>Файл: [1], Каталог: [9],  Размер: [6]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_FileFolder</td><td>1049</td><td>Файл: [1], Папка: [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_FileFolder2</td><td>1049</td><td>Файл: [1], Папка: [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_FileSectionKeyValue</td><td>1049</td><td>Файл: [1], Раздел: [2],  Подраздел: [3], Значение: [4]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_FileSectionKeyValue2</td><td>1049</td><td>Файл: [1], Раздел: [2],  Подраздел: [3], Значение: [4]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_Folder</td><td>1049</td><td>Папка: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_Folder1</td><td>1049</td><td>Папка: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_Font</td><td>1049</td><td>Шрифт: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_Font2</td><td>1049</td><td>Шрифт: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_FoundApp</td><td>1049</td><td>Найдено приложение: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_FreeSpace</td><td>1049</td><td>Свободно: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_GeneratingScript</td><td>1049</td><td>Создание операций сценария для макрокоманды:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_ISLockPermissionsCost</td><td>1049</td><td>Сбор информации о правах для объектов...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_ISLockPermissionsInstall</td><td>1049</td><td>Применение информации о правах для объектов...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_InitializeODBCDirs</td><td>1049</td><td>Инициализация каталогов ODBC</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_InstallODBC</td><td>1049</td><td>Установка компонентов ODBC</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_InstallServices</td><td>1049</td><td>Установка новых служб</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_InstallingSystemCatalog</td><td>1049</td><td>Установка системного каталога</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_KeyName</td><td>1049</td><td>Раздел: [1], Имя: [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_KeyNameValue</td><td>1049</td><td>Раздел: [1], Имя: [2], Значение: [3]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_LibId</td><td>1049</td><td>LibID: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_Libid2</td><td>1049</td><td>LibID: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_MigratingFeatureStates</td><td>1049</td><td>Перенос состояний свойств из связанных приложений</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_MovingFiles</td><td>1049</td><td>Перемещение файлов</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_NameValueAction</td><td>1049</td><td>Имя: [1], Значение: [2], Действие [3]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_NameValueAction2</td><td>1049</td><td>Имя: [1], Значение: [2], Действие [3]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_PatchingFiles</td><td>1049</td><td>Обновление файлов</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_ProgID</td><td>1049</td><td>ProgId: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_ProgID2</td><td>1049</td><td>ProgId: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_PropertySignature</td><td>1049</td><td>Свойство: [1], Подпись: [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_PublishProductFeatures</td><td>1049</td><td>Публикация компонентов продукта</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_PublishProductInfo</td><td>1049</td><td>Публикация сведений о продукте</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_PublishingQualifiedComponents</td><td>1049</td><td>Публикация подходящих компонентов</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_RegUser</td><td>1049</td><td>Регистрация пользователей</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_RegisterClassServer</td><td>1049</td><td>Регистрация серверов классов</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_RegisterExtensionServers</td><td>1049</td><td>Регистрация серверов расширений</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_RegisterFonts</td><td>1049</td><td>Регистрация шрифтов</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_RegisterMimeInfo</td><td>1049</td><td>Регистрация MIME</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_RegisterTypeLibs</td><td>1049</td><td>Регистрация библиотек типов</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_RegisteringComPlus</td><td>1049</td><td>Регистрация приложений и компонентов COM+</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_RegisteringModules</td><td>1049</td><td>Регистрация модулей</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_RegisteringProduct</td><td>1049</td><td>Регистрация продукта</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_RegisteringProgIdentifiers</td><td>1049</td><td>Отмена регистрации кодов приложений</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_RemoveApps</td><td>1049</td><td>Удаление приложений</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_RemovingBackup</td><td>1049</td><td>Удаление временных файлов</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_RemovingDuplicates</td><td>1049</td><td>Удаление дублирующихся файлов</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_RemovingFiles</td><td>1049</td><td>Удаление файлов</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_RemovingFolders</td><td>1049</td><td>Удаление папок</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_RemovingIISRoots</td><td>1049</td><td>Удаление виртуальных корней службы IIS...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_RemovingIni</td><td>1049</td><td>Удаление записей в INI-файлах</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_RemovingMoved</td><td>1049</td><td>Удаление перемещенных файлов</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_RemovingODBC</td><td>1049</td><td>Удаление компонентов ODBC</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_RemovingRegistry</td><td>1049</td><td>Удаление параметров системного реестра</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_RemovingShortcuts</td><td>1049</td><td>Удаление ярлыков</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_RollingBack</td><td>1049</td><td>Откат действия:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_SearchForRelated</td><td>1049</td><td>Поиск связанных приложений</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_SearchInstalled</td><td>1049</td><td>Поиск установленных приложений</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_SearchingQualifyingProducts</td><td>1049</td><td>Поиск подходящих продуктов</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_SearchingQualifyingProducts2</td><td>1049</td><td>Поиск подходящих продуктов</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_Service</td><td>1049</td><td>Служба: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_Service2</td><td>1049</td><td>Служба: [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_Service3</td><td>1049</td><td>Служба: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_Service4</td><td>1049</td><td>Служба: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_Shortcut</td><td>1049</td><td>Ярлык: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_Shortcut1</td><td>1049</td><td>Ярлык: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_StartingServices</td><td>1049</td><td>Запуск служб</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_StoppingServices</td><td>1049</td><td>Останов служб</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_UnpublishProductFeatures</td><td>1049</td><td>Отмена публикации компонентов продукта</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_UnpublishQualified</td><td>1049</td><td>Отмена публикация подходящих компонентов</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_UnpublishingProductInfo</td><td>1049</td><td>Отмена публикация сведений о продукте</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_UnregTypeLibs</td><td>1049</td><td>Отмена регистрация библиотек типов</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_UnregisterClassServers</td><td>1049</td><td>Отмена регистрация серверов классов</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_UnregisterExtensionServers</td><td>1049</td><td>Отмена регистрация серверов расширений</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_UnregisterModules</td><td>1049</td><td>Отмена регистрации модулей</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_UnregisteringComPlus</td><td>1049</td><td>Отмена регистрации приложений и компонентов COM+</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_UnregisteringFonts</td><td>1049</td><td>Отмена регистрации шрифтов</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_UnregisteringMimeInfo</td><td>1049</td><td>Отмена регистрации MIME</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_UnregisteringProgramIds</td><td>1049</td><td>Отмена регистрации кодов приложений</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_UpdateComponentRegistration</td><td>1049</td><td>Обновление регистрации компонентов</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_UpdateEnvironmentStrings</td><td>1049</td><td>Обновление строк среды</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_Validating</td><td>1049</td><td>Проверка установки</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_WritingINI</td><td>1049</td><td>Сохранение значений в INI-файлах</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ACTIONTEXT_WritingRegistry</td><td>1049</td><td>Запись параметров системного реестра</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_BACK</td><td>1049</td><td>&lt; &amp;Назад</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_CANCEL</td><td>1049</td><td>Отмена</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_CANCEL2</td><td>1049</td><td>{&amp;Tahoma8}&amp;Отмена</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_CHANGE</td><td>1049</td><td>&amp;Изменить...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_COMPLUS_PROGRESSTEXT_COST</td><td>1049</td><td>Оценка необходимо места для приложения COM+: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_COMPLUS_PROGRESSTEXT_INSTALL</td><td>1049</td><td>Установка приложения COM+: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_COMPLUS_PROGRESSTEXT_UNINSTALL</td><td>1049</td><td>Удаление приложения COM+: [1]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_DIALOG_TEXT2_DESCRIPTION</td><td>1049</td><td>Описание - шрифт Dialog, обычный</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_DIALOG_TEXT_DESCRIPTION_EXTERIOR</td><td>1049</td><td>{&amp;TahomaBold10}Заголовок - шрифт Dialog, жирный</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_DIALOG_TEXT_DESCRIPTION_INTERIOR</td><td>1049</td><td>{&amp;MSSansBold8}Заголовок - шрифт Dialog, жирный</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_DIFX_AMD64</td><td>1049</td><td>Для [ProductName] необходим процессор X64. Для выхода из мастера нажмите кнопку OK.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_DIFX_IA64</td><td>1049</td><td>Для [ProductName] необходим процессор IA64. Для выхода из мастера нажмите кнопку ОК.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_DIFX_X86</td><td>1049</td><td>Для [ProductName] необходим процессор X86. Для выхода из мастера нажмите кнопку OK.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_DatabaseFolder_InstallDatabaseTo</td><td>1049</td><td>Установить базу данных [ProductName] в:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_0</td><td>1049</td><td>{{Неустранимая ошибка: }}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1</td><td>1049</td><td>Ошибка [1].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_10</td><td>1049</td><td>=== Начало записи журнала: [Date]  [Time] ===</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_100</td><td>1049</td><td>Не удается удалить ярлык [2]. Проверьте, что файл ярлыка существует и доступен.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_101</td><td>1049</td><td>Не удается зарегистрировать библиотеку типов для файла [2].  Обратитесь в службу поддержки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_102</td><td>1049</td><td>Не удается отменить регистрацию библиотеки типов для файла [2].  Обратитесь в службу поддержки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_103</td><td>1049</td><td>Не удается обновить ini-файл [2][3].  Проверьте, что файл существует и доступен.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_104</td><td>1049</td><td>Не удается спланировать замену файла [3] на [2] при перезагрузке.  Убедитесь, что у вас имеются разрешения на доступ к файлу [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_105</td><td>1049</td><td>Ошибка при удалении диспетчера драйвера ODBC, ошибка ODBC [2]: [3]. Обратитесь в службу поддержки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_106</td><td>1049</td><td>Ошибка при установке диспетчера драйвера ODBC, ошибка ODBC [2]: [3]. Обратитесь в службу поддержки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_107</td><td>1049</td><td>Ошибка при удалении драйвера ODBC: [4], ошибка ODBC [2]: [3]. Убедитесь, что у вас имеются разрешения на удаление драйверов ODBC.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_108</td><td>1049</td><td>Ошибка при установке драйвера ODBC: [4], ошибка ODBC [2]: [3]. Проверьте, что файл [4] существует и доступен.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_109</td><td>1049</td><td>Ошибка при настройке источника данных ODBC: [4], ошибка ODBC [2]: [3]. Проверьте, что файл [4] существует и доступен.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_11</td><td>1049</td><td>=== Завершение записи журнала: [Date]  [Time] ===</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_110</td><td>1049</td><td>Ошибка при запуске службы "[2]" ([3]).  Убедитесь, что у вас имеются разрешения на запуск системных служб.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_111</td><td>1049</td><td>Не удается остановить службу "[2]" ([3]).  Убедитесь, что у вас имеются разрешения на останов системных служб.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_112</td><td>1049</td><td>Не удается удалить службу "[2]" ([3]).  Убедитесь, что у вас имеются разрешения на удаление системных служб.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_113</td><td>1049</td><td>Не удается установить службу "[2]" ([3]).  Убедитесь, что у вас имеются разрешения на установку системных служб.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_114</td><td>1049</td><td>Не удается обновить переменную среды "[2]".  Убедитесь, что у вас имеются разрешения на изменение переменных среды.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_115</td><td>1049</td><td>У вас недостаточно полномочий для выполнения этой установки для всех пользователей данного компьютера.  Войдите в систему в качестве администратора и повторите установку.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_116</td><td>1049</td><td>Не удается установить атрибуты безопасности для файла "[3]". Ошибка: [2].  Убедитесь, что у вас достаточно полномочий для изменения разрешений на доступ к этому файлу.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_117</td><td>1049</td><td>Службы COM+ 1.0 не установлены на данном компьютере.  Они необходимы для успешной установки.  Эти службы входят в состав Windows 2000.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_118</td><td>1049</td><td>Произошла ошибка при регистрации приложения COM+.  За дополнительными сведениями обратитесь в службу поддержки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_119</td><td>1049</td><td>Произошла ошибка при отмене регистрации приложения COM+.  За дополнительными сведениями обратитесь в службу поддержки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_12</td><td>1049</td><td>Начало действия [Time]: [1].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_120</td><td>1049</td><td>Удаление более ранних версий этого приложения...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_121</td><td>1049</td><td>Подготовка к удалению более ранних версий этого приложения...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_122</td><td>1049</td><td>Произошла ошибка при обновлении файла [2].  Возможно, он уже был обновлен другими средствами, и к нему не может быть применен данный пакет исправлений.  За дополнительными сведениями обратитесь к поставщику пакета.  {{Системная ошибка: [3]}}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_123</td><td>1049</td><td>[2] не удается установить один из обязательных продуктов. Обратитесь в группу технической поддержки.  {{Системная ошибка: [3].}}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_124</td><td>1049</td><td>Не удается удалить более раннюю версию [2]. Обратитесь в группу технической поддержки.  {{Системная ошибка: [3].}}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_125</td><td>1049</td><td>Изменение описания службы  '[2]' ([3]) не допускается.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_126</td><td>1049</td><td>Службе Windows Installer не удается обновить системный файл [2], поскольку он защищен средствами Windows.  Возможно, для правильной работы программы потребуется обновление операционной системы. {{Версия пакета: [3], Защищенная версия ОС: [4]}}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_127</td><td>1049</td><td>Службе Windows Installer не удается обновить защищенный системный файл [2]. {{Версия пакета: [3], Защищенная версия ОС: [4], Ошибка SFP: [5]}}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_128</td><td>1049</td><td>Службе установщика Windows не удалось обновить один или несколько защищенных файлов Windows. Ошибка SFP: [2]. Список защищенных файлов: [3]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_129</td><td>1049</td><td>Установки пользователя отключены в соответствии с политикой на этой машине.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_13</td><td>1049</td><td>Завершение действия [Time]: [1]. Возвращенное значение [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_130</td><td>1049</td><td>Установка требует наличия IIS-сервера для осуществления конфигурации виртуальных корней IIS. Убедитесь в том, что IIS установлен.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_131</td><td>1049</td><td>Для этой установки требуются привилегии администратора для настройки виртуальных корней службы IIS.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1329</td><td>1049</td><td>Невозможно установить необходимый файл, поскольку CAB-файл [2] не имеет цифровой подписи. Это может означать, что CAB-файл поврежден.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1330</td><td>1049</td><td>Невозможно установить необходимый файл, поскольку CAB-файл [2] имеет недопустимую цифровую подпись. Возможно, CAB-файл поврежден.{ Ошибка [3] получена WinVerifyTrust.}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1331</td><td>1049</td><td>Не удалось корректно скопировать [2] файл: Ошибка CRC.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1332</td><td>1049</td><td>Не удалось корректно исправить [2] файл: Ошибка CRC.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1333</td><td>1049</td><td>Не удалось корректно исправить [2] файл: Ошибка CRC.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1334</td><td>1049</td><td>Невозможно установить файл '[2]' поскольку файл не найден CAB-файле '[3]'. Возможны: ошибка сети, ошибка чтения с компакт-диска, неполадка пакета установки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1335</td><td>1049</td><td>Невозможно использовать необходимый для данной установки CAB-файл '[2]', поскольку он поврежден. Возможны: ошибка сети, ошибка чтения с компакт-диска, неполадка пакета установки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1336</td><td>1049</td><td>Произошла ошибка при создании временного файла, необходимого для завершения установки. Папка: [3]. Код системной ошибки: [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_14</td><td>1049</td><td>Оставшееся время: {[1] мин }{[2] сек}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_15</td><td>1049</td><td>Недостаточно памяти. Закройте другие приложения и повторите попытку.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_16</td><td>1049</td><td>Windows Installer не отвечает.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1609</td><td>1049</td><td>При настр. безоп. произошла ошибка. [2] - недопустимый польз./группа. Проблема м.б. связана с приложением или контроллером домена. Проверьте подключ-е и щелкните Повтор или Отмена для заверш. установки. Невозможно опр. SID пользователя, сист. ошибка [3]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1651</td><td>1049</td><td>Администратору не удалось применить исправление для управляемого пользователем или автоматического приложения в заявленном состоянии.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_17</td><td>1049</td><td>Программа Windows Installer завершена преждевременно.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1715</td><td>1049</td><td>Установлено [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1716</td><td>1049</td><td>Настроено [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1717</td><td>1049</td><td>Удалено [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1718</td><td>1049</td><td>Файл [2] был отклонен политикой цифровой подписи.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1719</td><td>1049</td><td>Не удается получить доступ к программе установки Windows. Обратитесь в службу поддержки для подтверждения регистрации и подключения.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1720</td><td>1049</td><td>Неполадки пакета установщика Windows. Невозможно запустить программу, необходимую для завершения установки. Обратитесь в службу поддержки или поставщику пакета. Действие пользователя [2] ошибка сценария [3], [4]: [5] Строка [6], Столбец [7], [8]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1721</td><td>1049</td><td>Неполадки пакета установщика Windows. Невозможно запустить программу, необходимую для завершения установки. Обратитесь в службу поддержки или к поставщику пакета. Действие: [2], местоположение: [3], команда: [4]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1722</td><td>1049</td><td>Неполадка пакета установщика Windows. Непредвиденное завершение программы, являющейся частью установки. Обратитесь в службу поддержки или к поставщику пакета. Действие [2], местоположение: [3], команда: [4]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1723</td><td>1049</td><td>Неполадка пакета установщика Windows. Невозможно запустить необходимый для завершения установки файл DLL. Обратитесь в службу поддержки или к поставщику пакета. Действие [2], свойство: [3], библиотека: [4]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1724</td><td>1049</td><td>Удаление завершено успешно.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1725</td><td>1049</td><td>Удаление не удалось.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1726</td><td>1049</td><td>Объявление завершено успешно.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1727</td><td>1049</td><td>Объявление не удалось.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1728</td><td>1049</td><td>Конфигурация завершена успешно.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1729</td><td>1049</td><td>Конфигурация не удалась.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1730</td><td>1049</td><td>Для удаления этого приложения необходимо иметь права администратора. Для удаления этого приложения войдите в систему как администратор или обратитесь в группу технической поддержки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1731</td><td>1049</td><td>Источник установочного пакета для продукта [2] не найден. Попробуйте повторить установку, используя работоспособную копию пакета '[3]'.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1732</td><td>1049</td><td>Для завершения установки [2] необходимо перезагрузить компьютер. Другие пользователи в настоящий момент вошли в систему на этом компьютере, перезагрузка может помешать их работе. Перезагрузить компьютер?</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_18</td><td>1049</td><td>Идет настройка [ProductName]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_19</td><td>1049</td><td>Сбор сведений...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1935</td><td>1049</td><td>Возникла ошибка при установке компонента сборки [2]. HRESULT: [3]. {{интерфейс сборки: [4], функция: [5], имя сборки: [6]}}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1936</td><td>1049</td><td>Возникла ошибка при установке сборки '[6]'. Сборка не строго именована или не подписана ключом минимальной длины. HRESULT: [3]. {{интерфейс сборки: [4], функция: [5], компонент: [2]}}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1937</td><td>1049</td><td>Возникла ошибка при установке сборки '[6]'. Подпись или каталог не могут быть проверены или недействительны. HRESULT: [3]. {{интерфейс сборки: [4], функция: [5], компонент: [2]}}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_1938</td><td>1049</td><td>Возникла ошибка при установке компонента сборки '[6]'. Не удается найти один или несколько модулей сборки. HRESULT: [3]. {{интерфейс сборки: [4], функция: [5], компонент: [2]}}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2</td><td>1049</td><td>Предупреждение [1]. </td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_20</td><td>1049</td><td>{[ProductName] }Установка успешно завершена.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_21</td><td>1049</td><td>{[ProductName] }Установка не выполнена.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2101</td><td>1049</td><td>Ярлыки не поддерживаются операционной системой.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2102</td><td>1049</td><td>Недопустимое действие файла INI: [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2103</td><td>1049</td><td>Невозможно сопоставить путь для папки оболочек [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2104</td><td>1049</td><td>Запись файла INI: [3]: Системная ошибка: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2105</td><td>1049</td><td>Не удалось создать ярлык [3]. Системная ошибка: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2106</td><td>1049</td><td>Не удалось удалить ярлык [3]. Системная ошибка: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2107</td><td>1049</td><td>Ошибка [3] регистрации библиотеки типов [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2108</td><td>1049</td><td>Ошибка [3] отмены регистрации библиотеки типов [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2109</td><td>1049</td><td>Отсутствует раздел для действия файла INI.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2110</td><td>1049</td><td>Отсутствует ключ для действия файла INI.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2111</td><td>1049</td><td>Не удалось определить запущенные приложения, невозможно получить данные быстродействия. Операция реестра вернула код: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2112</td><td>1049</td><td>Не удалось определить запущенные приложения, невозможно получить индекс быстродействия. Операция реестра вернула код: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2113</td><td>1049</td><td>Не удалось определить запущенные приложения.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_22</td><td>1049</td><td>Ошибка чтения из файла: [2]. {{ Системная ошибка [3].}}  Проверьте, что файл существует и доступен.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2200</td><td>1049</td><td>База данных: [2]. Не удалось создать объект базы данных, режим = [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2201</td><td>1049</td><td>База данных: [2]. Инициализация не удалась, недостаточно памяти.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2202</td><td>1049</td><td>База данных: [2]. Нет доступа к данным, недостаточно памяти.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2203</td><td>1049</td><td>База данных: [2]. Невозможно открыть файл базы данных. Системная ошибка [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2204</td><td>1049</td><td>База данных: [2]. Таблица уже существует: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2205</td><td>1049</td><td>База данных: [2]. Таблица не существует: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2206</td><td>1049</td><td>База данных: [2]. Невозможно пропустить таблицу: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2207</td><td>1049</td><td>База данных: [2]. Нарушение значения.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2208</td><td>1049</td><td>База данных: [2]. Недостаточные параметры выполнения.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2209</td><td>1049</td><td>База данных: [2]. Недопустимое состояние курсора.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2210</td><td>1049</td><td>База данных: [2]. Недопустимый тип данных обновления в столбце [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2211</td><td>1049</td><td>База данных: [2]. Невозможно создать таблицу баз данных [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2212</td><td>1049</td><td>База данных: [2]. База данных не находится в состоянии записи.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2213</td><td>1049</td><td>База данных: [2]. Ошибка при сохранении таблиц баз данных.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2214</td><td>1049</td><td>База данных: [2]. Ошибка записи файла экспорта: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2215</td><td>1049</td><td>База данных: [2]. Невозможно открыть файл импорта: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2216</td><td>1049</td><td>База данных: [2]. Ошибка импорта формата файла: [3], Строка [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2217</td><td>1049</td><td>База данных: [2]. Неверное состояние для CreateOutputDatabase [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2218</td><td>1049</td><td>База данных: [2]. Не указано имя таблицы.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2219</td><td>1049</td><td>База данных: [2]. Недопустимый формат базы данных установщика.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2220</td><td>1049</td><td>База данных: [2]. Недопустимые данные строки/поля.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2221</td><td>1049</td><td>База данных: [2]. Конфликт кодовой страницы в файле импорта: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2222</td><td>1049</td><td>База данных: [2]. Преобразование или объединение кодовой страницы [3] отличается от кодовой страницы базы данных [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2223</td><td>1049</td><td>База данных: [2]. Одинаковые базы данных. Преобразование не создано.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2224</td><td>1049</td><td>База данных: [2]. GenerateTransform: База данных повреждена. Таблица: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2225</td><td>1049</td><td>База данных: [2]. Преобразовать: Невозможно преобразовать временную таблицу. Таблица: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2226</td><td>1049</td><td>База данных: [2]. Преобразование не удалось.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2227</td><td>1049</td><td>База данных: [2]. Недопустимый определитель '[3]' в запросе SQL: [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2228</td><td>1049</td><td>База данных: [2]. Неизвестная таблица '[3]' в запросе SQL: [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2229</td><td>1049</td><td>База данных: [2]. Невозможно загрузить таблицу '[3]' запроса SQL: [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2230</td><td>1049</td><td>База данных: [2]. Повтор таблицы '[3]' в запросе SQL: [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2231</td><td>1049</td><td>База данных: [2]. Отсутствует ')' в запросе SQL: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2232</td><td>1049</td><td>База данных: [2]. Недопустимый маркер '[3]' в запросе SQL: [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2233</td><td>1049</td><td>База данных: [2]. Отсутствуют столбцы в предложении SELECT запроса SQL: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2234</td><td>1049</td><td>База данных: [2]. Отсутствуют столбцы в предложении ORDER BY запроса SQL: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2235</td><td>1049</td><td>База данных: [2]. Столбец '[3]' в запросе SQL отсутствует или неоднозначен: [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2236</td><td>1049</td><td>База данных: [2]. Недопустимый оператор '[3]' в запросе SQL: [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2237</td><td>1049</td><td>База данных: [2]. Недопустимая или отсутствующая строка запроса: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2238</td><td>1049</td><td>База данных: [2]. Отсутствует предложение FROM в запросе SQL: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2239</td><td>1049</td><td>База данных: [2]. Недостаточные значения в инструкции INSERT SQL.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2240</td><td>1049</td><td>База данных: [2]. Отсутствуют столбцы обновлений в инструкции UPDATE SQL.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2241</td><td>1049</td><td>База данных: [2]. Отсутствуют столбцы вставки в инструкции INSERT SQL.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2242</td><td>1049</td><td>База данных: [2]. Столбец '[3]' повторяется.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2243</td><td>1049</td><td>База данных: [2]. Не определены первичные столбцы для создания таблицы.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2244</td><td>1049</td><td>База данных: [2]. Недопустимый определитель типа '[3]' в запросе SQL [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2245</td><td>1049</td><td>Выполнение IStorage::Stat не удалось из-за ошибки [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2246</td><td>1049</td><td>База данных: [2]. Недопустимый формат преобразования установщика.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2247</td><td>1049</td><td>База данных: [2] Ошибка чтения/записи потока преобразования.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2248</td><td>1049</td><td>База данных: [2] GenerateTransform/Merge: Тип столбца в основной таблице не соответствует таблице ссылок. Таблица: [3], Столбец №: [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2249</td><td>1049</td><td>База данных: [2] GenerateTransform: В основной таблице больше столбцов, чем в таблице ссылок. Таблица: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2250</td><td>1049</td><td>База данных: [2] Преобразовать: Невозможно добавить существующую строку. Таблица: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2251</td><td>1049</td><td>База данных: [2] Преобразовать: Невозможно удалить несуществующую строку. Таблица: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2252</td><td>1049</td><td>База данных: [2] Преобразовать: Невозможно добавить существующую таблицу. Таблица: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2253</td><td>1049</td><td>База данных: [2] Преобразовать: Невозможно удалить несуществующую таблицу. Таблица: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2254</td><td>1049</td><td>База данных: [2] Преобразовать: Невозможно обновить несуществующую строку. Таблица: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2255</td><td>1049</td><td>База данных: [2] Преобразовать: Столбец с таким именем уже существует. Таблица: [3] Столбец: [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2256</td><td>1049</td><td>База данных: [2] GenerateTransform/Merge: Количество первичных ключей в основной таблице не соответствует таблице ссылок. Таблица: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2257</td><td>1049</td><td>База данных: [2]. Попытка внесения изменений в таблицу, предназначенную только для чтения: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2258</td><td>1049</td><td>База данных: [2]. Несовпадение типа в параметре: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2259</td><td>1049</td><td>База данных: [2] Не удалось обновить таблицу (-цы)</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2260</td><td>1049</td><td>Не удалось выполнить команду CopyTo для хранилища. Системная ошибка: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2261</td><td>1049</td><td>Невозможно удалить поток [2]. Системная ошибка: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2262</td><td>1049</td><td>Поток не существует: [2]. Системная ошибка: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2263</td><td>1049</td><td>Невозможно открыть поток [2]. Системная ошибка: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2264</td><td>1049</td><td>Невозможно удалить поток [2]. Системная ошибка: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2265</td><td>1049</td><td>Невозможно сохранить хранилище. Системная ошибка: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2266</td><td>1049</td><td>Невозможно откатить хранилище. Системная ошибка: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2267</td><td>1049</td><td>Невозможно удалить хранилище [2]. Системная ошибка: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2268</td><td>1049</td><td>База данных: [2]. Объединить: Возникли конфликты объединения, о которых сообщено в [3] таблицах.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2269</td><td>1049</td><td>База данных: [2]. Объединить: Разное число столбцов в таблице '[3]' в двух базах данных.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2270</td><td>1049</td><td>База данных: [2]. GenerateTransform/Merge: Имя столбца в основной таблице не соответствует таблице ссылок. Таблица: [3], Столбец №: [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2271</td><td>1049</td><td>Не удалось записать сводную информацию для преобразования.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2272</td><td>1049</td><td>База данных: [2]. Команда MergeDatabase данных не запишет внесенные изменения, поскольку база данных открыта только для чтения.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2273</td><td>1049</td><td>База данных: [2]. MergeDatabase: Ссылка на основную базу данных передана как база данных ссылок.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2274</td><td>1049</td><td>База данных: [2]. MergeDatabase: Невозможно внести ошибки в Таблицу ошибок. Возможно, это связано тем, что столбец встроенной Таблицы ошибок не может иметь неопределенное значение.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2275</td><td>1049</td><td>База данных: [2]. Заданная операция изменения [3] невозможна для объединения таблиц.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2276</td><td>1049</td><td>База данных: [2]. Кодовая страница [3] не поддерживается системой.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2277</td><td>1049</td><td>База данных: [2]. Не удалось сохранить таблицу [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2278</td><td>1049</td><td>База данных: [2]. Превышение ограничения числа выражений в 32 в предложении WHERE запроса SQL: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2279</td><td>1049</td><td>База данных: [2] Преобразовать: Слишком много столбцов в основной таблице [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2280</td><td>1049</td><td>База данных: [2]. Невозможно создать столбец [3] в таблице [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2281</td><td>1049</td><td>Невозможно переименовать поток [2]. Системная ошибка: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2282</td><td>1049</td><td>Недопустимое имя потока [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_23</td><td>1049</td><td>Не удается создать файл "[2]".  Каталог с этим именем уже существует.  Прервите установку и укажите другой каталог.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2302</td><td>1049</td><td>Уведомление исправления: [2] байта (-ов) уже исправлено.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2303</td><td>1049</td><td>Ошибка при получении информации тома. GetLastError: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2304</td><td>1049</td><td>Ошибка поиска свободного места на диске. GetLastError: [2]. Том: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2305</td><td>1049</td><td>Ошибка ожидания потока пути. GetLastError: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2306</td><td>1049</td><td>Невозможно создать поток для приложения исправлений. GetLastError: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2307</td><td>1049</td><td>Нулевое имя ключа исходного файла.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2308</td><td>1049</td><td>Нулевое имя файла назначения.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2309</td><td>1049</td><td>Попытка исправления файла [2] при уже запущенном исправлении.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2310</td><td>1049</td><td>Попытка продолжения исправления при отсутствии запущенных исправлений.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2315</td><td>1049</td><td>Отсутствует разделитель пути: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2318</td><td>1049</td><td>Файл не существует: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2319</td><td>1049</td><td>Ошибка при установке атрибутов файла: [3] GetLastError: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2320</td><td>1049</td><td>Незаписываемый файл: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2321</td><td>1049</td><td>Ошибка при создании файла: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2322</td><td>1049</td><td>Пользователь отменен.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2323</td><td>1049</td><td>Недопустимый атрибут файла.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2324</td><td>1049</td><td>Невозможно открыть файл: [3] GetLastError: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2325</td><td>1049</td><td>Невозможно получить время файла для файла: [3] GetLastError: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2326</td><td>1049</td><td>Ошибка в FileToDosDateTime.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2327</td><td>1049</td><td>Невозможно удалить каталог: [3] GetLastError: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2328</td><td>1049</td><td>Ошибка получения информации о версии файла для файла: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2329</td><td>1049</td><td>Ошибка при удалении файла: [3]. GetLastError: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2330</td><td>1049</td><td>Ошибка при получении атрибутов файла: [3]. GetLastError: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2331</td><td>1049</td><td>Ошибка при загрузке библиотеки [2] или поиске точки входа [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2332</td><td>1049</td><td>Ошибка при получении атрибутов файла. GetLastError: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2333</td><td>1049</td><td>Ошибка при установке атрибутов файла. GetLastError: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2334</td><td>1049</td><td>Ошибка преобразования времени файла в местное время для файла: [3]. GetLastError: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2335</td><td>1049</td><td>Путь: [2] не является родительским объектом для [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2336</td><td>1049</td><td>Ошибка создания временного файла на пути: [3]. GetLastError: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2337</td><td>1049</td><td>Невозможно закрыть файл: [3] GetLastError: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2338</td><td>1049</td><td>Невозможно обновить ресурс для файла: [3] GetLastError: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2339</td><td>1049</td><td>Невозможно установить время файла для файла: [3] GetLastError: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2340</td><td>1049</td><td>Невозможно обновить ресурс для файла: [3], Отсутствующий ресурс.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2341</td><td>1049</td><td>Невозможно обновить ресурс для файла: [3], Ресурс слишком велик.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2342</td><td>1049</td><td>Невозможно обновить ресурс для файла: [3] GetLastError: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2343</td><td>1049</td><td>Указанный путь пустой.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2344</td><td>1049</td><td>Невозможно найти требуемый файл IMAGEHLP.DLL для проверки файла: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2345</td><td>1049</td><td>[2]: Файл не содержит допустимого значения контрольной суммы.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2347</td><td>1049</td><td>Отказ пользователя.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2348</td><td>1049</td><td>Ошибка при чтении потока CAB-файла.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2349</td><td>1049</td><td>Копия запущена заново с другой информацией.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2350</td><td>1049</td><td>Ошибка сервера FDI </td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2351</td><td>1049</td><td>Ключ файла '[2]' не найден в CAB-файле '[3]'. Невозможно продолжить установку.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2352</td><td>1049</td><td>Невозможно инициализировать сервер CAB-файлов. Отсутствует требуемый файл 'CABINET.DLL'.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2353</td><td>1049</td><td>Не CAB-файл.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2354</td><td>1049</td><td>Невозможно применить дескриптор к CAB-файлу.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2355</td><td>1049</td><td>CAB-файл поврежден.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2356</td><td>1049</td><td>Невозможно определить CAB-файл в потоке: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2357</td><td>1049</td><td>Невозможно установить атрибуты.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2358</td><td>1049</td><td>Определение ошибки в процессе использования файла: [3]. GetLastError: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2359</td><td>1049</td><td>Невозможно создать целевой файл – возможно, он используется.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2360</td><td>1049</td><td>Отметка прогресса.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2361</td><td>1049</td><td>Необходим следующий CAB-файл.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2362</td><td>1049</td><td>Папка не найдена: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2363</td><td>1049</td><td>Невозможно перечислить подпапки в папке: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2364</td><td>1049</td><td>Неверная константа перечисления при вызове CreateCopier.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2365</td><td>1049</td><td>Невозможно выполнить действие BindImage для файла EXE [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2366</td><td>1049</td><td>Ошибка пользователя.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2367</td><td>1049</td><td>Прерывание пользователя.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2368</td><td>1049</td><td>Невозможно получить информацию о сетевом ресурсе. Ошибка [2], сетевой путь [3]. Ошибка: служба доступа к сети [5], код ошибки [4], описание ошибки [6].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2370</td><td>1049</td><td>Некорректное значение контрольной суммы CRC для файла [2].{ В заголовке указана контрольная сумма [3], вычисленное значение равняется [4].}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2371</td><td>1049</td><td>Невозможно применить исправление к файлу [2]. GetLastError: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2372</td><td>1049</td><td>Файл исправления [2] поврежден или имеет недопустимый формат. Попытка исправления файла [3]. GetLastError: [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2373</td><td>1049</td><td>Файл [2] не является допустимым файлом исправлений.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2374</td><td>1049</td><td>Файл [2] не является допустимым файлом назначения для файла исправлений [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2375</td><td>1049</td><td>Неизвестная ошибка исправления: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2376</td><td>1049</td><td>CAB-файл не найден.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2379</td><td>1049</td><td>Ошибка при открытии файла для чтения: [3] GetLastError: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2380</td><td>1049</td><td>Ошибка при открытии файла для записи: [3]. GetLastError: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2381</td><td>1049</td><td>Каталог не существует: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2382</td><td>1049</td><td>Дисковод не готов: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_24</td><td>1049</td><td>Вставьте диск [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2401</td><td>1049</td><td>Попытка 64-битной операции в реестре в 32-битной операционной системе для ключа [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2402</td><td>1049</td><td>Недостаточно памяти.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_25</td><td>1049</td><td>У программы Windows Installer недостаточно полномочий для получения доступа к этому каталогу: [2].  Установка не может быть продолжена.  Войдите в систему в качестве администратора, либо обратитесь к системному администратору.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2501</td><td>1049</td><td>Невозможно создать перечислитель сценария отката.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2502</td><td>1049</td><td>Попытка окончания установки при отсутствии процесса установки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2503</td><td>1049</td><td>Вызов команды RunScript, когда она не помечена как запущенная.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_26</td><td>1049</td><td>Ошибка записи в файл [2].  Убедитесь, что у вас есть доступ к этому каталогу.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2601</td><td>1049</td><td>Недопустимое значение свойства [2]: '[3]'</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2602</td><td>1049</td><td>Для вхождения '[3]' таблицы [2] не существует связанного вхождения в таблице носителей.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2603</td><td>1049</td><td>Повторяющееся имя таблицы [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2604</td><td>1049</td><td>[2] Свойство не определено.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2605</td><td>1049</td><td>Невозможно найти сервер [2] в [3] или [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2606</td><td>1049</td><td>Значение свойства [2] не является допустимым полным путем: '[3]'.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2607</td><td>1049</td><td>Таблица носителей не найдена или пуста (требуется для установки файлов).</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2608</td><td>1049</td><td>Невозможно создать дескриптор безопасности для объекта. Ошибка: '[2]'.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2609</td><td>1049</td><td>Попытка миграции установок продукта перед инициализацией.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2611</td><td>1049</td><td>Файл [2] помечен как сжатый, но связанная запись носителя не задает CAB-файл.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2612</td><td>1049</td><td>Не найден поток в '[2]' столбце. Первичный ключ: '[3]'.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2613</td><td>1049</td><td>Действие RemoveExistingProducts упорядочено некорректно.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2614</td><td>1049</td><td>Нет доступа к объекту IStorage из пакета установки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2615</td><td>1049</td><td>Пропущена отмена регистрации модуля [2] из-за ошибки разрешения источника.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2616</td><td>1049</td><td>Отсутствует родительский объект вспомогательного файла [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2617</td><td>1049</td><td>Общий компонент приложения [2] не найден в таблице компонентов.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2618</td><td>1049</td><td>Изолированный компонент приложения [2] не найден в таблице компонентов.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2619</td><td>1049</td><td>Изолированные компоненты [2], [3] не являются частью одной и той же функции.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2620</td><td>1049</td><td>Ключ файла изолированного компонента приложения [2] отсутствует в таблице файлов.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2621</td><td>1049</td><td>Информация библиотеки ресурсов или идентификатора ресурсов для ярлыка [2] установлена неверно.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27</td><td>1049</td><td>Ошибка чтения из файла: [2]. {{ Системная ошибка [3].}} Проверьте, что файл существует и доступен.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2701</td><td>1049</td><td>Глубина функции превышает допустимую глубину дерева, составляющую [2] уровня (-ей).</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2702</td><td>1049</td><td>Запись в таблице функций ([2]) ссылается на несуществующий родительский объект в поле атрибутов.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2703</td><td>1049</td><td>Имя свойства для пути корневого источника не определено: [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2704</td><td>1049</td><td>Не определено свойство корневой каталога: [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2705</td><td>1049</td><td>Недопустимая таблица: [2]; Невозможно связать в качестве дерева.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2706</td><td>1049</td><td>Не созданы исходные пути. Не существует пути для вхождения [2] в таблице каталогов.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2707</td><td>1049</td><td>Не созданы конечные пути. Не существует пути для вхождения [2] в таблице каталогов.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2708</td><td>1049</td><td>Не обнаружено вхождений в таблице файлов.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2709</td><td>1049</td><td>Указанное имя компонента ('[2]') не найдено в таблице компонентов.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2710</td><td>1049</td><td>Требуемая команда 'Выбрать' недопустима для данного компонента.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2711</td><td>1049</td><td>Определенное имя функции ('[2]') не найдено в таблице функций.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2712</td><td>1049</td><td>Недопустимое возвращение из немодального диалога: [3], в действии [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2713</td><td>1049</td><td>Нулевое значение в столбце с неопределенным значением ('[2]' в '[3]' столбце '[4]' таблицы.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2714</td><td>1049</td><td>Недопустимое значение имени папки по умолчанию: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2715</td><td>1049</td><td>Определенный ключ файла ('[2]') не найден в таблице файлов.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2716</td><td>1049</td><td>Невозможно создать случайное имя субкомпонента для компонента '[2]'.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2717</td><td>1049</td><td>Неверное условие действия или ошибка вызванная действием пользователя '[2]'.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2718</td><td>1049</td><td>Отсутствует имя пакета для кода продукта '[2]'.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2719</td><td>1049</td><td>В источнике '[2]' не найдены ни UNC, ни путь буквы диска.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2720</td><td>1049</td><td>Ошибка при открытии ключа списка источников. Ошибка: '[2]'</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2721</td><td>1049</td><td>Действие пользователя [2] не найдено в потоке двоичной таблицы.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2722</td><td>1049</td><td>Действие пользователя [2] не найдено в таблице файлов.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2723</td><td>1049</td><td>Действие пользователя [2] определяет неподдерживаемый тип.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2724</td><td>1049</td><td>Метка тома '[2]' на носителе, с которым вы работаете, не совпадает с меткой '[3]', указанной в таблице носителей. Это допустимо только если в вашей таблице носителей есть всего одна запись.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2725</td><td>1049</td><td>Недопустимые таблицы баз данных</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2726</td><td>1049</td><td>Действие не найдено: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2727</td><td>1049</td><td>Запись в каталоге '[2]' не существует в таблице каталогов.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2728</td><td>1049</td><td>Ошибка определения таблицы: [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2729</td><td>1049</td><td>Система установки не инициализирована.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2730</td><td>1049</td><td>Ошибочное значение в базе данных. Таблица: '[2]'; Первичный ключ: '[3]'; Столбец: '[4]'</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2731</td><td>1049</td><td>Диспетчер выбора не инициализирован.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2732</td><td>1049</td><td>Диспетчер каталогов не инициализирован.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2733</td><td>1049</td><td>Неверный внешний ключ ('[2]' в '[3]' столбце '[4]' таблицы.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2734</td><td>1049</td><td>Недопустимый символ режима переустановки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2735</td><td>1049</td><td>Действие пользователя '[2]' вызвало необработанное исключение и было остановлено. Возможно, это результат внутренней ошибки в действии пользователя, например, нарушения доступа.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2736</td><td>1049</td><td>Не удалось создать временный файл действия пользователя: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2737</td><td>1049</td><td>Нет доступа к действию пользователя [2], запись [3], библиотека [4]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2738</td><td>1049</td><td>Нет доступа ко времени запуска VBScript для действия пользователя [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2739</td><td>1049</td><td>Нет доступа ко времени запуска JavaScript для действия пользователя [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2740</td><td>1049</td><td>Действие пользователя [2] ошибка сценария [3], [4]: [5] Строка [6], Столбец [7], [8]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2741</td><td>1049</td><td>Информация о конфигурации продукта [2] повреждена. Недопустимая информация: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2742</td><td>1049</td><td>Не удалась упаковка для сервера: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2743</td><td>1049</td><td>Невозможно выполнить действие пользователя [2], местоположение: [3], команда: [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2744</td><td>1049</td><td>Ошибка EXE вызванная действием пользователя [2], местоположение: [3], команда: [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2745</td><td>1049</td><td>Преобразование [2] недопустимо для пакета [3]. Ожидаемый язык [4], найден язык [5].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2746</td><td>1049</td><td>Преобразование [2] недопустимо для пакета [3]. Ожидаемый продукт [4], найден продукт [5].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2747</td><td>1049</td><td>Преобразование [2] недопустимо для пакета [3]. Ожидаемая версия продукта &lt; [4], найдена версия продукта [5].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2748</td><td>1049</td><td>Преобразование [2] недопустимо для пакета [3]. Ожидаемая версия продукта &lt;= [4], найдена версия продукта [5].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2749</td><td>1049</td><td>Преобразование [2] недопустимо для пакета [3]. Ожидаемая версия продукта == [4], найдена версия продукта [5].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2750</td><td>1049</td><td>Преобразование [2] недопустимо для пакета [3]. Ожидаемая версия продукта &gt;= [4], найдена версия продукта [5].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27502</td><td>1049</td><td>Не удается подключиться к [2] '[3]'. [4]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27503</td><td>1049</td><td>Ошибка при получении строки версии от [2] '[3]'. [4]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27504</td><td>1049</td><td>Не выполнены требования к версии SQL: [3]. Для этой установки требуется [2] [4] или более поздней версии.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27505</td><td>1049</td><td>Не удалось открыть файл сценария SQL [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27506</td><td>1049</td><td>Ошибка при выполнении сценария SQL [2]. Строка [3]. [4]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27507</td><td>1049</td><td>Для просмотра серверов баз данных или подключения к ним должен быть установлен компонент MDAC.  Установка будет прервана.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27508</td><td>1049</td><td>Ошибка при установке приложения COM+ [2]. [3]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27509</td><td>1049</td><td>Ошибка при удалении приложения COM+ [2]. [3]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2751</td><td>1049</td><td>Преобразование [2] недопустимо для пакета [3]. Ожидаемая версия продукта &gt; [4], найдена версия продукта [5].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27510</td><td>1049</td><td>Ошибка при установке приложения COM+ [2]. Не удалось создать объект System.EnterpriseServices.RegistrationHelper. Для регистрации обслуживаемых компонентов Microsoft(R) .NET необходимо установить компонент Microsoft(R) .NET Framework.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27511</td><td>1049</td><td>Не удалось выполнить файл сценария SQL [2]. Сеанс связи не открыт: [3]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27512</td><td>1049</td><td>Ошибка при начале транзакций для [2] '[3]'. База данных [4]. [5]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27513</td><td>1049</td><td>Ошибка при выполнении транзакций для [2] '[3]'. База данных [4]. [5]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27514</td><td>1049</td><td>Для этой установки требуется Microsoft SQL Server. Указанный сервер '[3]' - Microsoft SQL Server Desktop Engine или SQL Server Express.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27515</td><td>1049</td><td>Ошибка при получении версии схемы с [2] '[3]'. База данных: '[4]'. [5]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27516</td><td>1049</td><td>Ошибка при записи версии схемы на [2] '[3]'. База данных: '[4]'. [5]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27517</td><td>1049</td><td>Для установки приложений COM+ необходимо иметь права администратора. Зарегистрируйтесь с правами администратора и повторите установку.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27518</td><td>1049</td><td>Приложение COM+ "[2]" сконфигурировано работать в качестве сервиса NT; для этого требуется, чтобы в системе было установлено COM+ 1.5 или более поздняя версия. Это приложение не будет установлено, потому что в системе установлена версия COM+ 1.0.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27519</td><td>1049</td><td>Ошибка при обновлении файла XML [2]. [3]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2752</td><td>1049</td><td>Невозможно открыть преобразование [2], сохраненное как дочернее хранилище пакета [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27520</td><td>1049</td><td>Ошибка при открытии файла XML [2]. [3]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27521</td><td>1049</td><td>Для этой установки требуется приложение MSXML 3.0 или более поздней версии, позволяющее настраивать файлы XML. Убедитесь, что имеется версия 3.0 или более поздняя версия.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27522</td><td>1049</td><td>Ошибка при создании файла XML [2]. [3]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27523</td><td>1049</td><td>Ошибка при загрузке серверов.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27524</td><td>1049</td><td>Ошибка при загрузке NetApi32.DLL. ISNetApi.dllтребуется правильно загруженный NetApi32.DLL и операционная система на основе NT.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27525</td><td>1049</td><td>Сервер не найден. Убедитесь, что указанный сервер существует. Имя сервера не может быть пустым.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27526</td><td>1049</td><td>Неопределенная ошибка ISNetApi.dll.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27527</td><td>1049</td><td>Недостаточный размер буфера.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27528</td><td>1049</td><td>В доступе отказано. Проверьте права администрирования.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27529</td><td>1049</td><td>Недопустимый компьютер.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2753</td><td>1049</td><td>Файл '[2]' не отмечен для установки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27530</td><td>1049</td><td>Неизвестная ошибка, выданная NetAPI. Системная ошибка: [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27531</td><td>1049</td><td>Необрабатываемое исключение.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27532</td><td>1049</td><td>Недопустимое имя пользователя для этого сервера или домена.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27533</td><td>1049</td><td>Пароли с учетом регистра не совпадают.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27534</td><td>1049</td><td>Список пуст.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27535</td><td>1049</td><td>Нарушение прав доступа.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27536</td><td>1049</td><td>Ошибка при получении группы.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27537</td><td>1049</td><td>Ошибка при добавлении пользователя в группу. Убедитесь, что группа существует для этого домена или сервера.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27538</td><td>1049</td><td>Ошибка при создании пользователя.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27539</td><td>1049</td><td>ERROR_NETAPI_ERROR_NOT_PRIMARY возвращено от NetAPI.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2754</td><td>1049</td><td>Файл '[2]' не является допустимым файлом исправлений.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27540</td><td>1049</td><td>Пользователь с указанным именем уже существует.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27541</td><td>1049</td><td>Указанная группа уже существует.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27542</td><td>1049</td><td>Недействительный пароль. Убедитесь, что пароль соответствует сетевой политике использования паролей.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27543</td><td>1049</td><td>Недопустимое имя.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27544</td><td>1049</td><td>Недопустимая группа.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27545</td><td>1049</td><td>Имя пользователя не может быть пустым и должно соответствовать формату ДОМЕН\Имя пользователя.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27546</td><td>1049</td><td>Ошибка при загрузке файла INI или его создании в папке пользователя TEMP.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27547</td><td>1049</td><td>Файл ISNetAPI.dll не загружен, или при загрузке файла DLL произошла ошибка. Для выполнения данного действия требуется загрузить этот файл DLL. Убедитесь, что файл DLL находится в каталоге SUPPORTDIR.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27548</td><td>1049</td><td>Ошибка при удалении файла INI, содержащего новые сведения о пользователе, из папки пользователя TEMP.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27549</td><td>1049</td><td>Ошибка при получении основного контроллера домена (PDC).</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2755</td><td>1049</td><td>Сервер возвратил непредвиденную ошибку [2] при попытке установки пакета [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27550</td><td>1049</td><td>Для создания пользователя требуется заполнить каждое поле.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27551</td><td>1049</td><td>Не обнаружен драйвер ODBC для [2]. Это требуется для подключения к серверам баз данных [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27552</td><td>1049</td><td>Ошибка при создании базы данных [4]. Сервер: [2] [3]. [5]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27553</td><td>1049</td><td>Ошибка при подключении к базе данных [4]. Сервер: [2] [3]. [5]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27554</td><td>1049</td><td>Ошибка при попытке подключения [2]. Отсутствуют правильные метаданные, связанные с этим устройством.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_27555</td><td>1049</td><td>Неудачная попытка применить права к объекту '[2]'. Системная ошибка: [3] ([4])</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2756</td><td>1049</td><td>Свойство '[2]' использовано как свойство службы каталогов в одной или нескольких таблицах, но для него не было задано никакое значение.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2757</td><td>1049</td><td>Невозможно создать сводку для преобразования [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2758</td><td>1049</td><td>Преобразование [2] не содержит версии MSI.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2759</td><td>1049</td><td>Версия [3] преобразования [2] несовместима с системой; мин.: [4], макс.: [5].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2760</td><td>1049</td><td>Преобразование [2] недопустимо для пакета [3]. Ожидаемый код обновления [4], найден [5].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2761</td><td>1049</td><td>Невозможно начать транзакцию. Общий семафор инициализирован неправильно.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2762</td><td>1049</td><td>Невозможно записать запись сценария. Транзакция не начата.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2763</td><td>1049</td><td>Невозможно запустить сценарий. Транзакция не начата.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2765</td><td>1049</td><td>Имя сборки отсутствует в таблице AssemblyName: Компонент: [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2766</td><td>1049</td><td>Файл [2] является недопустимым файлом хранилища MSI.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2767</td><td>1049</td><td>Нет данных{ при перечислении [2]}.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2768</td><td>1049</td><td>Недопустимое преобразование пакета исправлений.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2769</td><td>1049</td><td>Действие пользователя [2] не закрыло [3] MSIHANDLEs.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2770</td><td>1049</td><td>Кэшированная папка [2] не определяется во внутренней таблице кэшированных папок.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2771</td><td>1049</td><td>В обновлении функции [2] пропущен компонент.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2772</td><td>1049</td><td>Новая функция обновления [2] должен добавляться как лист.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_28</td><td>1049</td><td>Другое приложение имеет монопольный доступ к файлу "[2]".  Закройте все другие приложения и повторите попытку.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2801</td><td>1049</td><td>Неизвестное сообщение -- Тип [2]. Не выбрано действие.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2802</td><td>1049</td><td>Не найден издатель события [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2803</td><td>1049</td><td>Представление диалога не обнаружило записи для диалога [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2804</td><td>1049</td><td>При активации управляющего элемента [3] диалога [2] CMsiDialog не смог оценить состояние [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2806</td><td>1049</td><td>Диалог [2] не смог оценить состояние [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2807</td><td>1049</td><td>Действие [2] не опознано.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2808</td><td>1049</td><td>Копка по умолчанию неверно определена в диалоге [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2809</td><td>1049</td><td>В диалоге [2] последовательные контрольные указатели не создают цикл. Существуют указатели с [3] по [4], но следующий указатель отсутствует.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2810</td><td>1049</td><td>В диалоге [2] последовательные контрольные указатели не создают цикл. Существует указатель с [3] и [5] до [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2811</td><td>1049</td><td>В диалоге [2] управляющий элемент [3] должен установить фокус, но не может этого сделать.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2812</td><td>1049</td><td>Событие [2] не опознано.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2813</td><td>1049</td><td>Событие EndDialog названо аргументом [2], но у диалога есть родительский объект.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2814</td><td>1049</td><td>В диалоге [2] управляющий элемент [3] называет несуществующий управляющий элемент [4] следующим элементом.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2815</td><td>1049</td><td>В таблице контроля условий есть строка, не содержащая условия для диалога [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2816</td><td>1049</td><td>Таблица сопоставления событий ссылается на недопустимый управляющий элемент [4] диалога [2] для события [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2817</td><td>1049</td><td>Событие [2] не может установить атрибут для управляющего элемента [4] диалога [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2818</td><td>1049</td><td>В таблице ControlEvent присутствует неопознанный аргумент для EndDialog [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2819</td><td>1049</td><td>Для управляющего элемента[3] диалога [2] необходимо связанное с ним свойство.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2820</td><td>1049</td><td>Попытка инициализации уже инициализированного обработчика.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2821</td><td>1049</td><td>Попытка инициализации уже инициализированного диалога: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2822</td><td>1049</td><td>Невозможно применить к диалогу [2] никакой другой метод, пока не добавлены все элементы контроля.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2823</td><td>1049</td><td>Попытка инициализации уже инициализированного управляющего элемента: [3] в диалоге [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2824</td><td>1049</td><td>Для атрибута диалога [3] требуется запись по меньшей мере [2] поля (полей).</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2825</td><td>1049</td><td>Для управляющего атрибута [3] требуется запись по меньшей мере [2] поля (полей).</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2826</td><td>1049</td><td>Управляющий элемент [3] диалога [2] нарушает границы диалога [4] на [5] пикселей.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2827</td><td>1049</td><td>Кнопка [4] переключателя [3] диалога [2] нарушает границы группы [5] на [6] пикселей.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2828</td><td>1049</td><td>Совершена попытка удалить управляющий элемент [3] из диалога [2], но управляющий элемент не является частью диалога.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2829</td><td>1049</td><td>Попытка использования неинициализированного диалога.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2830</td><td>1049</td><td>Попытка использования неинициализированного управляющего элемента диалога [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2831</td><td>1049</td><td>Управляющий элемент [3] диалога [2] не поддерживает [5] атрибут [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2832</td><td>1049</td><td>Диалог [2] не поддерживает атрибут [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2833</td><td>1049</td><td>Контрольный элемент [4] диалога [3] проигнорировал сообщение [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2834</td><td>1049</td><td>Последовательные указатели в диалоге [2] не создают одиночного цикла.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2835</td><td>1049</td><td>Управляющий элемент [2] не найден в диалоге [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2836</td><td>1049</td><td>Управляющий элемент [3] диалога [2] не может установить фокус.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2837</td><td>1049</td><td>Управляющий элемент [3] диалога [2] требует возврата winproc [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2838</td><td>1049</td><td>Пункт [2] в таблице выбора является родительским объектом сам для себя.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2839</td><td>1049</td><td>Не удалось установить свойство [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2840</td><td>1049</td><td>Не совпадает имя диалога ошибки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2841</td><td>1049</td><td>Не найдено кнопка ОК в диалоге ошибки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2842</td><td>1049</td><td>Не найдено текстовое поле в диалоге ошибки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2843</td><td>1049</td><td>Атрибут ErrorString не поддерживается стандартными диалогами.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2844</td><td>1049</td><td>Невозможно выполнить диалог ошибки, если строка ошибки не установлена.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2845</td><td>1049</td><td>Общая ширина кнопок превышает размер диалога ошибки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2846</td><td>1049</td><td>SetFocus не обнаружил требуемого управляющего элемента в диалоге ошибки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2847</td><td>1049</td><td>У управляющего элемента [3] диалога [2] есть одновременно значок и набор точечных рисунков.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2848</td><td>1049</td><td>Совершена попытка установить контрольный элемент [3] в качестве кнопки, выбираемой по умолчанию, для диалога [2], но такого контрольного элемента не существует.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2849</td><td>1049</td><td>Тип управляющего элемента [3] в диалоге [2] не может быть целочисленным.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2850</td><td>1049</td><td>Неопознанный тип тома.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2851</td><td>1049</td><td>Недопустимые данные для значка [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2852</td><td>1049</td><td>Необходимо добавить как минимум один управляющий элемент в диалог [2] перед его использованием.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2853</td><td>1049</td><td>Диалог [2] не является модальным диалогом. На него невозможно применить метод выполнения.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2854</td><td>1049</td><td>В диалоге [2] управляющий элемент [3] назначен первым активным элементом контроля, но такой элемент отсутствует.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2855</td><td>1049</td><td>В переключателе [3] диалога [2] менее 2 кнопок.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2856</td><td>1049</td><td>Создание второй копии диалога [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2857</td><td>1049</td><td>Каталог [2] упомянута в таблице выбора, но не обнаружена.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2858</td><td>1049</td><td>Недопустимые данные для точечного рисунка [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2859</td><td>1049</td><td>Сообщение об ошибке проверки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2860</td><td>1049</td><td>Кнопка отмены неверно определена в диалоге [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2861</td><td>1049</td><td>Последовательные указатели для переключателя управляющего элемента [3] диалога [2] не создают цикл.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2862</td><td>1049</td><td>Атрибуты управляющего элемента [3] диалога [2] не определяют допустимый размер значка. Установить размер 16.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2863</td><td>1049</td><td>Элемент управления [3] диалогом [2] требует значка [4] размером [5]x[5], но такой размер недоступен. Загрузка первого доступного размера.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2864</td><td>1049</td><td>Элемент управления [3] диалогом [2] получил событие обзора, но для текущего выбора невозможно настроить каталог. Наиболее вероятная причина: кнопка обзора содержит ошибки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2865</td><td>1049</td><td>Управляющий элемент [3] с объявлением [2] нарушает границы объявления[4] на [5] пикселей.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2866</td><td>1049</td><td>Диалог [2] недопустим для возврата аргумента [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2867</td><td>1049</td><td>Свойство диалога ошибки не установлено.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2868</td><td>1049</td><td>Диалог ошибки [2] не имеет набора стилей ошибки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2869</td><td>1049</td><td>В диалоге [2] установлен бит ошибки стилей, но это не диалог сообщения об ошибке.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2870</td><td>1049</td><td>В строке справки [4] для управляющего элемента [3] диалога [2] нет разделителя.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2871</td><td>1049</td><td>Истек срок таблицы [2]: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2872</td><td>1049</td><td>Недопустимый аргумент контрольного события CheckPath в диалоге [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2873</td><td>1049</td><td>Управляющий элемент [3] в диалоге [2] имеет недопустимое ограничение длины строки: [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2874</td><td>1049</td><td>Не удалось изменить шрифт текста на [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2875</td><td>1049</td><td>Не удалось изменить цвет текста на [2]. </td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2876</td><td>1049</td><td>Управляющий элемент [3] диалога [2] должен усечь строку: [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2877</td><td>1049</td><td>Двоичные данные [2] не обнаружены</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2878</td><td>1049</td><td>Возможное значение контрольного элемента [3] в диалоге [2]: [4]. Недопустимое или повторяющееся значение.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2879</td><td>1049</td><td>Управляющий элемент [3] диалога [2] не может интерпретировать строку маски: [4].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2880</td><td>1049</td><td>Не представлены оставшиеся события управления.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2881</td><td>1049</td><td>Не удалось инициализировать обработчик CMsiHandler.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2882</td><td>1049</td><td>Не удалось зарегистрировать класс окна диалога.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2883</td><td>1049</td><td>Не удалось выполнить команду CreateNewDialog для диалога [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2884</td><td>1049</td><td>Не удалось создать окно для диалога [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2885</td><td>1049</td><td>Невозможно создать управляющий элемент [3] диалога [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2886</td><td>1049</td><td>Не удалось создать таблицу [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2887</td><td>1049</td><td>Не удалось создать курсор для таблицы [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2888</td><td>1049</td><td>Не удалось выполнить просмотр [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2889</td><td>1049</td><td>Не удалось создать окно для управляющего элемента [3] диалога [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2890</td><td>1049</td><td>Обработчику не удалось создать инициализированный диалог.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2891</td><td>1049</td><td>Не удалось уничтожить окно для диалога [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2892</td><td>1049</td><td>[2] является управляющим элементом только для целых чисел, [3] не является допустимым значением целого числа.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2893</td><td>1049</td><td>Элемент управления [3] диалогом [2] принимает значения свойств максимум [5] знаков длиной. Значение [4] превышает это ограничение и было усечено.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2894</td><td>1049</td><td>Не удалось загрузить RICHED20.DLL. GetLastError() вернула код: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2895</td><td>1049</td><td>Не удалось опустошить RICHED20.DLL. GetLastError() вернула код: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2896</td><td>1049</td><td>Не удалось выполнить действие [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2897</td><td>1049</td><td>Не удалось создать какой-либо шрифт [2] для данной системы.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2898</td><td>1049</td><td>Для стиля текста [2] система создала '[3]' шрифт в [4] наборе символов.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2899</td><td>1049</td><td>Не удалось создать [2] стиль текста. GetLastError() возвратила код: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_29</td><td>1049</td><td>На диске недостаточно места для установки файла [2].  Освободите место и нажмите кнопку "Повторить" либо кнопку "Отмена" для прекращения установки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2901</td><td>1049</td><td>Недопустимый параметр операции [2]: Параметр [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2902</td><td>1049</td><td>Действие [2] вызвано в нарушение последовательности.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2903</td><td>1049</td><td>Файл [2] отсутствует.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2904</td><td>1049</td><td>Невозможно выполнить действие BindImage для файла [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2905</td><td>1049</td><td>Невозможно прочитать запись из файла сценария [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2906</td><td>1049</td><td>Отсутствует заголовок в файле сценария [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2907</td><td>1049</td><td>Невозможно создать безопасный дескриптор безопасности. Ошибка: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2908</td><td>1049</td><td>Невозможно произвести регистрацию компонента [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2909</td><td>1049</td><td>Невозможно отменить регистрацию компонента [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2910</td><td>1049</td><td>Невозможно определить идентификатор безопасности пользователя.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2911</td><td>1049</td><td>Невозможно удалить папку [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2912</td><td>1049</td><td>Невозможно создать файл расписания[2] для удаления при перезапуске.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2919</td><td>1049</td><td>Не определен CAB-файл для сжатого файла: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2920</td><td>1049</td><td>Не определен исходный каталог для файла [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2924</td><td>1049</td><td>Версия [2] сценария не поддерживается. Версия сценария: [3], минимальная версия: [4], максимальная версия: [5].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2927</td><td>1049</td><td>Недопустимый код [2] ShellFolder.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2928</td><td>1049</td><td>Превышение максимального количества источников. Пропуск источника '[2]'.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2929</td><td>1049</td><td>Невозможно определить корень публикации. Ошибка: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2932</td><td>1049</td><td>Невозможно создать файл [2] из данных сценария. Ошибка: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2933</td><td>1049</td><td>Невозможно инициализировать сценарий отката [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2934</td><td>1049</td><td>Невозможно установить защиту преобразования [2]. Ошибка [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2935</td><td>1049</td><td>Невозможно отменить защиту преобразования [2]. Ошибка [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2936</td><td>1049</td><td>Невозможно найти преобразование [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2937</td><td>1049</td><td>Установщик Windows не может установить каталог защиты системных файлов. Каталог: [2], Ошибка: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2938</td><td>1049</td><td>Установщик Windows не может загрузить каталог защиты системных файлов из кэша. Каталог: [2], Ошибка: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2939</td><td>1049</td><td>Установщик Windows не может удалить каталог защиты системных файлов из кэша. Каталог: [2], Ошибка: [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2940</td><td>1049</td><td>Диспетчер каталогов не поддерживает разрешение источника.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2941</td><td>1049</td><td>Невозможно вычислить CRC для файла [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2942</td><td>1049</td><td>Действие BindImage не было выполнено для [2] файла.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2943</td><td>1049</td><td>Эта версия системы Windows не поддерживает развертывание 64-битных пакетов приложений. Сценарий [2] предназначен для 64-битных пакетов приложений.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2944</td><td>1049</td><td>Выполнить действие GetProductAssignmentType не удалось.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_2945</td><td>1049</td><td>Не удалось установить приложение ComPlus [2] из-за ошибки [3].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_3</td><td>1049</td><td>Сведения [1]. </td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_30</td><td>1049</td><td>Исходный файл не найден: [2].  Проверьте, что этот файл существует и доступен.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_3001</td><td>1049</td><td>Исправления в списке содержат неверную информацию последовательности: [2][3][4][5][6][7][8][9][10][11][12][13][14][15][16].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_3002</td><td>1049</td><td>Путь [2] содержит недопустимую информацию последовательности. </td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_31</td><td>1049</td><td>Ошибка чтения из файла [3]. {{ Системная ошибка [2].}}  Проверьте, что файл существует и доступен.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_32</td><td>1049</td><td>Ошибка записи в файл [3]. {{ Системная ошибка [2].}}  Убедитесь, что у вас есть доступ к этому каталогу.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_33</td><td>1049</td><td>Исходный файл не найден{{(CAB-файл)}}: [2].  Проверьте, что файл существует и доступен.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_34</td><td>1049</td><td>Не удается создать каталог "[2]".  Файл с этим именем уже существует.  Переименуйте или переместите этот файл и повторите попытку, либо нажмите кнопку "Отмена" для прекращения установки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_35</td><td>1049</td><td>Том [2] недоступен.  Выберите другой том.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_36</td><td>1049</td><td>Указанный путь "[2]" недоступен.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_37</td><td>1049</td><td>Запись в указанный каталог "[2]" запрещена.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_38</td><td>1049</td><td>Ошибка в сети при чтении из файла [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_39</td><td>1049</td><td>Ошибка при создании каталога [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_4</td><td>1049</td><td>Внутренняя ошибка [1]. [2]{, [3]}{, [4]}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_40</td><td>1049</td><td>Ошибка в сети при создании каталога [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_41</td><td>1049</td><td>Ошибка в сети при открытии исходного CAB-файла [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_42</td><td>1049</td><td>Указан слишком длинный путь: [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_43</td><td>1049</td><td>У программы Windows Installer недостаточно полномочий для изменения этого файла: [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_44</td><td>1049</td><td>Неверная часть пути к папке "[2]". Путь либо пуст, либо превышает максимально допустимую длину.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_45</td><td>1049</td><td>Путь к папке "[2]" содержит недопустимые имена.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_46</td><td>1049</td><td>Путь к папке "[2]" содержит недопустимый символ.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_47</td><td>1049</td><td>"[2]" не является допустимым коротким именем файла.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_48</td><td>1049</td><td>Ошибка при получении сведений о безопасности файла: [3] GetLastError: [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_49</td><td>1049</td><td>Недопустимый диск: [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_5</td><td>1049</td><td>{{Диск переполнен: }}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_50</td><td>1049</td><td>Не удается создать раздел [2]. {{ Системная ошибка [3].}}  Убедитесь, что у вас достаточно полномочий для доступа к этому разделу, либо обратитесь в службу поддержки. </td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_51</td><td>1049</td><td>Не удается открыть раздел [2]. {{ Системная ошибка [3].}}  Убедитесь, что у вас достаточно полномочий для доступа к этому разделу, либо обратитесь в службу поддержки. </td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_52</td><td>1049</td><td>Не удается удалить значение [2] из раздела [3]. {{ Системная ошибка [4].}}  Убедитесь, что у вас достаточно полномочий для доступа к этому разделу, либо обратитесь в службу поддержки. </td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_53</td><td>1049</td><td>Не удается удалить раздел [2]. {{ Системная ошибка [3].}}  Убедитесь, что у вас достаточно полномочий для доступа к этому разделу, либо обратитесь в службу поддержки. </td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_54</td><td>1049</td><td>Не удается прочитать значение [2] из раздела [3]. {{ Системная ошибка [4].}}  Убедитесь, что у вас достаточно полномочий для доступа к этому разделу, либо обратитесь в службу поддержки. </td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_55</td><td>1049</td><td>Не удается записать значение [2] в раздел [3]. {{ Системная ошибка [4].}}  Убедитесь, что у вас достаточно полномочий для доступа к этому разделу, либо обратитесь в службу поддержки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_56</td><td>1049</td><td>Не удается получить имена значений из раздела [2]. {{ Системная ошибка [3].}}  Убедитесь, что у вас достаточно полномочий для доступа к этому разделу, либо обратитесь в службу поддержки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_57</td><td>1049</td><td>Не удается получить имена подразделов из раздела [2]. {{ Системная ошибка [3].}}  Убедитесь, что у вас достаточно полномочий для доступа к этому разделу, либо обратитесь в службу поддержки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_58</td><td>1049</td><td>Не удается прочитать сведения о безопасности из раздела [2]. {{ Системная ошибка [3].}}  Убедитесь, что у вас достаточно полномочий для доступа к этому разделу, либо обратитесь в службу поддержки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_59</td><td>1049</td><td>Не удается увеличить размер реестра. Для установки данного приложения необходимо [2] Кбайт свободного места в реестре.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_6</td><td>1049</td><td>Действие [Time]: [1]. [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_60</td><td>1049</td><td>Другой процесс установки уже выполняется. Завершите этот процесс перед новой установкой.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_61</td><td>1049</td><td>Ошибка доступа к защищенным данным. Проверьте правильность настройки Windows Installer и повторите попытку.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_62</td><td>1049</td><td>Пользователь "[2]" ранее начал установку продукта "[3]".  Этому пользователю придется выполнить установку заново.  Ваша текущая установка будет продолжена.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_63</td><td>1049</td><td>Пользователь "[2]" ранее начал установку продукта "[3]".  Этому пользователю придется выполнить установку заново.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_64</td><td>1049</td><td>Недостаточно места на диске -- том: "[2]"; требуемый объем: [3] Кбайт; доступный объем: [4] Кбайт.  Освободите место на диске и повторите попытку.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_65</td><td>1049</td><td>Отменить установку?</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_66</td><td>1049</td><td>Файл [2][3] используется{ следующим процессом: Имя: [4], Код: [5], Заголовок окна: "[6]"}.  Закройте это приложение и повторите попытку.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_67</td><td>1049</td><td>Продукт "[2]" уже установлен, установка данного продукта невозможна.  Эти два продукта несовместимы.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_68</td><td>1049</td><td>Недостаточно места на диске -- том: "[2]"; требуемый объем: [3] Кбайт; доступный объем: [4] Кбайт.  При отключении отката места будет достаточно. Нажмите кнопку "Отмена" для выхода, "Повторить" для повторной проверки доступного места на диске или "Пропустить" для продолжения без отката.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_69</td><td>1049</td><td>Не удается подключиться через сеть к [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_7</td><td>1049</td><td>[ProductName]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_70</td><td>1049</td><td>Для продолжения установки следует закрыть следующие приложения:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_71</td><td>1049</td><td>Не удается найти установленные совместимые продукты для установки данного продукта.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_72</td><td>1049</td><td>Неверный ключ [2].  Проверьте правильность ключа.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_73</td><td>1049</td><td>Перед продолжением настройки [2] программа Windows Installer должна перезагрузить систему.  Нажмите кнопку "Да", чтобы перезагрузить компьютер сейчас, либо кнопку "Нет", чтобы выполнить перезагрузку позже вручную.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_74</td><td>1049</td><td>Для учета изменений в настройках [2] требуется перезагрузка системы. Нажмите кнопку "Да", чтобы перезагрузить компьютер сейчас, либо кнопку "Нет", чтобы выполнить перезагрузку позже вручную.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_75</td><td>1049</td><td>Установка [2] приостановлена.  Для продолжения необходимо отменить изменения, внесенные в процессе этой установки.  Отменить изменения?</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_76</td><td>1049</td><td>Выполняется предыдущая установка этого продукта.  Для продолжения необходимо отменить изменения, внесенные в процессе этой установки.  Отменить изменения?</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_77</td><td>1049</td><td>Не удается найти пакет установки для продукта [2]. Повторите установку с использованием правильной копии пакета "[3]".</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_78</td><td>1049</td><td>Операция установки успешно завершена.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_79</td><td>1049</td><td>Операция установки не выполнена.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_8</td><td>1049</td><td>{[2]}{, [3]}{, [4]}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_80</td><td>1049</td><td>Продукт: [2] -- [3]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_81</td><td>1049</td><td>Можно либо восстановить исходное состояние компьютера, либо продолжить установку позже. Восстановить исходное состояние?</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_82</td><td>1049</td><td>Ошибка при записи сведений об установке на диск.  Проверьте наличие свободного места на диске и нажмите кнопку "Повторить", либо нажмите кнопку "Отмена", чтобы прервать установку.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_83</td><td>1049</td><td>Не удается найти файлы, необходимые для восстановления исходного состояния компьютера.  Восстановление невозможно.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_84</td><td>1049</td><td>Недопустимый путь [2].  Укажите правильный путь.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_85</td><td>1049</td><td>Недостаточно памяти. Закройте другие приложения и повторите попытку.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_86</td><td>1049</td><td>В дисководе [2] нет диска. Вставьте диск и нажмите кнопку "Повторить", либо нажмите кнопку "Отмена" для возврата к ранее выбранному тому.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_87</td><td>1049</td><td>В дисководе [2] нет диска. Вставьте диск и нажмите кнопку "Повтор" или нажмите кнопку "Отмена", чтобы вернуться в окно обзора и выбрать другий том.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_88</td><td>1049</td><td>Папка [2] не существует.  Введите путь к существующей папке.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_89</td><td>1049</td><td>У вас недостаточно полномочий для чтения этой папки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_9</td><td>1049</td><td>Тип сообщения: [1], Аргумент: [2]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_90</td><td>1049</td><td>Не удается определить конечную папку для установки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_91</td><td>1049</td><td>Ошибка при чтении исходной базы данных установки. [2].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_92</td><td>1049</td><td>Планирование операции перезагрузки: переименование файла [2] в [3]. Для завершения операции требуется перезагрузка.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_93</td><td>1049</td><td>Планирование операции перезагрузки: удаление файла [2]. Для завершения операции требуется перезагрузка.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_94</td><td>1049</td><td>Не удается зарегистрировать модуль [2].  HRESULT [3].  Обратитесь в службу поддержки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_95</td><td>1049</td><td>Не удается отменить регистрацию модуля [2].  HRESULT [3].  Обратитесь в службу поддержки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_96</td><td>1049</td><td>Ошибка кэширования пакета [2]. Ошибка: [3]. Обратитесь в службу поддержки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_97</td><td>1049</td><td>Не удается зарегистрировать шрифт [2].  Убедитесь, что у вас имеются разрешения на установку шрифтов, и что система поддерживает этот шрифт.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_98</td><td>1049</td><td>Не удается отменить регистрацию шрифта [2]. Убедитесь, что у вас имеются разрешения на удаление шрифтов.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ERROR_99</td><td>1049</td><td>Не удается создать ярлык [2]. Проверьте, что конечная папка существует и доступна.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_INSTALLDIR</td><td>1049</td><td>{&amp;Tahoma8}[INSTALLDIR]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_INSTALLSHIELD</td><td>1049</td><td>InstallShield</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_INSTALLSHIELD_FORMATTED</td><td>1049</td><td>{&amp;MSSWhiteSerif8}InstallShield</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ISSCRIPT_VERSION_MISSING</td><td>1049</td><td>Компонент InstallScript отсутствует на этом компьютере.  Если возможно, запустите пакет ISScript.msi или обратитесь за помощью в службу поддержки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_ISSCRIPT_VERSION_OLD</td><td>1049</td><td>Версия компонента InstallScript на этом компьютере более ранняя, чем требуется для данной установки.  Если возможно, установите последнюю версию пакета ISScript.msi или обратитесь за помощью в службу поддержки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_NEXT</td><td>1049</td><td>&amp;Далее &gt;</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_OK</td><td>1049</td><td>{&amp;Tahoma8}OK</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PREREQUISITE_SETUP_BROWSE</td><td>1049</td><td>Открыть оригинальный файл [SETUPEXENAME] [ProductName]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PREREQUISITE_SETUP_INVALID</td><td>1049</td><td>Похоже исполняемый файл не является оригинальным исполняемым файлом для [ProductName]. Если не использовать оригинальный файл [SETUPEXENAME] для установки дополнительных зависимостей, [ProductName] может не работать. Найти оригинал [SETUPEXENAME]?</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PREREQUISITE_SETUP_SEARCH</td><td>1049</td><td>Эта установка может потребовать дополнительных зависимостей. Без этих зависимостей [ProductName] может не работать. Найти оригинал [SETUPEXENAME]?</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PREVENT_DOWNGRADE_EXIT</td><td>1049</td><td>На компьютере уже установлена более новая версия этого приложения. Чтобы установить приложение, сначала удалите новую версию. Нажмите кнопку «ОК», чтобы закрыть мастер.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PRINT_BUTTON</td><td>1049</td><td>&amp;Печать</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PRODUCTNAME_INSTALLSHIELD</td><td>1049</td><td>[ProductName] - InstallShield Wizard</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_IIS_CREATEAPPPOOL</td><td>1049</td><td>Создание группы приложений %s</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_IIS_CREATEAPPPOOLS</td><td>1049</td><td>Создание групп приложений...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_IIS_CREATEVROOT</td><td>1049</td><td>Создание виртуального каталога IIS %s</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_IIS_CREATEVROOTS</td><td>1049</td><td>Создание виртуальных каталогов IIS...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_IIS_CREATEWEBSERVICEEXTENSION</td><td>1049</td><td>Создание расширения веб-службы</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_IIS_CREATEWEBSERVICEEXTENSIONS</td><td>1049</td><td>Создания расширений веб-службы...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_IIS_CREATEWEBSITE</td><td>1049</td><td>Создание веб-сайтов IIS %s</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_IIS_CREATEWEBSITES</td><td>1049</td><td>Создание веб-сайтов IIS...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_IIS_EXTRACT</td><td>1049</td><td>Извлечение данных для виртуальных каталогов IIS...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_IIS_EXTRACTDONE</td><td>1049</td><td>Извлеченные данные для виртуальных каталогов IIS...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_IIS_REMOVEAPPPOOL</td><td>1049</td><td>Удаление группы приложений</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_IIS_REMOVEAPPPOOLS</td><td>1049</td><td>Удаление групп приложений...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_IIS_REMOVESITE</td><td>1049</td><td>Удаление веб-узла для порта %d</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_IIS_REMOVEVROOT</td><td>1049</td><td>Удаление виртуального каталога IIS %s</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_IIS_REMOVEVROOTS</td><td>1049</td><td>Удаление виртуальных каталогов IIS...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_IIS_REMOVEWEBSERVICEEXTENSION</td><td>1049</td><td>Удаление расширения веб-службы</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_IIS_REMOVEWEBSERVICEEXTENSIONS</td><td>1049</td><td>Удаление расширений веб-службы...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_IIS_REMOVEWEBSITES</td><td>1049</td><td>Удаление веб-сайтов IIS...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_IIS_ROLLBACKAPPPOOLS</td><td>1049</td><td>Откат группы приложений...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_IIS_ROLLBACKVROOTS</td><td>1049</td><td>Откат виртуального каталога и изменений веб-узла...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS</td><td>1049</td><td>Откат расширений веб-службы...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_TEXTFILECHANGS_REPLACE</td><td>1049</td><td>Замена %s на %s в %s...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_XML_COSTING</td><td>1049</td><td>Оценка необходимого места для файлов XML...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_XML_CREATE_FILE</td><td>1049</td><td>Создание файла XML %s...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_XML_FILES</td><td>1049</td><td>Изменение файла XML...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_XML_REMOVE_FILE</td><td>1049</td><td>Удаление файла XML %s...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_XML_ROLLBACK_FILES</td><td>1049</td><td>Откат изменений файла XML...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_PROGMSG_XML_UPDATE_FILE</td><td>1049</td><td>Обновление файла XML %s...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SETUPEXE_EXPIRE_MSG</td><td>1049</td><td>Эта программа установки может работать до %s. Программа установки будет закрыта.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SETUPEXE_LAUNCH_COND_E</td><td>1049</td><td>Эта программа установки создана на базе пробной версии InstallShield и может быть запущена только из setup.exe.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SHORTCUT_DISPLAY_NAME1</td><td>1049</td><td>Launch SimplePhotoPost.exe</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SQLBROWSE_INTRO</td><td>1049</td><td>В следующем списке серверов выберите сервер базы данных, который необходимо использовать.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SQLBROWSE_INTRO_DB</td><td>1049</td><td>Из приведенного ниже списка имен каталогов выберите каталог базы данных, которую нужно выбрать.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SQLBROWSE_INTRO_TEMPLATE</td><td>1049</td><td>[IS_SQLBROWSE_INTRO]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SQLLOGIN_BROWSE</td><td>1049</td><td>&amp;Обзор...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SQLLOGIN_BROWSE_DB</td><td>1049</td><td>Об&amp;зор…</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SQLLOGIN_CATALOG</td><td>1049</td><td>И&amp;мя каталога баз данных:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SQLLOGIN_CONNECT</td><td>1049</td><td>Подключение:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SQLLOGIN_DESC</td><td>1049</td><td>Выберите сервер базы данных и метод проверки подлинности.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SQLLOGIN_ID</td><td>1049</td><td>&amp;Имя пользователя:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SQLLOGIN_INTRO</td><td>1049</td><td>Выберите сервер базы данных, который необходимо установить, в следующем списке или нажмите кнопку "Обзор" для просмотра списка всех серверов баз данных. Можно также указать вариант проверки подлинности пользователя с использованием текущих учетных данных или имени пользователя и пароля SQL-сервера.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SQLLOGIN_PSWD</td><td>1049</td><td>П&amp;ароль:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SQLLOGIN_SERVER</td><td>1049</td><td>&amp;Сервер базы данных:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SQLLOGIN_SERVER2</td><td>1049</td><td>&amp;Сервер базы данных, который вы устанавливаете в:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SQLLOGIN_SQL</td><td>1049</td><td>Проверка подлинности с&amp;ервера с использованием следующего имени пользователя и пароля</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SQLLOGIN_TITLE</td><td>1049</td><td>{&amp;MSSansBold8}Сервер базы данных</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SQLLOGIN_WIN</td><td>1049</td><td>&amp;Учетные данные проверки подлинности Windows текущего пользователя</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SQLSCRIPT_INSTALLING</td><td>1049</td><td>Выполнение сценария установки SQL...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SQLSCRIPT_UNINSTALLING</td><td>1049</td><td>Выполнение сценария удаления SQL...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_STANDARD_USE_SETUPEXE</td><td>1049</td><td>Запуск этой установки путем простого запуска пакета MSI невозможен. Необходимо запустить setup.exe.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SetupTips_Advertise</td><td>1049</td><td>{&amp;Tahoma8}будет установлен при первом использовании.</td><td>0</td><td>	 	</td><td>1973642579</td></row>
+		<row><td>IDS_SetupTips_AllInstalledLocal</td><td>1049</td><td>{&amp;Tahoma8}будет полностью установлен на локальный жесткий диск.</td><td>0</td><td>	</td><td>1973642579</td></row>
+		<row><td>IDS_SetupTips_CustomSetup</td><td>1049</td><td>{&amp;MSSansBold8}Советы по выборочной установке</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SetupTips_CustomSetupDescription</td><td>1049</td><td>{&amp;Tahoma8}Выборочная установка позволяет установить определенные компоненты программы.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SetupTips_IconInstallState</td><td>1049</td><td>{&amp;Tahoma8}Значок рядом с названием компонента показывает состояние установки компонента. Щелкните этот значок, чтобы раскрыть меню состояния установки для каждого компонента.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SetupTips_InstallState</td><td>1049</td><td>{&amp;Tahoma8}Данное состояние установки означает, что компонент...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SetupTips_Network</td><td>1049</td><td>{&amp;Tahoma8}будет установлен для запуска по сети.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SetupTips_OK</td><td>1049</td><td>{&amp;Tahoma8}OK</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SetupTips_SubFeaturesInstalledLocal</td><td>1049</td><td>{&amp;Tahoma8}будет содержать подкомпоненты на локальном жестком диске.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_SetupTips_WillNotBeInstalled</td><td>1049</td><td>{&amp;Tahoma8}не будет установлен.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_Available</td><td>1049</td><td>Доступно</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_Bytes</td><td>1049</td><td>байт</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_CompilingFeaturesCost</td><td>1049</td><td>Оценка дискового пространства для данного компонента...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_Differences</td><td>1049</td><td>Разница</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_DiskSize</td><td>1049</td><td>Размер диска</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureCompletelyRemoved</td><td>1049</td><td>Данный компонент будет полностью удален.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureContinueNetwork</td><td>1049</td><td>Данный компонент по-прежнему будет запускаться по сети</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureFreeSpace</td><td>1049</td><td>Данный компонент освобождает [1] на жестком диске.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureInstalledCD</td><td>1049</td><td>Данный компонент и все подкомпоненты будут установлены для запуска с компакт-диска.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureInstalledCD2</td><td>1049</td><td>Данный компонент будет установлен для запуска с компакт-диска.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureInstalledLocal</td><td>1049</td><td>Данный компонент и все подкомпоненты будут установлены на локальный жесткий диск.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureInstalledLocal2</td><td>1049</td><td>Данный компонент будет установлен на локальный жесткий диск.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureInstalledNetwork</td><td>1049</td><td>Данный компонент и все подкомпоненты будут установлены для запуска по сети.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureInstalledNetwork2</td><td>1049</td><td>Данный компонент будет установлен для запуска по сети.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureInstalledRequired</td><td>1049</td><td>Его при необходимости можно установить.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureInstalledWhenRequired</td><td>1049</td><td>Данный компонент можно при необходимости установить.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureInstalledWhenRequired2</td><td>1049</td><td>Данный компонент можно при необходимости установить.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureLocal</td><td>1049</td><td>Данный компонент будет установлен на локальный жесткий диск.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureLocal2</td><td>1049</td><td>Данный компонент будет установлен на локальный жесткий диск.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureNetwork</td><td>1049</td><td>Данный компонент будет установлен для запуска по сети.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureNetwork2</td><td>1049</td><td>Данный компонент будет доступен для запуска по сети.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureNotAvailable</td><td>1049</td><td>Данный компонент будет недоступен.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureOnCD</td><td>1049</td><td>Данный компонент будет установлен для запуска с компакт-диска.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureOnCD2</td><td>1049</td><td>Данный компонент будет доступен для запуска с компакт-диска.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureRemainLocal</td><td>1049</td><td>Данный компонент останется на локальном жестком диске.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureRemoveNetwork</td><td>1049</td><td>Данный компонент будет удален с локального жесткого диска, но его по-прежнему можно будет запускать по сети.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureRemovedCD</td><td>1049</td><td>Данный компонент будет удален с локального жесткого диска, но его по-прежнему можно будет запускать с компакт-диска.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureRemovedUnlessRequired</td><td>1049</td><td>Данный компонент будет удален с локального жесткого диска, но его при необходимости можно установить.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureRequiredSpace</td><td>1049</td><td>Для данного компонента требуется [1] на жестком диске.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureRunFromCD</td><td>1049</td><td>Данный компонент по-прежнему будет запускаться с компакт-диска</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureSpaceFree</td><td>1049</td><td>Данный компонент освобождает [1] на жестком диске. Для него выбраны [2] из [3] подкомпонентов. Подкомпоненты освобождают [4] на жестком диске.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureSpaceFree2</td><td>1049</td><td>Данный компонент освобождает [1] на жестком диске. Для него выбраны [2] из [3] подкомпонентов. Для подкомпонентов требуется [4] на жестком диске.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureSpaceFree3</td><td>1049</td><td>Для данного компонента требуется [1] на жестком диске. Для него выбраны [2] из [3] подкомпонентов. Подкомпоненты освобождают [4] на жестком диске.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureSpaceFree4</td><td>1049</td><td>Для данного компонента требуется [1] на жестком диске. Для него выбраны [2] из [3] подкомпонентов. Для подкомпонентов требуется [4] на жестком диске.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureUnavailable</td><td>1049</td><td>Данный компонент станет недоступным.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureUninstallNoNetwork</td><td>1049</td><td>Данный компонент будет полностью удален, и его нельзя будет запускать по сети.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureWasCD</td><td>1049</td><td>Данный компонент запущен с компакт-диска, но его при необходимости можно установить.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureWasCDLocal</td><td>1049</td><td>Данный компонент запущен с компакт-диска, но будет установлен на локальный диск.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureWasOnNetworkInstalled</td><td>1049</td><td>Данный компонент запущен по сети, но его при необходимости можно установить.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureWasOnNetworkLocal</td><td>1049</td><td>Данный компонент запущен по сети, но его при необходимости можно установить локальный жесткий диск.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_FeatureWillBeUninstalled</td><td>1049</td><td>Данный компонент будет полностью удален, и его нельзя будет запускать с компакт-диска.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_Folder</td><td>1049</td><td>Папка|Создать папку</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_GB</td><td>1049</td><td>Гб</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_KB</td><td>1049</td><td>Кб</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_MB</td><td>1049</td><td>Мб</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_Required</td><td>1049</td><td>Требуется</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_TimeRemaining</td><td>1049</td><td>Осталось времени: {[1] мин }{[2] сек}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS_UITEXT_Volume</td><td>1049</td><td>Том</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__AgreeToLicense_0</td><td>1049</td><td>{&amp;Tahoma8}Я не п&amp;ринимаю условия лицензионного соглашения</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__AgreeToLicense_1</td><td>1049</td><td>{&amp;Tahoma8}Я &amp;принимаю условия лицензионного соглашения</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__DatabaseFolder_ChangeFolder</td><td>1049</td><td>Нажмите кнопу "Далее", чтобы установить в эту папку. Нажмите кнопку "Изменить", чтобы выполнить установку в другую папку.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__DatabaseFolder_DatabaseDir</td><td>1049</td><td>[DATABASEDIR]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__DatabaseFolder_DatabaseFolder</td><td>1049</td><td>{&amp;MSSansBold8}Папка базы данных</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__DestinationFolder_Change</td><td>1049</td><td>{&amp;Tahoma8}&amp;Изменить...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__DestinationFolder_ChangeFolder</td><td>1049</td><td>{&amp;Tahoma8}Нажмите кнопку "Далее", чтобы установить в эту папку. Нажмите кнопку "Изменить", чтобы выполнить установку в другую папку.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__DestinationFolder_DestinationFolder</td><td>1049</td><td>{&amp;MSSansBold8}Папка назначения</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__DestinationFolder_InstallTo</td><td>1049</td><td>{&amp;Tahoma8}Установка [ProductName] в:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__DisplayName_Custom</td><td>1049</td><td>Выборочная</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__DisplayName_Minimal</td><td>1049</td><td>Минимальная</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__DisplayName_Typical</td><td>1049</td><td>Обычная</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsAdminInstallBrowse_11</td><td>1049</td><td>{&amp;Tahoma8}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsAdminInstallBrowse_4</td><td>1049</td><td>{&amp;Tahoma8}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsAdminInstallBrowse_8</td><td>1049</td><td>{&amp;Tahoma8}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsAdminInstallBrowse_BrowseDestination</td><td>1049</td><td>{&amp;Tahoma8}Перейдите в папку назначения.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsAdminInstallBrowse_ChangeDestination</td><td>1049</td><td>{&amp;MSSansBold8}Изменение текущей папки назначения</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsAdminInstallBrowse_CreateFolder</td><td>1049</td><td>Создать новую папку|</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsAdminInstallBrowse_FolderName</td><td>1049</td><td>{&amp;Tahoma8}&amp;Имя папки:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsAdminInstallBrowse_LookIn</td><td>1049</td><td>{&amp;Tahoma8}&amp;Поиск в папке:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsAdminInstallBrowse_UpOneLevel</td><td>1049</td><td>Переход на один уровень вверх|</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsAdminInstallPointWelcome_ServerImage</td><td>1049</td><td>{&amp;Tahoma8}Программа InstallShield(R) Wizard создаст образ диска [ProductName] на сервере в указанной сетевой папке. Для продолжения нажмите кнопку "Далее".</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsAdminInstallPointWelcome_Wizard</td><td>1049</td><td>{&amp;VerdanaBold14}Вас приветствует программа InstallShield Wizard для [ProductName]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsAdminInstallPoint_Change</td><td>1049</td><td>{&amp;Tahoma8}&amp;Изменить...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsAdminInstallPoint_EnterNetworkLocation</td><td>1049</td><td>{&amp;Tahoma8}Введите имя сетевой папки или нажмите кнопку "Изменить" для перехода в требуемую папку.  Нажмите кнопку "Установить", чтобы создать образ диска [ProductName] на сервере в указанной сетевой папке, или нажмите кнопку "Отмена" для выхода из программы.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsAdminInstallPoint_Install</td><td>1049</td><td>{&amp;Tahoma8}&amp;Установить</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsAdminInstallPoint_NetworkLocation</td><td>1049</td><td>{&amp;Tahoma8}&amp;Сетевая папка:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsAdminInstallPoint_NetworkLocationFormatted</td><td>1049</td><td>{&amp;MSSansBold8}Сетевая папка</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsAdminInstallPoint_SpecifyNetworkLocation</td><td>1049</td><td>{&amp;Tahoma8}Укажите сетевую папку для образа диска продукта на сервере.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsBrowseButton</td><td>1049</td><td>&amp;Обзор...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsBrowseFolderDlg_11</td><td>1049</td><td>{&amp;Tahoma8}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsBrowseFolderDlg_4</td><td>1049</td><td>{&amp;Tahoma8}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsBrowseFolderDlg_8</td><td>1049</td><td>{&amp;Tahoma8}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsBrowseFolderDlg_BrowseDestFolder</td><td>1049</td><td>{&amp;Tahoma8}Перейдите в папку назначения.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsBrowseFolderDlg_ChangeCurrentFolder</td><td>1049</td><td>{&amp;MSSansBold8}Изменение текущей папки назначения</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsBrowseFolderDlg_CreateFolder</td><td>1049</td><td>Создать новую папку|</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsBrowseFolderDlg_FolderName</td><td>1049</td><td>{&amp;Tahoma8}&amp;Имя папки:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsBrowseFolderDlg_LookIn</td><td>1049</td><td>{&amp;Tahoma8}&amp;Поиск в папке:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsBrowseFolderDlg_OK</td><td>1049</td><td>{&amp;Tahoma8}OK</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsBrowseFolderDlg_UpOneLevel</td><td>1049</td><td>Переход на один уровень вверх|</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsBrowseForAccount</td><td>1049</td><td>Поиск учетной записи пользователя</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsBrowseGroup</td><td>1049</td><td>Выберите группу со списком пользователей</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsBrowseUsernameTitle</td><td>1049</td><td>Выберите имя пользователя</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsCancelDlg_ConfirmCancel</td><td>1049</td><td>{&amp;Tahoma8}Отменить установку [ProductName]?</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsCancelDlg_No</td><td>1049</td><td>{&amp;Tahoma8}&amp;Нет</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsCancelDlg_Yes</td><td>1049</td><td>{&amp;Tahoma8}Д&amp;а</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsConfirmPassword</td><td>1049</td><td>Под&amp;тверждение:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsCreateNewUserTitle</td><td>1049</td><td>Сведения о новом пользователе</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsCreateUserBrowse</td><td>1049</td><td>&amp;Сведения о новом пользователе...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsCustomSelectionDlg_Change</td><td>1049</td><td>{&amp;Tahoma8}&amp;Изменить...</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsCustomSelectionDlg_ClickFeatureIcon</td><td>1049</td><td>{&amp;Tahoma8}Щелкните значок в списке ниже, чтобы изменить способ установки компонента.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsCustomSelectionDlg_CustomSetup</td><td>1049</td><td>{&amp;MSSansBold8}Выборочная установка</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsCustomSelectionDlg_FeatureDescription</td><td>1049</td><td>{&amp;Tahoma8}Описание компонента</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsCustomSelectionDlg_FeaturePath</td><td>1049</td><td>{&amp;Tahoma8}&lt;выбранный путь компонента&gt;</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsCustomSelectionDlg_FeatureSize</td><td>1049</td><td>{&amp;Tahoma8}Размер компонента</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsCustomSelectionDlg_Help</td><td>1049</td><td>{&amp;Tahoma8}&amp;Справка</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsCustomSelectionDlg_InstallTo</td><td>1049</td><td>{&amp;Tahoma8}Папка:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsCustomSelectionDlg_MultilineDescription</td><td>1049</td><td>{&amp;Tahoma8}Многострочное описание выбранного элемента</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsCustomSelectionDlg_SelectFeatures</td><td>1049</td><td>{&amp;Tahoma8}Выберите компоненты программы, которые необходимо установить.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsCustomSelectionDlg_Space</td><td>1049</td><td>{&amp;Tahoma8}Дис&amp;к</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsDiskSpaceDlg_DiskSpace</td><td>1049</td><td>{&amp;Tahoma8}Свободного места на диске меньше, чем требуется для установки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsDiskSpaceDlg_HighlightedVolumes</td><td>1049</td><td>{&amp;Tahoma8}На указанных дисках недостаточно места для установки выбранных компонентов. Можно удалить файлы с выбранных дисков, установить меньше компонентов на локальные диски или выбрать другие диски.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsDiskSpaceDlg_Numbers</td><td>1049</td><td>{&amp;Tahoma8}{120}{70}{70}{70}{70}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsDiskSpaceDlg_OK</td><td>1049</td><td>{&amp;Tahoma8}&amp;OK</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsDiskSpaceDlg_OutOfDiskSpace</td><td>1049</td><td>{&amp;MSSansBold8}Не хватает места на диске</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsDomainOrServer</td><td>1049</td><td>Д&amp;омен или сервер:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsErrorDlg_Abort</td><td>1049</td><td>{&amp;Tahoma8}&amp;Прервать</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsErrorDlg_ErrorText</td><td>1049</td><td>{&amp;Tahoma8}&lt;error text goes here&gt;&lt;error text goes here&gt;&lt;error text goes here&gt;&lt;error text goes here&gt;&lt;error text goes here&gt;&lt;error text goes here&gt;&lt;error text goes here&gt;&lt;error text goes here&gt;&lt;error text goes here&gt;&lt;error text goes here&gt;&lt;error text goes here&gt;</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsErrorDlg_Ignore</td><td>1049</td><td>{&amp;Tahoma8}&amp;Пропустить</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsErrorDlg_InstallerInfo</td><td>1049</td><td>Сведения о программе установки [ProductName]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsErrorDlg_NO</td><td>1049</td><td>{&amp;Tahoma8}&amp;Нет</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsErrorDlg_OK</td><td>1049</td><td>{&amp;Tahoma8}&amp;OK</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsErrorDlg_Retry</td><td>1049</td><td>{&amp;Tahoma8}По&amp;вторить</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsErrorDlg_Yes</td><td>1049</td><td>{&amp;Tahoma8}Д&amp;а</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsExitDialog_Finish</td><td>1049</td><td>{&amp;Tahoma8}&amp;Готово</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsExitDialog_InstallSuccess</td><td>1049</td><td>{&amp;Tahoma8}Программа InstallShield Wizard успешно установила [ProductName]. Нажмите кнопку "Готово" для выхода из программы.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsExitDialog_LaunchProgram</td><td>1049</td><td>Запустить программу</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsExitDialog_ShowReadMe</td><td>1049</td><td>Показать файл readme</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsExitDialog_UninstallSuccess</td><td>1049</td><td>{&amp;Tahoma8}Программа установки InstallShield успешно удалила [ProductName]. Нажмите кнопку "Готово" для выхода из программы установки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsExitDialog_Update_InternetConnection</td><td>1049</td><td>Можно воспользоваться интернет-соединением и убедиться, что у вас самые последние обновления.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsExitDialog_Update_PossibleUpdates</td><td>1049</td><td>Некоторые программные файлы, возможно, были обновлены с тех пор, как вы приобрели свою копию [ProductName].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsExitDialog_Update_SetupFinished</td><td>1049</td><td>Операция установки завершила инсталляцию [ProductName].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsExitDialog_Update_YesCheckForUpdates</td><td>1049</td><td>&amp;Да, проверьте программные обновления (Рекомендация) после завершения операции установки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsExitDialog_WizardCompleted</td><td>1049</td><td>{&amp;TahomaBold10}Программа InstallShield Wizard завершена</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsFatalError_ClickFinish</td><td>1049</td><td>{&amp;Tahoma8}Нажмите кнопку "Готово" для выхода из программы.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsFatalError_Finish</td><td>1049</td><td>{&amp;Tahoma8}&amp;Готово</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsFatalError_KeepOrRestore</td><td>1049</td><td>{&amp;Tahoma8}Можно либо сохранить установленные элементы в системе, чтобы продолжить данную установку позднее, либо восстановить первоначальное состояние системы до установки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsFatalError_NotModified</td><td>1049</td><td>{&amp;Tahoma8}Параметры системы не изменены. Чтобы выполнить установку в другое время, запустите программу установки еще раз.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsFatalError_RestoreOrContinueLater</td><td>1049</td><td>{&amp;Tahoma8}Нажмите кнопку "Восстановить" или "Продолжить позже" для выхода из программы установки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsFatalError_WizardCompleted</td><td>1049</td><td>{&amp;TahomaBold10}Программа InstallShield Wizard завершена</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsFatalError_WizardInterrupted</td><td>1049</td><td>{&amp;Tahoma8}Выполнение программы было прервано до завершения установки [ProductName].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsFeatureDetailsDlg_DiskSpaceRequirements</td><td>1049</td><td>{&amp;MSSansBold8}Требования к дисковому пространству</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsFeatureDetailsDlg_Numbers</td><td>1049</td><td>{&amp;Tahoma8}{120}{70}{70}{70}{70}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsFeatureDetailsDlg_OK</td><td>1049</td><td>{&amp;Tahoma8}OK</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsFeatureDetailsDlg_SpaceRequired</td><td>1049</td><td>{&amp;Tahoma8}Требуемое пространство на диске для установки выбранных компонентов.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsFeatureDetailsDlg_VolumesTooSmall</td><td>1049</td><td>{&amp;Tahoma8}На указанных дисках недостаточно места для установки выбранных компонентов. Можно удалить файлы с выбранных дисков, установить меньше компонентов на локальные диски или выбрать другие диски.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsFilesInUse_ApplicationsUsingFiles</td><td>1049</td><td>{&amp;Tahoma8}Следующие приложения используют файлы, которые должна обновить данная программа установки. Закройте эти приложения и для продолжения нажмите кнопку "Повторить".</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsFilesInUse_Exit</td><td>1049</td><td>{&amp;Tahoma8}&amp;Выход</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsFilesInUse_FilesInUse</td><td>1049</td><td>{&amp;MSSansBold8}Используются файлы</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsFilesInUse_FilesInUseMessage</td><td>1049</td><td>{&amp;Tahoma8}Некоторые файлы, которые нуждаются в обновлении, в данный момент используются.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsFilesInUse_Ignore</td><td>1049</td><td>{&amp;Tahoma8}&amp;Пропустить</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsFilesInUse_Retry</td><td>1049</td><td>{&amp;Tahoma8}По&amp;вторить</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsGroup</td><td>1049</td><td>&amp;Группа со списком пользователей:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsGroupLabel</td><td>1049</td><td>&amp;Группа со списком пользователей:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsInitDlg_1</td><td>1049</td><td>{&amp;Tahoma8}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsInitDlg_2</td><td>1049</td><td>{&amp;Tahoma8}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsInitDlg_PreparingWizard</td><td>1049</td><td>{&amp;Tahoma8}Программа установки [ProductName] подготавливает программу InstallShield Wizard, которая поможет выполнить установку.  Пожалуйста, подождите.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsInitDlg_WelcomeWizard</td><td>1049</td><td>{&amp;VerdanaBold14}Вас приветствует программа InstallShield Wizard для [ProductName]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsLicenseDlg_LicenseAgreement</td><td>1049</td><td>{&amp;MSSansBold8}Лицензионное соглашение</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsLicenseDlg_ReadLicenseAgreement</td><td>1049</td><td>{&amp;Tahoma8}Пожалуйста, внимательно прочтите следующее лицензионное соглашение.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsLogonInfoDescription</td><td>1049</td><td>Укажите учетную запись пользователя, которую следует использовать в этом приложении. Учетные записи пользователей должны соответствовать формату ДОМЕН\Имя пользователя.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsLogonInfoTitle</td><td>1049</td><td>{&amp;MSSansBold8}Вход в систему</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsLogonInfoTitleDescription</td><td>1049</td><td>Укажите имя пользователя и пароль</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsLogonNewUserDescription</td><td>1049</td><td>Нажмите одну из следующих кнопок для указания сведений о новом пользователе, который будет создан во время установки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsMaintenanceDlg_ChangeFeatures</td><td>1049</td><td>{&amp;Tahoma8}Изменение устанавливаемых компонентов программы. Появится диалоговое окно "Выборочная установка", в котором можно изменить способ установки компонентов.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsMaintenanceDlg_MaitenanceOptions</td><td>1049</td><td>{&amp;Tahoma8}Изменение, исправление или удаление программы.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsMaintenanceDlg_Modify</td><td>1049</td><td>{&amp;MSSansBold8}&amp;Изменить</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsMaintenanceDlg_ProgramMaintenance</td><td>1049</td><td>{&amp;MSSansBold8}Обслуживание программ</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsMaintenanceDlg_Remove</td><td>1049</td><td>{&amp;MSSansBold8}&amp;Удалить</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsMaintenanceDlg_RemoveProductName</td><td>1049</td><td>{&amp;Tahoma8}Удаление [ProductName] из компьютера.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsMaintenanceDlg_Repair</td><td>1049</td><td>{&amp;MSSansBold8}Ис&amp;править</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsMaintenanceDlg_RepairMessage</td><td>1049</td><td>{&amp;Tahoma8}Исправление ошибок в программе. При выборе данного параметра исправляются отсутствующие или поврежденные файлы, ярлыки и записи реестра.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsMaintenanceWelcome_MaintenanceOptionsDescription</td><td>1049</td><td>{&amp;Tahoma8}Программа InstallShield(R) Wizard предоставит возможность изменить, исправить или удалить [ProductName]. Для продолжения нажмите кнопку "Далее".</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsMaintenanceWelcome_WizardWelcome</td><td>1049</td><td>{&amp;TahomaBold10}Вас приветствует программа InstallShield(R) для [ProductName]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsMsiRMFilesInUse_ApplicationsUsingFiles</td><td>1049</td><td>Следующие приложения используют файлы, которые должна обновить данная программа установки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsMsiRMFilesInUse_CloseRestart</td><td>1049</td><td>Автоматически закрыть и попробовать перезапустить приложения.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsMsiRMFilesInUse_RebootAfter</td><td>1049</td><td>Не закрывать приложения. (Потребуется перезагрузка.)</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsPatchDlg_PatchClickUpdate</td><td>1049</td><td>Мастер InstallShield(R) Wizard установит программу-заплату для [ProductName] на компьютер.  Для продолжения нажмите кнопку ""Обновить"".</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsPatchDlg_PatchWizard</td><td>1049</td><td>Программа-заплата [ProductName] - InstallShield Wizard</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsPatchDlg_Update</td><td>1049</td><td>&amp;Обновить &gt;</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsPatchDlg_WelcomePatchWizard</td><td>1049</td><td>{&amp;TahomaBold10}Добро пожаловать в программу-заплату для [ProductName]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsProgressDlg_2</td><td>1049</td><td>{&amp;Tahoma8}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsProgressDlg_Hidden</td><td>1049</td><td>{&amp;Tahoma8}(Hidden for now)</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsProgressDlg_HiddenTimeRemaining</td><td>1049</td><td>{&amp;Tahoma8}(Hidden for now)Осталось примерно:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsProgressDlg_InstallingProductName</td><td>1049</td><td>{&amp;MSSansBold8}Установка [ProductName]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsProgressDlg_ProgressDone</td><td>1049</td><td>Выполнено</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsProgressDlg_SecHidden</td><td>1049</td><td>{&amp;Tahoma8}(Hidden for now)с.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsProgressDlg_Status</td><td>1049</td><td>{&amp;Tahoma8}Состояние:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsProgressDlg_Uninstalling</td><td>1049</td><td>{&amp;MSSansBold8}Удаление [ProductName]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsProgressDlg_UninstallingFeatures</td><td>1049</td><td>{&amp;Tahoma8}Удаление выбранных компонентов программы.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsProgressDlg_UninstallingFeatures2</td><td>1049</td><td>{&amp;Tahoma8}Устанавливаются выбранные компоненты программы.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsProgressDlg_WaitUninstall</td><td>1049</td><td>{&amp;Tahoma8}Дождитесь окончания удаления [ProductName]. Это может занять несколько минут.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsProgressDlg_WaitUninstall2</td><td>1049</td><td>{&amp;Tahoma8}Дождитесь окончания установки [ProductName]. Это может занять несколько минут.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsReadmeDlg_Cancel</td><td>1049</td><td>&amp;Отмена</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsReadmeDlg_PleaseReadInfo</td><td>1049</td><td>Внимательно прочитайте следующую информацию в файле readme.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsReadmeDlg_ReadMeInfo</td><td>1049</td><td>{&amp;MSSansBold8}Информация в файле Readme</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsRegisterUserDlg_16</td><td>1049</td><td>{&amp;Tahoma8}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsRegisterUserDlg_Anyone</td><td>1049</td><td>{&amp;Tahoma8}&amp;всех пользователей данного компьютера</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsRegisterUserDlg_CustomerInformation</td><td>1049</td><td>{&amp;MSSansBold8}Сведения о пользователе</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsRegisterUserDlg_InstallFor</td><td>1049</td><td>{&amp;Tahoma8}Установить приложение для:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsRegisterUserDlg_OnlyMe</td><td>1049</td><td>{&amp;Tahoma8}только для &amp;меня ([USERNAME])</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsRegisterUserDlg_Organization</td><td>1049</td><td>{&amp;Tahoma8}&amp;Организация:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsRegisterUserDlg_PleaseEnterInfo</td><td>1049</td><td>{&amp;Tahoma8}Укажите сведения о себе.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsRegisterUserDlg_SerialNumber</td><td>1049</td><td>&amp;Серийный номер:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsRegisterUserDlg_Tahoma50</td><td>1049</td><td>{50}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsRegisterUserDlg_Tahoma80</td><td>1049</td><td>{80}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsRegisterUserDlg_UserName</td><td>1049</td><td>{&amp;Tahoma8}&amp;Пользователь:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsResumeDlg_ResumeSuspended</td><td>1049</td><td>{&amp;Tahoma8}Программа InstallShield(R) Wizard выполнит отложенную установку [ProductName] на вашем компьютере. Для продолжения нажмите кнопку "Далее".</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsResumeDlg_Resuming</td><td>1049</td><td>{&amp;TahomaBold10}Продолжение выполнения программы InstallShield Wizard для [ProductName]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsResumeDlg_WizardResume</td><td>1049</td><td>{&amp;Tahoma8}Программа InstallShield(R) Wizard закончит установку [ProductName] на компьютере. Для продолжения нажмите кнопку "Далее".</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsSelectDomainOrServer</td><td>1049</td><td>Выберите домен или сервер</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsSelectDomainUserInstructions</td><td>1049</td><td>С помощью кнопок обзора выберите "домен\сервер" и имя пользователя.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsSetupComplete_ShowMsiLog</td><td>1049</td><td>Показать журнал установщика Windows</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsSetupTypeMinDlg_13</td><td>1049</td><td>{&amp;Tahoma8}</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsSetupTypeMinDlg_AllFeatures</td><td>1049</td><td>{&amp;Tahoma8}Будут установлены все компоненты программы. (Требуется больше всего места на диске.)</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsSetupTypeMinDlg_ChooseFeatures</td><td>1049</td><td>{&amp;Tahoma8}Выбор необходимых компонентов программы и папки, в которой они будут установлены. Рассчитана на опытных пользователей.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsSetupTypeMinDlg_ChooseSetupType</td><td>1049</td><td>{&amp;Tahoma8}Выбор наиболее подходящего вида установки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsSetupTypeMinDlg_Complete</td><td>1049</td><td>{&amp;MSSansBold8}&amp;Полная</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsSetupTypeMinDlg_Custom</td><td>1049</td><td>{&amp;MSSansBold8}&amp;Выборочная</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsSetupTypeMinDlg_Minimal</td><td>1049</td><td>{&amp;MSSansBold8}&amp;Минимальная</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsSetupTypeMinDlg_MinimumFeatures</td><td>1049</td><td>{&amp;Tahoma8}Будет установлен минимальный набор функций</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsSetupTypeMinDlg_SelectSetupType</td><td>1049</td><td>{&amp;Tahoma8}Выберите вид установки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsSetupTypeMinDlg_SetupType</td><td>1049</td><td>{&amp;MSSansBold8}Вид установки</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsSetupTypeMinDlg_Typical</td><td>1049</td><td>{&amp;MSSansBold8}&amp;Обычная</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsUserExit_ClickFinish</td><td>1049</td><td>{&amp;Tahoma8}Нажмите кнопку "Готово" для выхода из программы.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsUserExit_Finish</td><td>1049</td><td>{&amp;Tahoma8}&amp;Готово</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsUserExit_KeepOrRestore</td><td>1049</td><td>{&amp;Tahoma8}Можно либо сохранить установленные элементы в системе, чтобы продолжить данную установку позднее, либо восстановить первоначальное состояние системы до установки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsUserExit_NotModified</td><td>1049</td><td>{&amp;Tahoma8}Параметры системы не изменены. В дальнейшем, чтобы установить программу, запустите программу установки еще раз.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsUserExit_RestoreOrContinue</td><td>1049</td><td>{&amp;Tahoma8}Нажмите кнопку "Восстановить" или "Продолжить позже" для выхода из программы.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsUserExit_WizardCompleted</td><td>1049</td><td>{&amp;TahomaBold10}Программа InstallShield Wizard завершена</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsUserExit_WizardInterrupted</td><td>1049</td><td>{&amp;Tahoma8}Выполнение программы было прервано до завершения установки [ProductName].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsUserNameLabel</td><td>1049</td><td>&amp;Имя пользователя:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsVerifyReadyDlg_BackOrCancel</td><td>1049</td><td>{&amp;Tahoma8}Чтобы просмотреть или изменить параметры установки, нажмите кнопку "Назад". Нажмите кнопку "Отмена" для выхода из программы.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsVerifyReadyDlg_ClickInstall</td><td>1049</td><td>{&amp;Tahoma8}Нажмите кнопку "Установить", чтобы начать установку.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsVerifyReadyDlg_Company</td><td>1049</td><td>Организация: [COMPANYNAME]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsVerifyReadyDlg_CurrentSettings</td><td>1049</td><td>Текущие установки:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsVerifyReadyDlg_DestFolder</td><td>1049</td><td>Папка назначения:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsVerifyReadyDlg_Install</td><td>1049</td><td>{&amp;Tahoma8}&amp;Установить</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsVerifyReadyDlg_Installdir</td><td>1049</td><td>[INSTALLDIR]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsVerifyReadyDlg_ModifyReady</td><td>1049</td><td>{&amp;MSSansBold8}Готова к изменению программы</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsVerifyReadyDlg_ReadyInstall</td><td>1049</td><td>{&amp;MSSansBold8}Готова к установке программы</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsVerifyReadyDlg_ReadyRepair</td><td>1049</td><td>{&amp;MSSansBold8}Готова к исправлению программы</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsVerifyReadyDlg_SelectedSetupType</td><td>1049</td><td>[SelectedSetupType]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsVerifyReadyDlg_Serial</td><td>1049</td><td>Серийный номер: [ISX_SERIALNUM]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsVerifyReadyDlg_SetupType</td><td>1049</td><td>Вид установки:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsVerifyReadyDlg_UserInfo</td><td>1049</td><td>Сведения о пользователе:</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsVerifyReadyDlg_UserName</td><td>1049</td><td>Имя: [USERNAME]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsVerifyReadyDlg_WizardReady</td><td>1049</td><td>{&amp;Tahoma8}Программа готова к началу установки.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsVerifyRemoveAllDlg_ChoseRemoveProgram</td><td>1049</td><td>{&amp;Tahoma8}Вы собираетесь удалить программу из компьютера.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsVerifyRemoveAllDlg_ClickBack</td><td>1049</td><td>{&amp;Tahoma8}Чтобы просмотреть или изменить настройки, нажмите кнопку "Назад".</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsVerifyRemoveAllDlg_ClickRemove</td><td>1049</td><td>{&amp;Tahoma8}Нажмите кнопку "Удалить", чтобы удалить [ProductName] из компьютера. После удаления данная программа будет недоступна.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsVerifyRemoveAllDlg_Remove</td><td>1049</td><td>{&amp;Tahoma8}&amp;Удалить</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsVerifyRemoveAllDlg_RemoveProgram</td><td>1049</td><td>{&amp;MSSansBold8}Удаление программы</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsWelcomeDlg_InstallProductName</td><td>1049</td><td>{&amp;Tahoma8}Программа InstallShield(R) Wizard выполнит установку [ProductName] на компьютер. Для продолжения нажмите кнопку "Далее".</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsWelcomeDlg_WarningCopyright</td><td>1049</td><td>ПРЕДУПРЕЖДЕНИЕ: Данная программа защищена законами об авторских правах и международными соглашениями.</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__IsWelcomeDlg_WelcomeProductName</td><td>1049</td><td>{&amp;TahomaBold10}Вас приветствует программа InstallShield Wizard для [ProductName]</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__TargetReq_DESC_COLOR</td><td>1049</td><td>Настройки цвета системы не подходят для работы [ProductName].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__TargetReq_DESC_OS</td><td>1049</td><td>Операционная система не подходит для работы [ProductName].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__TargetReq_DESC_PROCESSOR</td><td>1049</td><td>Процессор не подходит для работы [ProductName].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__TargetReq_DESC_RAM</td><td>1049</td><td>Объем памяти ОЗУ не достаточен для работы [ProductName].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IDS__TargetReq_DESC_RESOLUTION</td><td>1049</td><td>Разрешение экрана не подходит для работы [ProductName].</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>ID_STRING1</td><td>1049</td><td>http://www.dZimple.com</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>ID_STRING2</td><td>1049</td><td>dZimple</td><td>0</td><td/><td>1973642579</td></row>
+		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>1049</td><td>Данный компонент не будет удален.</td><td>0</td><td/><td>1973642579</td></row>
 	</table>
 
 	<table name="ISSwidtagProperty">
 		<col key="yes" def="s72">Name</col>
 		<col def="s0">Value</col>
+		<row><td>UniqueId</td><td>3845BBA3-207F-497D-945B-D3DC99141597</td></row>
 	</table>
 
 	<table name="ISTargetImage">
@@ -3898,7 +3824,7 @@
 		<col def="S255">ISBuildSourcePath</col>
 		<col def="I2">ISIconIndex</col>
 		<row><td>ARPPRODUCTICON.exe</td><td/><td>&lt;ISProductFolder&gt;\redist\Language Independent\OS Independent\setupicon.ico</td><td>0</td></row>
-		<row><td>SimplePhotoPost.ex_299E6F5FA5A64FA59C35647773B92E88.exe</td><td/><td>D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\SimplePhotoPost.exe</td><td>0</td></row>
+		<row><td>SimplePhotoPost.ex_7334A0CB947C4572A71153F40CA34CE9.exe</td><td/><td>D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\SimplePhotoPost.exe</td><td>0</td></row>
 	</table>
 
 	<table name="IniFile">
@@ -4029,7 +3955,9 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISCompilerOption_WarningLevel</td><td>3</td></row>
 		<row><td>ISCompilerOption_WarningsAsErrors</td><td>1</td></row>
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
-		<row><td>ISVisitedViews</td><td>viewISToday,viewProject,viewUpgradePaths,viewUpdateService,viewAssistant,viewAppFiles,viewObjects,viewSystemSearch,viewUI,viewRelease</td></row>
+		<row><td>ISUSLock</td><td>{25AF7DA0-C804-44B4-93F8-87EC578A721B}</td></row>
+		<row><td>ISUSSignature</td><td>{839873EC-2331-4BD2-A057-E68DF3814D53}</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewProject</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4087,7 +4015,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 	<table name="LaunchCondition">
 		<col key="yes" def="s255">Condition</col>
 		<col def="l255">Description</col>
-		<row><td>DOTNETVERSION45FULL&gt;="#1"</td><td>##IDPROP_EXPRESS_LAUNCH_CONDITION_DOTNETVERSION45FULL##</td></row>
 	</table>
 
 	<table name="ListBox">
@@ -4342,7 +4269,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>AgreeToLicense</td><td>No</td><td/></row>
 		<row><td>ApplicationUsers</td><td>AllUsers</td><td/></row>
 		<row><td>DWUSINTERVAL</td><td>30</td><td/></row>
-		<row><td>DWUSLINK</td><td/><td/></row>
+		<row><td>DWUSLINK</td><td>CE0CF70829ACE0CFF9AC803FFEFC978FA9CCF78F499CA07FCE7B8758BE9BD78FC99CF0CFD9AC</td><td/></row>
 		<row><td>DefaultUIFont</td><td>ExpressDefault</td><td/></row>
 		<row><td>DialogCaption</td><td>InstallShield for Windows Installer</td><td/></row>
 		<row><td>DiskPrompt</td><td>[1]</td><td/></row>
@@ -4402,8 +4329,8 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>PROGMSG_IIS_ROLLBACKAPPPOOLS</td><td>##IDS_PROGMSG_IIS_ROLLBACKAPPPOOLS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKVROOTS</td><td>##IDS_PROGMSG_IIS_ROLLBACKVROOTS##</td><td/></row>
 		<row><td>PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS</td><td>##IDS_PROGMSG_IIS_ROLLBACKWEBSERVICEEXTENSIONS##</td><td/></row>
-		<row><td>ProductCode</td><td>{73F1BDB7-11E1-11D5-9DC6-00C04F2FC33B}</td><td/></row>
-		<row><td>ProductName</td><td>SimplePhotoPost</td><td/></row>
+		<row><td>ProductCode</td><td>{FC75234E-E16B-464E-85BF-5F64984ECDEC}</td><td/></row>
+		<row><td>ProductName</td><td>SPPsetup</td><td/></row>
 		<row><td>ProductVersion</td><td>1.00.0000</td><td/></row>
 		<row><td>ProgressType0</td><td>install</td><td/></row>
 		<row><td>ProgressType1</td><td>Installing</td><td/></row>
@@ -4416,10 +4343,10 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>RestartManagerOption</td><td>CloseRestart</td><td/></row>
 		<row><td>SERIALNUMBER</td><td/><td/></row>
 		<row><td>SERIALNUMVALSUCCESSRETVAL</td><td>1</td><td/></row>
-		<row><td>SecureCustomProperties</td><td>ISFOUNDNEWERPRODUCTVERSION;USERNAME;COMPANYNAME;ISX_SERIALNUM;SUPPORTDIR;DOTNETVERSION45FULL</td><td/></row>
+		<row><td>SecureCustomProperties</td><td>ISFOUNDNEWERPRODUCTVERSION;USERNAME;COMPANYNAME;ISX_SERIALNUM;SUPPORTDIR</td><td/></row>
 		<row><td>SelectedSetupType</td><td>##IDS__DisplayName_Typical##</td><td/></row>
 		<row><td>SetupType</td><td>Typical</td><td/></row>
-		<row><td>UpgradeCode</td><td>{73F1BDB6-11E1-11D5-9DC6-00C04F2FC33B}</td><td/></row>
+		<row><td>UpgradeCode</td><td>{D249F439-DF9B-4379-87B8-E4178BE5755E}</td><td/></row>
 		<row><td>_IsMaintenance</td><td>Change</td><td/></row>
 		<row><td>_IsSetupTypeMin</td><td>Typical</td><td/></row>
 	</table>
@@ -4461,7 +4388,6 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="s255">Key</col>
 		<col def="S255">Name</col>
 		<col def="I2">Type</col>
-		<row><td>DotNet45Full</td><td>2</td><td>SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full</td><td>Version</td><td>2</td></row>
 	</table>
 
 	<table name="Registry">
@@ -4481,7 +4407,8 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="s72">DirProperty</col>
 		<col def="i2">InstallMode</col>
 		<row><td>FileKey1</td><td>SimplePhotoPost.exe</td><td/><td>dzimple</td><td>2</td></row>
-		<row><td>FileKey2</td><td>SimplePhotoPost.exe</td><td/><td>my_product_name</td><td>2</td></row>
+		<row><td>FileKey2</td><td>SimplePhotoPost.exe</td><td/><td>setup1</td><td>2</td></row>
+		<row><td>SimplePhotoPost.exe</td><td>SimplePhotoPost.exe</td><td/><td>setup1</td><td>2</td></row>
 	</table>
 
 	<table name="RemoveIniFile">
@@ -4567,7 +4494,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">ISComments</col>
 		<col def="S255">ISShortcutName</col>
 		<col def="I4">ISAttributes</col>
-		<row><td>SimplePhotoPost.exe1</td><td>DesktopFolder</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>SimplePhotoPost.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>SimplePhotoPost.ex_299E6F5FA5A64FA59C35647773B92E88.exe</td><td>1</td><td>1</td><td>DZIMPLE</td><td/><td/><td/><td/><td/><td/><td/></row>
+		<row><td>SimplePhotoPost.exe</td><td>setup1</td><td>##IDS_SHORTCUT_DISPLAY_NAME1##</td><td>SimplePhotoPost.exe</td><td>AlwaysInstall</td><td/><td/><td/><td>SimplePhotoPost.ex_7334A0CB947C4572A71153F40CA34CE9.exe</td><td>1</td><td>1</td><td>INSTALLDIR</td><td/><td/><td/><td/><td/><td/><td/></row>
 	</table>
 
 	<table name="Signature">

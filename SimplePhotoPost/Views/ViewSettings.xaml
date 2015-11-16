@@ -71,7 +71,7 @@
             </TextBox>
         </AdornerDecorator>
 
-        <Image  Grid.Row="7" Panel.ZIndex="1" MouseUp="OpenFolder" Source="{DynamicResource ImageSource3}" Margin="10,0,0,0"/>
+        <Image  Grid.Row="7" Panel.ZIndex="1" MouseUp="OpenFolder" Source="pack://siteoforigin:,,,/Tiles/Folder.png" Margin="10,0,0,0"/>
         <Rectangle Name="Rectangle2" StrokeThickness="0" Fill="#55000000" Grid.Row="7" Panel.ZIndex="0" Stroke="Black"/>
         <TextBlock 
             Focusable="True"

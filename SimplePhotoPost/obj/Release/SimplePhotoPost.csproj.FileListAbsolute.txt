@@ -6,7 +6,6 @@ D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\xNet.dll
 D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\bin\Release\Newtonsoft.Json.xml
 D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\obj\Release\Views\ViewGroupItem.baml
 D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\obj\Release\Views\ViewSettings.baml
-D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\obj\Release\App.baml
 D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\obj\Release\Views\ViewGroupItem.g.cs
 D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\obj\Release\MainWindow.g.cs
 D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\obj\Release\Views\ViewSettings.g.cs

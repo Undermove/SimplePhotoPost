@@ -55,7 +55,7 @@ namespace SimplePhotoPost.Controllers
                     model.viewGroupItem.StatusCheck.Visibility = Visibility.Hidden;
                     model.viewGroupItem.StatusCheck.IsChecked = false;
                     model.viewGroupItem.StatusImage.Visibility = Visibility.Visible;
-                    model.viewGroupItem.StatusImage.Source = new BitmapImage(new Uri(@"D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\...\SimplePhotoPost\Tiles\Exclamation.png"));
+                    model.viewGroupItem.StatusImage.Source = new BitmapImage(new Uri(@"pack://siteoforigin:,,,/Tiles/Exclamation.png"));
                     model.viewGroupItem.StatusImage.ToolTip = "Проверьте верно ли введены все значения?";
                     break;
                 case ModelGroupItem.MessageStatus.InDelivery:
@@ -63,17 +63,17 @@ namespace SimplePhotoPost.Controllers
                 case ModelGroupItem.MessageStatus.InProgress:
                     model.viewGroupItem.StatusCheck.Visibility = Visibility.Hidden;
                     model.viewGroupItem.StatusImage.Visibility = Visibility.Visible;
-                    model.viewGroupItem.StatusImage.Source = new BitmapImage(new Uri(@"D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\...\SimplePhotoPost\Tiles\Sync.png"));
+                    model.viewGroupItem.StatusImage.Source = new BitmapImage(new Uri(@"pack://siteoforigin:,,,/Tiles/Sync.png"));
                     break;
                 case ModelGroupItem.MessageStatus.MessageSent:
                     model.viewGroupItem.StatusCheck.Visibility = Visibility.Hidden;
                     model.viewGroupItem.StatusImage.Visibility = Visibility.Visible;
-                    model.viewGroupItem.StatusImage.Source = new BitmapImage(new Uri(@"D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\...\SimplePhotoPost\Tiles\Checked.png"));
+                    model.viewGroupItem.StatusImage.Source = new BitmapImage(new Uri(@"pack://siteoforigin:,,,/Tiles/Checked.png"));
                     break;
                 case ModelGroupItem.MessageStatus.NotReady:
                     model.viewGroupItem.StatusCheck.Visibility = Visibility.Hidden;
                     model.viewGroupItem.StatusImage.Visibility = Visibility.Visible;
-                    model.viewGroupItem.StatusImage.Source = new BitmapImage(new Uri(@"D:\SimplePhotoPost\SimplePhotoPost\SimplePhotoPost\...\SimplePhotoPost\Tiles\Exclamation.png"));
+                    model.viewGroupItem.StatusImage.Source = new BitmapImage(new Uri(@"pack://siteoforigin:,,,/Tiles/Exclamation.png"));
                     model.viewGroupItem.StatusImage.ToolTip = "Не все поля заполнены";
                     break;
                 case ModelGroupItem.MessageStatus.Ready:

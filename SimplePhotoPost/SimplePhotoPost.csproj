@@ -65,6 +65,7 @@
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.IO.Compression" />
     <Reference Include="System.IO.Compression.FileSystem" />
     <Reference Include="System.IO.Log" />
@@ -210,6 +211,24 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Tiles\Checked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Tiles\Exclamation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Tiles\Folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Tiles\Garbage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Tiles\Settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Tiles\Sync.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
